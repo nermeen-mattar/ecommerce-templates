@@ -8,6 +8,9 @@
                             <div class="fd_pro_thumnail">
                                 <div class="swiper-container gallery-thumbs">
                                     <div class="swiper-wrapper">
+                                        <!-- images is an array objects, the property we need from each object is src {{#images}} defines the wrapper element,
+                                             so the template template will understand it and thus duplicate the html inside it for each object and will use 
+                                             the property src from each object in the <img src={{src}}-->
                                         {{#images}}
                                         <div class="swiper-slide">
                                             <div class="fd_pro_img wc_gallery_image">
@@ -64,7 +67,7 @@
                     <table class="variations" cellspacing="0">
                         <tbody>
                             {{#attributes}}
-                             <!-- array of dropdowns for each attribute-->
+                            <!-- array of dropdowns for each attribute -->
                             <tr>
                                 <td class="label"><label for={{name}}>{{name}}</label></td>
                                 <td class="value">
@@ -129,7 +132,7 @@
                     <ul class="nav nav-tabs">
                         <li><a data-toggle="tab" class="active" href="#description">Description</a></li>
                         <li><a data-toggle="tab" href="#info">Additional Information</a></li>
-                        <!--<li><a data-toggle="tab" href="#review">Review</a></li>-->                    
+                        <!--<li><a data-toggle="tab" href="#review">Review</a></li>-->
                     </ul>
                     <div class="tab-content">
                         <div id="description" class="tab-pane fade show active">
