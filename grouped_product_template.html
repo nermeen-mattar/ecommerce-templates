@@ -44,7 +44,7 @@
                         <h3>{{name}}</h3>
                     </div>
 
-                    <div class="rating_section">
+                    <!--<div class="rating_section">
                         <span>{{average_rating}}</span>
                         <ul>
                             <li><a class="active" href="javascript:;"><i class="fa fa-star"
@@ -57,7 +57,7 @@
                             <li><a href="javascript:;"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                         </ul>
                         <p>{{rating_count}} Reviews</p>
-                    </div>
+                    </div>-->
 
                     <p>{{description}}</p>
 
@@ -98,7 +98,7 @@
                         {{/grouped_products}}
 
                         <div class="fd_pro_add_btn m-0">
-                            <a href="javascript:;" class="clv_btn">add to cart</a>
+                            <a id="add_to_cart" href="javascript:;" class="clv_btn">add to cart</a>
                         </div>
                     </div>
                 </div>
@@ -116,8 +116,7 @@
                     <ul class="nav nav-tabs">
                         <li><a data-toggle="tab" class="active" href="#description">Description</a></li>
                         <li><a data-toggle="tab" href="#info">Additional Information</a></li>
-                        <li><a data-toggle="tab" href="#review">Review</a></li>
-                    </ul>
+                        <!--<li><a data-toggle="tab" href="#review">Review</a></li>-->                    </ul>
                     <div class="tab-content">
                         <div id="description" class="tab-pane fade show active">
                             <p>{{short_description}}</p>
