@@ -1,356 +1,151 @@
-<!DOCTYPE html>
-<!-- 
-Template Name: Cultivation - Multipurpose Responsive HTML Template
-Version: 1.0.0
-Author: Kamleshyadav
-Website: 
-Purchase: 
--->
-<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
-<!-- Begin Head -->
-
-<head>
-    <title>Wasil Lalbab</title>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="kamleshyadav">
-    <meta name="MobileOptimized" content="320">
-    <!--Start Style -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/font.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="css/layers.css">
-    <link rel="stylesheet" type="text/css" href="css/navigation.css">
-    <link rel="stylesheet" type="text/css" href="css/settings.css">
-    <link rel="stylesheet" type="text/css" href="css/range.css">
-    <link rel="stylesheet" type="text/css" href="css/nice-select.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <!-- Custom Style-->
-    <link rel="stylesheet" type="text/css" href="css/rating.css">
-
-    <!-- Favicon Link -->
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-</head>
-
-<body>
-    <div class="preloader_wrapper">
-        <div class="preloader_inner">
-            <img src="images/preloader.gif" alt="image" />
-        </div>
-    </div>
-    <div class="clv_main_wrapper index_v1">
-        {$wl_component__header}
-        <!--Breadcrumb-->
-        {$wl_component__breadCrumb}
-        <!--Product Single-->
-        <div class="product_single_wrapper clv_section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 col-md-7">
-                        <div class="product_single_slider">
-                            <div class="row">
-                                <div class="col-lg-3 col-md-3 col-sm-3">
-                                    <div class="fd_pro_thumnail">
-                                        <div class="swiper-container gallery-thumbs">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide">
-                                                    <div class="fd_pro_img wc_gallery_image">
-                                                        <!--fd_pro_img_thumnail-->
-                                                        <img src={$wl_data__image} alt="image">
-                                                    </div>
-                                                </div>
+<div class="product_single_wrapper clv_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-7">
+                <div class="product_single_slider">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="fd_pro_thumnail">
+                                <div class="swiper-container gallery-thumbs">
+                                    <div class="swiper-wrapper">
+                                        {{#images}}
+                                        <div class="swiper-slide">
+                                            <div class="fd_pro_img wc_gallery_image">
+                                                <!--fd_pro_img_thumnail-->
+                                                <img src={{src}} alt="image">
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-9 col-md-9 col-sm-9">
-                                    <div class="fd_product_img">
-                                        <div class="swiper-container gallery-top">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide">
-                                                    <div class="fd_pro_img">
-                                                        <img src={$wl_data__image} alt="image">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        {{/images}}
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-5 col-md-5">
-                        <div class="product_single_details">
-                            <div class="product_price_box">
-                                <h3>{$wl_data__title}</h3>
-                            </div>
-                            <p>{$wl_data__sub_title}</p>
-                            <div class="rating_section">
-                                <span>{$wl_data__rating}</span>
-                                <ul>
-                                    <li><a class="active" href="javascript:;"><i class="fa fa-star"
-                                                aria-hidden="true"></i></a></li>
-                                    <li><a class="active" href="javascript:;"><i class="fa fa-star"
-                                                aria-hidden="true"></i></a></li>
-                                    <li><a class="active" href="javascript:;"><i class="fa fa-star"
-                                                aria-hidden="true"></i></a></li>
-                                    <li><a href="javascript:;"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                    <li><a href="javascript:;"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                </ul>
-                                <p>{$wl_data__reviews_count} Reviews</p>
-                            </div>
-
-                            <p>{$wl_data__description}</p>
-
-                            <table class="variations" cellspacing="0">
-                                <tbody>
-                                    <tr>
-                                        <td class="label"><label
-                                                for={$wl_data__attribute_name}>{$wl_data__attribute_name}</label></td>
-                                        <td class="value">
-                                            <!-- array of select for each attribute-->
-                                            <select id={$wl_data__attribute_name} name={$wl_data__attribute_name}
-                                                data-attribute_name={$wl_data__attribute_name}
-                                                data-show_option_none="yes">
-                                                <option value="">Choose an option</option>
-                                                <!-- array of option for each attibure option-->
-                                                <option value={$wl_data__attribute_value} class="attached enabled">
-                                                    {$wl_data__attribute_value} </option>
-                                            </select> </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-                            <div class="single_variation_wrap">
-                              <!-- array of variations, all will be invisible and will be displayed based on above attributes-->
-                                <div>
-                                    <div>
-                                        <p>{$wl_data__variation_description}</p>
-                                    </div>
-                                    <ul class="product_code">
-                                        <li>
-                                            <p>product code: {$wl_data__variation_code}</p>
-                                        </li>
-                                        <li>
-                                            <p>availability: <span>{$wl_data__variation_availability}</span></p>
-                                        </li>
-                                    </ul>
-                                    <div class="product_prices flex-wrap">
-                                        <h2>{$wl_data__variation_price__current}</h2>
-                                        <h3>{$wl_data__variation_price__old}</h3>
-                                        <span class="product_discount">{$wl_data__variation_discount} off</span>
-                                    </div>
-                                </div>
-                                <div class="fd_pro_quantity">
-                                    <div class="quantity_wrapper">
-                                        <div class="input-group">
-                                            <span class="quantity_minus"> - </span>
-                                            <input type="text" class="quantity" value="2">
-                                            <span class="quantity_plus"> + </span>
+                        <div class="col-lg-9 col-md-9 col-sm-9">
+                            <div class="fd_product_img">
+                                <div class="swiper-container gallery-top">
+                                    <div class="swiper-wrapper">
+                                        {{#images}}
+                                        <div class="swiper-slide">
+                                            <div class="fd_pro_img">
+                                                <img src={{src}} alt="image">
+                                            </div>
                                         </div>
+                                        {{/images}}
                                     </div>
-                                </div>
-                                <div class="fd_pro_add_btn">
-                                    <a href="javascript:;" class="clv_btn">add to cart</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!--Products Details-->
-    <div class="product_detail_wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <div class="product_detail_tab">
-                        <ul class="nav nav-tabs">
-                            <li><a data-toggle="tab" class="active" href="#description">Description</a></li>
-                            <li><a data-toggle="tab" href="#info">Additional Information</a></li>
-                            <li><a data-toggle="tab" href="#review">Review</a></li>
+            <div class="col-lg-5 col-md-5">
+                <div class="product_single_details">
+                    <div class="product_price_box">
+                        <h3>{{name}}</h3>
+                    </div>
+
+                    <div class="rating_section">
+                        <span>{{average_rating}}</span>
+                        <ul>
+                            <li><a class="active" href="javascript:;"><i class="fa fa-star" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a class="active" href="javascript:;"><i class="fa fa-star" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a class="active" href="javascript:;"><i class="fa fa-star" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="javascript:;"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                            <li><a href="javascript:;"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                         </ul>
-                        <div class="tab-content">
-                            <div id="description" class="tab-pane fade show active">
-                                <p>{$wl_data__description_short}</p>
+                        <p>{{rating_count}} Reviews</p>
+                    </div>
+
+                    <p>{{description}}</p>
+
+                    <table class="variations" cellspacing="0">
+                        <tbody>
+                            {{#attributes}}
+                            <tr>
+                                <td class="label"><label for={{name}}>{{name}}</label></td>
+                                <td class="value">
+                                    <!-- array of select for each attribute-->
+                                    <select id={{name}} name={{name}} data-attribute_name={{name}}
+                                        data-show_option_none="yes">
+                                        <option value="">Choose an option</option>
+                                        <!-- array of option for each attibure option-->
+                                        {{#options}}
+                                        <option value={{.}} class="attached enabled">
+                                            {{.}}
+                                        </option>
+                                        {{/options}}
+                                    </select>
+                                </td>
+                            </tr>
+                            {{/attributes}}
+                        </tbody>
+                    </table>
+
+                    {{#variations}}
+                    <div class="single_variation_wrap">
+                        <!-- array of variations, all will be invisible and will be displayed based on above attributes-->
+                        <div>
+                            <div>
+                                <p>{{description}}</p>
                             </div>
-                            <div id="info" class="tab-pane fade">
-                                <ul class="additional_info">
-                                    <li>
-                                        <span class="info_head">{$wl_data__additional_info__label} -</span>
-                                        {$wl_data__additional_info__value}
-                                    </li>
-                                </ul>
+                            <ul class="product_code">
+                                <li>
+                                    <p>availability: <span>{{stock_quantity}}</span></p>
+                                </li>
+                            </ul>
+                            <div class="product_prices flex-wrap">
+                                <h2>{{price}}</h2>
+                                <h3>{{regular_price}}</h3>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <!--Partners-->
-    <div class="clv_partner_wrapper clv_section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="partner_slider">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="partner_slide">
-                                        <div class="partner_image">
-                                            <span>
-                                                <img src={$wl_data__partner_image} alt="image">
-                                            </span>
-                                        </div>
-                                    </div>
+                        <div class="fd_pro_quantity">
+                            <div class="quantity_wrapper">
+                                <div class="input-group">
+                                    <span class="quantity_minus"> - </span>
+                                    <input type="text" class="quantity" value="2">
+                                    <span class="quantity_plus"> + </span>
                                 </div>
                             </div>
                         </div>
-                        <!-- Add Arrows -->
-                        <span class="slider_arrow partner_left left_arrow">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="10px" height="15px">
-                                <path fill-rule="evenodd" fill="rgb(226, 226, 226)"
-                                    d="M0.324,8.222 L7.117,14.685 C7.549,15.097 8.249,15.097 8.681,14.685 C9.113,14.273 9.113,13.608 8.681,13.197 L2.670,7.478 L8.681,1.760 C9.113,1.348 9.113,0.682 8.681,0.270 C8.249,-0.139 7.548,-0.139 7.116,0.270 L0.323,6.735 C0.107,6.940 -0.000,7.209 -0.000,7.478 C-0.000,7.747 0.108,8.017 0.324,8.222 Z" />
-                            </svg>
-                        </span>
-                        <span class="slider_arrow partner_right right_arrow">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="19px" height="25px">
-                                <path fill-rule="evenodd" fill="rgb(226, 226, 226)"
-                                    d="M13.676,13.222 L6.883,19.685 C6.451,20.097 5.751,20.097 5.319,19.685 C4.887,19.273 4.887,18.608 5.319,18.197 L11.329,12.478 L5.319,6.760 C4.887,6.348 4.887,5.682 5.319,5.270 C5.751,4.861 6.451,4.861 6.884,5.270 L13.676,11.735 C13.892,11.940 14.000,12.209 14.000,12.478 C14.000,12.747 13.892,13.017 13.676,13.222 Z" />
-                            </svg>
-                        </span>
+                        <div class="fd_pro_add_btn">
+                            <a href="javascript:;" class="clv_btn">add to cart</a>
+                        </div>
+                    </div>
+                    {{/variations}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Products Details-->
+<div class="product_detail_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="product_detail_tab">
+                    <ul class="nav nav-tabs">
+                        <li><a data-toggle="tab" class="active" href="#description">Description</a></li>
+                        <li><a data-toggle="tab" href="#info">Additional Information</a></li>
+                        <li><a data-toggle="tab" href="#review">Review</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="description" class="tab-pane fade show active">
+                            <p>{{short_description}}</p>
+                        </div>
+                        <div id="info" class="tab-pane fade">
+                            <ul class="additional_info">
+                                <li>
+                                    <span class="info_head">{{additional_info_label}} -</span>
+                                    {{additional_info_value}}
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="clv_newsletter_wrapper">
-                <div class="newsletter_text">
-                    <h2>get update from <br />anywhere</h2>
-                    <h4>subscribe us to get more info</h4>
-                </div>
-                <div class="newsletter_field">
-                    <h3>don't miss out on the good news!</h3>
-                    <div class="newsletter_field_block">
-                        <input type="text" placeholder="Enter Your Email Here" />
-                        <a href="javascript:;">subscribe now</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-    <!--Footer-->
-    {$wl_component__footer}
-
-    <!--Popup-->
-    <div class="search_box">
-        <div class="search_block">
-            <h3>Explore more with us</h3>
-            <div class="search_field">
-                <input type="search" placeholder="Search Here" />
-                <a href="javascript:;">search</a>
-            </div>
-        </div>
-        <span class="search_close">
-            <?xml version="1.0" encoding="iso-8859-1"?>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                y="0px" viewBox="0 0 47.971 47.971" style="enable-background:new 0 0 47.971 47.971;"
-                xml:space="preserve" width="30px" height="30px">
-                <g>
-                    <path style="fill:#fec007;" d="M28.228,23.986L47.092,5.122c1.172-1.171,1.172-3.071,0-4.242c-1.172-1.172-3.07-1.172-4.242,0L23.986,19.744L5.121,0.88
-                c-1.172-1.172-3.07-1.172-4.242,0c-1.172,1.171-1.172,3.071,0,4.242l18.865,18.864L0.879,42.85c-1.172,1.171-1.172,3.071,0,4.242
-                C1.465,47.677,2.233,47.97,3,47.97s1.535-0.293,2.121-0.879l18.865-18.864L42.85,47.091c0.586,0.586,1.354,0.879,2.121,0.879
-                s1.535-0.293,2.121-0.879c1.172-1.171,1.172-3.071,0-4.242L28.228,23.986z" />
-                </g>
-            </svg>
-        </span>
-    </div>
-    <!--Payment Success Popup-->
-    <div class="success_wrapper">
-        <div class="success_inner">
-            <div class="success_img"><img src="images/success.png" alt=""></div>
-            <h3>payment success</h3>
-            <img src="images/clv_underline.png" alt="">
-            <p>Your order has been successfully processed! Please direct any questions you have to the store owner.
-                Thanks for shopping</p>
-            <a href="javascript:;" class="clv_btn">continue browsing</a>
-            <span class="success_close">
-                <?xml version="1.0" encoding="iso-8859-1"?>
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                    y="0px" viewBox="0 0 212.982 212.982" style="enable-background:new 0 0 212.982 212.982;"
-                    xml:space="preserve" width="11px" height="11px">
-                    <g>
-                        <path fill="#fec007" style="fill-rule:evenodd;clip-rule:evenodd;" d="M131.804,106.491l75.936-75.936c6.99-6.99,6.99-18.323,0-25.312
-                        c-6.99-6.99-18.322-6.99-25.312,0l-75.937,75.937L30.554,5.242c-6.99-6.99-18.322-6.99-25.312,0c-6.989,6.99-6.989,18.323,0,25.312
-                        l75.937,75.936L5.242,182.427c-6.989,6.99-6.989,18.323,0,25.312c6.99,6.99,18.322,6.99,25.312,0l75.937-75.937l75.937,75.937
-                        c6.989,6.99,18.322,6.99,25.312,0c6.99-6.99,6.99-18.322,0-25.312L131.804,106.491z" />
-                    </g>
-                </svg>
-            </span>
-        </div>
-    </div>
-    <!--Thank You Popup-->
-    <div class="thankyou_wrapper">
-        <div class="thankyou_inner">
-            <div class="thankyou_img"><img src="images/thankyou.png" alt=""></div>
-            <h3>your order is being processed</h3>
-            <h5>We Have Just Sent You An Email With Complete Information About Your Booking</h5>
-            <div class="download_button">
-                <a href="javascript:;" class="clv_btn">download PDF</a>
-                <a href="index.html" class="clv_btn">back to site</a>
-            </div>
-            <span class="success_close">
-                <?xml version="1.0" encoding="iso-8859-1"?>
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                    y="0px" viewBox="0 0 212.982 212.982" style="enable-background:new 0 0 212.982 212.982;"
-                    xml:space="preserve" width="11px" height="11px">
-                    <g>
-                        <path fill="#fec007" style="fill-rule:evenodd;clip-rule:evenodd;" d="M131.804,106.491l75.936-75.936c6.99-6.99,6.99-18.323,0-25.312
-                    c-6.99-6.99-18.322-6.99-25.312,0l-75.937,75.937L30.554,5.242c-6.99-6.99-18.322-6.99-25.312,0c-6.989,6.99-6.989,18.323,0,25.312
-                    l75.937,75.936L5.242,182.427c-6.989,6.99-6.989,18.323,0,25.312c6.99,6.99,18.322,6.99,25.312,0l75.937-75.937l75.937,75.937
-                    c6.989,6.99,18.322,6.99,25.312,0c6.99-6.99,6.99-18.322,0-25.312L131.804,106.491z" />
-                    </g>
-                </svg>
-            </span>
-        </div>
-    </div>
-    <!--Profile Toggle-->
-    <div class="profile_toggle"><a href="javascript:;"><img src="images/login.gif" alt=""></a></div>
-    </div>
-    <!--Main js file Style-->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/swiper.min.js"></script>
-    <script src="js/magnific-popup.min.js"></script>
-    <script src="js/jquery.themepunch.tools.min.js"></script>
-    <script src="js/jquery.themepunch.revolution.min.js"></script>
-    <script src="js/jquery.appear.js"></script>
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/isotope.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/range.js"></script>
-    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-    <script src="js/revolution.extension.actions.min.js"></script>
-    <script src="js/revolution.extension.kenburn.min.js"></script>
-    <script src="js/revolution.extension.layeranimation.min.js"></script>
-    <script src="js/revolution.extension.migration.min.js"></script>
-    <script src="js/revolution.extension.parallax.min.js"></script>
-    <script src="js/revolution.extension.slideanims.min.js"></script>
-    <script src="js/revolution.extension.video.min.js"></script>
-    <script src="js/custom.js"></script>
-
-</body>
-
-</html>
+</div>
