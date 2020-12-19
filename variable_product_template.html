@@ -64,10 +64,10 @@
                     <table class="variations" cellspacing="0">
                         <tbody>
                             {{#attributes}}
+                             <!-- array of dropdowns for each attribute-->
                             <tr>
                                 <td class="label"><label for={{name}}>{{name}}</label></td>
                                 <td class="value">
-                                    <!-- array of select for each attribute-->
                                     <select id={{name}} name={{name}} data-attribute_name={{name}}
                                         data-show_option_none="yes">
                                         <option value="">Choose an option</option>
@@ -85,8 +85,8 @@
                     </table>
 
                     {{#variations}}
+                    <!-- array of variations, all will be invisible and will be displayed based on above attributes-->
                     <div class="single_variation_wrap">
-                        <!-- array of variations, all will be invisible and will be displayed based on above attributes-->
                         <div>
                             <div>
                                 <p>{{description}}</p>
