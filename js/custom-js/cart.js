@@ -5,8 +5,4 @@ $(document).ready(function() {
         // update local storage
         // update cart
     });
-
-    $('.profile_toggle').on('click', function(){
-        // dispay signin modal
-    });
 });
