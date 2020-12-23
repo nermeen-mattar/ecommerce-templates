@@ -11,7 +11,7 @@
             <div class="col-lg-4 col-md-4">
                 <div class="clv_left_header">
                     <div class="clv_logo">
-                        <a href="index.html"><img src="images/logo5.png" alt="Cultivation" /></a>
+                        <a href="/{{language}}/index.html"><img src="images/logo5.png" alt="Cultivation" /></a>
                     </div>
                 </div>
             </div>
@@ -23,32 +23,19 @@
                                 <li>
                                     <a href="javascript:;">home</a>
                                 </li>
-                                <li><a href="about.html">about us</a></li>
-                                <li><a href="service.html">services</a></li>
-                                <li><a href="gallery.html">gallery</a></li>
-                                <li>
-                                    <a href="javascript:;">Purchase History</a>
-                                    <ul>
-                                        <li><a href="blog.html">blog</a></li>
-                                        <li><a href="blog_single.html">blog single</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="javascript:;">pages</a>
-                                    <ul>
-                                        <li><a href="profile.html">profile</a></li>
-                                        <li><a href="products.html">products</a></li>
-                                        <li><a href="checkout.html">checkout</a></li>
-                                        <li><a href="cart_single.html">my cart</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">contact us</a></li>
+                                <li><a href="/{{language}}/products.html">products</a></li>
+                                <li><a href="/{{language}}/be-partner.html">become a partner</a></li>
+                                <li><a href="/{{language}}/contact.html">contact us</a></li>
                             </ul>
                         </div>
                         <div class="cart_nav">
                             <ul>
                                 <li>
-                                    <a class="search_toggle" href="javascript:;"><i class="fa fa-search"
+                                    <a class="search_toggle border-vertical" href="javascript:;"><i class="fa fa-search"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a class="border-vertical" href="/{{language}}/profile.html"><i class="fa fa-user"
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
@@ -69,7 +56,7 @@
                                                         <img src="https://via.placeholder.com/60x60" alt="image" />
                                                     </div>
                                                     <div class="cart_block">
-                                                        <h5>Fresh Meat</h5>
+                                                        <h5 class="item_name"></h5>
                                                         <div class="item_quantity">
                                                             <a href="javascript:;" class="quantity_minus">-</a>
                                                             <input type="text" value="1" class="quantity" disabled />
@@ -77,30 +64,13 @@
                                                         </div>
                                                     </div>
                                                     <div class="cart_block">
-                                                        <h4><span><i class="fa fa-usd" aria-hidden="true"></i></span> 43
-                                                        </h4>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="cart_block">
-                                                        <img src="https://via.placeholder.com/60x60" alt="image" />
-                                                    </div>
-                                                    <div class="cart_block">
-                                                        <h5>Dairy Milk</h5>
-                                                        <div class="item_quantity">
-                                                            <a href="javascript:;" class="quantity_minus">-</a>
-                                                            <input type="text" value="1" class="quantity" disabled />
-                                                            <a href="javascript:;" class="quantity_plus">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="cart_block">
-                                                        <h4><span><i class="fa fa-usd" aria-hidden="true"></i></span> 14
+                                                        <h4><span><i class="fa fa-usd price" aria-hidden="true"></i></span> 
                                                         </h4>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <h3>total</h3>
-                                                    <h4><span><i class="fa fa-usd" aria-hidden="true"></i></span> 54
+                                                    <h4><span><i class="fa fa-usd total_price" aria-hidden="true"></i></span>
                                                     </h4>
                                                 </li>
                                             </ul>
