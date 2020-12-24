@@ -111,12 +111,14 @@
                             <p>{{short_description}}</p>
                         </div>
                         <div id="info" class="tab-pane fade">
+                            {{#additional_info}}
                             <ul class="additional_info">
                                 <li>
-                                    <span class="info_head">{{additional_info_label}} -</span>
-                                    {{additional_info_value}}
+                                    <span class="info_head">{{name}} -</span>
+                                    {{value}}
                                 </li>
                             </ul>
+                            {{/additional_info}}
                         </div>
                     </div>
                 </div>
