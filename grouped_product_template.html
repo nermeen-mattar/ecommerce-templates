@@ -59,11 +59,11 @@
                         <p>{{rating_count}} Reviews</p>
                     </div>-->
 
+                    {{#description}}
                     <p>{{description}}</p>
+                    {{/description}}
 
-                    <!-- <table class="variations" cellspacing="0">
-                        <tbody>
-                            <tr> -->
+
                     <div class="single_variation_wrap">
 
                         <!-- array of products-->
@@ -121,14 +121,18 @@
                         <!--<li><a data-toggle="tab" href="#review">Review</a></li>-->                    </ul>
                     <div class="tab-content">
                         <div id="description" class="tab-pane fade show active">
+                            {{#short_description}}
                             <p>{{short_description}}</p>
+                            {{#short_description}}
                         </div>
                         <div id="info" class="tab-pane fade">
                             <ul class="additional_info">
+                                {{#additional_info}}
                                 <li>
-                                    <span class="info_head">{{additional_info_label}} -</span>
-                                        {{additional_info_value}}
+                                    <span class="info_head">{{name}} -</span>
+                                    {{value}}
                                 </li>
+                                {{/additional_info}}
                             </ul>
                         </div>
                     </div>

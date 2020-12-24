@@ -62,7 +62,11 @@
                             <p>availability: <span>{{stock_quantity}}</span></p>
                         </li>
                     </ul>
+
+                    {{#description}}
                     <p>{{description}}</p>
+                    {{/description}}
+
                     <div class="product_prices flex-wrap">
                         <h2>{{price}}</h2>
                         {{#regular_price}}
@@ -108,17 +112,19 @@
                     </ul>
                     <div class="tab-content">
                         <div id="description" class="tab-pane fade show active">
+                            {{#short_description}}
                             <p>{{short_description}}</p>
+                            {{#short_description}}
                         </div>
                         <div id="info" class="tab-pane fade">
-                            {{#additional_info}}
                             <ul class="additional_info">
+                                {{#additional_info}}
                                 <li>
                                     <span class="info_head">{{name}} -</span>
                                     {{value}}
                                 </li>
+                                {{/additional_info}}
                             </ul>
-                            {{/additional_info}}
                         </div>
                     </div>
                 </div>
