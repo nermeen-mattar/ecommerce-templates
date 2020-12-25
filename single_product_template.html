@@ -1,6 +1,7 @@
 <div class="product_single_wrapper clv_section">
     <div class="container">
         <div class="row">
+            {{#images.length}}
             <div class="col-lg-7 col-md-7">
                 <div class="product_single_slider">
                     <div class="row">
@@ -38,6 +39,8 @@
                     </div>
                 </div>
             </div>
+            {{/images.length}}
+
             <div class="col-lg-5 col-md-5">
                 <div class="product_single_details">
                     <div class="product_price_box">
@@ -59,13 +62,22 @@
                     </div>-->
                     <ul class="product_code">
                         <li>
-                            <p>availability: <span>{{stock_quantity}}</span></p>
+                            <p>availability: 
+                                <span>             
+                                    {{#stock_quantity}}
+                                    In Stock
+                                    {{/stock_quantity}}
+                                    {{^stock_quantity}}
+                                    Out of Stock
+                                    {{/stock_quantity}}
+                                </span>
+                            </p>
                         </li>
                     </ul>
 
-                    {{#description}}
-                    <p>{{description}}</p>
-                    {{/description}}
+                    {{#short_description}}
+                    <p>{{{short_description}}}</p>
+                    {{/short_description}}
 
                     <div class="product_prices flex-wrap">
                         <h2>{{price}}</h2>
@@ -106,15 +118,19 @@
             <div class="col-lg-12 col-md-12">
                 <div class="product_detail_tab">
                     <ul class="nav nav-tabs">
+                        {{#description}}
                         <li><a data-toggle="tab" class="active" href="#description">Description</a></li>
+                        {{/description}}
+                        {{#additional_info.length}}
                         <li><a data-toggle="tab" href="#info">Additional Information</a></li>
+                        {{/additional_info.length}}
                         <!--<li><a data-toggle="tab" href="#review">Review</a></li>-->                    
                     </ul>
                     <div class="tab-content">
                         <div id="description" class="tab-pane fade show active">
-                            {{#short_description}}
-                            <p>{{short_description}}</p>
-                            {{#short_description}}
+                            {{#description}}
+                            <p>{{{description}}}</p>
+                            {{/description}}
                         </div>
                         <div id="info" class="tab-pane fade">
                             <ul class="additional_info">
