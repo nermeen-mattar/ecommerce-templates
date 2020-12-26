@@ -1,6 +1,6 @@
     {{#products}}
     <li>
-        <div class="product_item_block">
+        <a class="product_item_block" href="/{{language}}/{{slug}}.html">
             <div class="org_product_block">
                 <div class="org_product_image">
                     {{#images.0}}
@@ -8,13 +8,13 @@
                     {{/images.0}}
                 </div>
                 <h4>{{name}}</h4>
-                <h3><span><i class="fa fa-usd" aria-hidden="true"></i></span>{{price}}</h3>
-                <a href="javascript:;">add to cart</a>
+                <h3>{{price}} JOD</h3>
+                <span class="button">add to cart</span>
             </div>
             <div class="content_block">
                 <div class="product_price_box">
                     <h3>{{name}}</h3>
-                    <h5><span><i class="fa fa-usd" aria-hidden="true"></i></span>25</h5>
+                    <h5>{{price}} JOD</h5>
                 </div>
                 <ul class="product_code">
                     <li>
@@ -34,7 +34,7 @@
                     {{{short_description}}}
                 </p>
             </div>
-        </div>
+        </a>
     </li>
     {{/products}}
 
