@@ -14,8 +14,7 @@
                                              the property src from each object in the <img src={{src}}-->
                                         {{#images}}
                                         <div class="swiper-slide">
-                                            <div class="fd_pro_img wc_gallery_image">
-                                                <!--fd_pro_img_thumnail-->
+                                            <div class="fd_pro_img_thumnail">
                                                 <img src={{src}} alt="image">
                                             </div>
                                         </div>
@@ -151,9 +150,9 @@
                         {{#description}}
                         <li><a data-toggle="tab" class="active" href="#description">Description</a></li>
                         {{/description}}
-                        {{#additional_info.length}}
+                        {{#attributes.length}}
                         <li><a data-toggle="tab" href="#info">Additional Information</a></li>
-                        {{/additional_info.length}}                        
+                        {{/attributes.length}}                        
                         <!--<li><a data-toggle="tab" href="#review">Review</a></li>-->
                     </ul>
                     <div class="tab-content">
@@ -164,12 +163,12 @@
                         </div>
                         <div id="info" class="tab-pane fade">
                             <ul class="additional_info">
-                                {{#additional_info}}
+                                {{#attributes}}
                                 <li>
                                     <span class="info_head">{{name}} -</span>
-                                    {{value}}
+                                    {{options}}
                                 </li>
-                                {{/additional_info}}
+                                {{/attributes}}
                             </ul>
                         </div>
                     </div>
