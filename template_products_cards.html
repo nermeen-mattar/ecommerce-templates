@@ -1,0 +1,34 @@
+    {{#products}}
+    <li>
+        <div class="product_item_block">
+            <div class="org_product_block">
+                <div class="org_product_image">
+                    {{#images.0}}
+                    <img src={{images.0.src}} alt="image">
+                    {{/images.0}}
+                </div>
+                <h4>{{name}}</h4>
+                <h3><span><i class="fa fa-usd" aria-hidden="true"></i></span>{{price}}</h3>
+                <a href="javascript:;">add to cart</a>
+            </div>
+            <div class="content_block">
+                <div class="product_price_box">
+                    <h3>{{name}}</h3>
+                    <h5><span><i class="fa fa-usd" aria-hidden="true"></i></span>25</h5>
+                </div>
+                <ul class="product_code">
+                    <li>
+                        <p>availability: <span>{{stock_quantity}}</span></p>
+                    </li>
+                </ul>
+                <p>
+                    {{{short_description}}}
+                </p>
+            </div>
+        </div>
+    </li>
+    {{/products}}
+
+    {{^products}}
+    <p class="text-center mt-5"> There are no products </p>
+    {{/products}}

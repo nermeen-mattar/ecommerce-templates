@@ -1,17 +1,31 @@
-    <div class="breadcrumb_wrapper">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-4">
-                    <div class="breadcrumb_inner">
-                        <h3>{{page_name}}</h3>
-                    </div>
+<div class="breadcrumb_wrapper">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="breadcrumb_inner">
+                <!-- 
+                    Eamples of breadcrumb page names:
+                    Apples
+                    Cart
+                    Become a Partner
+                    Contact Us
+                -->
+                    <h3>{{page_name}}</h3>
                 </div>
             </div>
         </div>
-        <div class="breadcrumb_block">
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li>{{page_name}}</li>
-            </ul>
-        </div>
     </div>
+    <div class="breadcrumb_block">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <!-- 
+                Eamples of breadcrumb paths:
+                Home > Products > Apples
+                Home > Cart
+                Home > Become a Partner
+                Home > Contact Us
+            -->
+            <li>{{path_name}}</li>
+        </ul>
+    </div>
+</div>
