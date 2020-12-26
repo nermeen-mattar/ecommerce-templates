@@ -53,10 +53,10 @@ function getMinAndMaxPrice() {
     let max = Number(allProducts[0].price),
         min = Number(allProducts[0].price);
     for (let i = 1; i < allProducts.length; i++) {
-        if (allProducts[i].price > max) {
+        if (allProducts[i].price >= max) {
             max = Number(allProducts[i].price);
         }
-        if (Number(allProducts[i].price) < min) {
+        if (Number(allProducts[i].price) <= min) {
             min = Number(allProducts[i].price);
         }
     }

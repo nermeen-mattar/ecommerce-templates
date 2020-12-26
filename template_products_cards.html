@@ -18,7 +18,16 @@
                 </div>
                 <ul class="product_code">
                     <li>
-                        <p>availability: <span>{{stock_quantity}}</span></p>
+                        <p>availability: 
+                            <span>
+                            {{#stock_quantity}}
+                            In Stock
+                            {{/stock_quantity}}
+                            {{^stock_quantity}}
+                            Out of Stock
+                            {{/stock_quantity}}
+                            </span>
+                        </p>
                     </li>
                 </ul>
                 <p>
