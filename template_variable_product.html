@@ -67,14 +67,14 @@
                     {{#short_description}}
                     <p>{{{short_description}}}</p>
                     {{/short_description}}
-                    
-                    <table class="variations" cellspacing="0">
+
+                    <table cellspacing="0">
                         <tbody>
                             {{#attributes}}
                             <!-- array of dropdowns for each attribute -->
                             <tr>
                                 <td class="label"><label for={{name}}>{{name}}</label></td>
-                                <td class="value">
+                                <td class="value px-3">
                                     <select id={{name}} name={{name}} data-attribute_name={{name}}
                                         data-show_option_none="yes">
                                         <option value="">Choose an option</option>
@@ -91,50 +91,52 @@
                         </tbody>
                     </table>
 
-                    {{#variations}}
-                    <!-- array of variations, all will be invisible and will be displayed based on above attributes-->
-                    <div class="single_variation_wrap">
-                        <div>
+                    <div class="variations">
+                        {{#variations}}
+                        <!-- array of variations, all will be invisible and will be displayed based on above attributes-->
+                        <div class="single_variation_wrap d-none">
                             <div>
-                                {{#description}}
-                                <p>{{{description}}}</p>
-                                {{/description}}
-                            </div>
-                            <ul class="product_code">
-                                <li>
-                                    <p>availability: 
-                                        <span>             
-                                            {{#stock_quantity}}
-                                            In Stock
-                                            {{/stock_quantity}}
-                                            {{^stock_quantity}}
-                                            Out of Stock
-                                            {{/stock_quantity}}
-                                        </span>
-                            </p>
-                                </li>
-                            </ul>
-                            <div class="product_prices flex-wrap">
-                                <h2>{{price}} JOD</h2>
-                                {{#regular_price}}
-                                <h3>{{regular_price}} JOD</h3>
-                                {{/regular_price}}
-                            </div>
-                        </div>
-                        <div class="fd_pro_quantity">
-                            <div class="quantity_wrapper">
-                                <div class="input-group">
-                                    <span class="quantity_minus"> - </span>
-                                    <input type="text" class="quantity" value="1">
-                                    <span class="quantity_plus"> + </span>
+                                <div>
+                                    {{#description}}
+                                    <p>{{{description}}}</p>
+                                    {{/description}}
+                                </div>
+                                <ul class="product_code">
+                                    <li>
+                                        <p>availability:
+                                            <span>
+                                                {{#stock_quantity}}
+                                                In Stock
+                                                {{/stock_quantity}}
+                                                {{^stock_quantity}}
+                                                Out of Stock
+                                                {{/stock_quantity}}
+                                            </span>
+                                        </p>
+                                    </li>
+                                </ul>
+                                <div class="product_prices flex-wrap">
+                                    <h2>{{price}} JOD</h2>
+                                    {{#regular_price}}
+                                    <h3>{{regular_price}} JOD</h3>
+                                    {{/regular_price}}
                                 </div>
                             </div>
+                            <div class="fd_pro_quantity">
+                                <div class="quantity_wrapper">
+                                    <div class="input-group">
+                                        <span class="quantity_minus"> - </span>
+                                        <input type="text" class="quantity" value="1">
+                                        <span class="quantity_plus"> + </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fd_pro_add_btn">
+                                <a id="add_to_cart" href="javascript:;" class="clv_btn">add to cart</a>
+                            </div>
                         </div>
-                        <div class="fd_pro_add_btn">
-                            <a id="add_to_cart" href="javascript:;" class="clv_btn">add to cart</a>
-                        </div>
+                        {{/variations}}
                     </div>
-                    {{/variations}}
                 </div>
             </div>
         </div>
@@ -152,7 +154,7 @@
                         {{/description}}
                         {{#attributes.length}}
                         <li><a data-toggle="tab" href="#info">Additional Information</a></li>
-                        {{/attributes.length}}                        
+                        {{/attributes.length}}
                         <!--<li><a data-toggle="tab" href="#review">Review</a></li>-->
                     </ul>
                     <div class="tab-content">
