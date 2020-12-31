@@ -1,4 +1,458 @@
-export default [{
+export default [
+    {
+        "id": 76,
+        "name": "Hoodie",
+        "slug": "hoodie",
+        "permalink": "https://manage.lalbab.store/product/hoodie/",
+        "date_created": "2020-12-25T09:33:21",
+        "date_created_gmt": "2020-12-25T09:33:21",
+        "date_modified": "2020-12-26T21:50:37",
+        "date_modified_gmt": "2020-12-26T21:50:37",
+        "type": "variable",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n",
+        "short_description": "<p>This is a variable product.</p>\n",
+        "sku": "woo-hoodie",
+        "price": "42",
+        "regular_price": "",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>42.00</bdi></span> &ndash; <span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>45.00</bdi></span>",
+        "on_sale": true,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "related_ids": [77, 84],
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [{
+            "id": 37,
+            "name": "Hoodies",
+            "slug": "hoodies"
+        }],
+        "tags": [],
+        "images": [{
+            "id": 103,
+            "date_created": "2020-12-25T09:33:30",
+            "date_created_gmt": "2020-12-25T09:33:30",
+            "date_modified": "2020-12-25T09:33:30",
+            "date_modified_gmt": "2020-12-25T09:33:30",
+            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-2.jpg",
+            "name": "hoodie-2.jpg",
+            "alt": ""
+        }, {
+            "id": 104,
+            "date_created": "2020-12-25T09:33:31",
+            "date_created_gmt": "2020-12-25T09:33:31",
+            "date_modified": "2020-12-25T09:33:31",
+            "date_modified_gmt": "2020-12-25T09:33:31",
+            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-blue-1.jpg",
+            "name": "hoodie-blue-1.jpg",
+            "alt": ""
+        }, {
+            "id": 105,
+            "date_created": "2020-12-25T09:33:32",
+            "date_created_gmt": "2020-12-25T09:33:32",
+            "date_modified": "2020-12-25T09:33:32",
+            "date_modified_gmt": "2020-12-25T09:33:32",
+            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-green-1.jpg",
+            "name": "hoodie-green-1.jpg",
+            "alt": ""
+        }, {
+            "id": 106,
+            "date_created": "2020-12-25T09:33:33",
+            "date_created_gmt": "2020-12-25T09:33:33",
+            "date_modified": "2020-12-25T09:33:33",
+            "date_modified_gmt": "2020-12-25T09:33:33",
+            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-with-logo-2.jpg",
+            "name": "hoodie-with-logo-2.jpg",
+            "alt": ""
+        }],
+        "attributes": [{
+            "id": 1,
+            "name": "Color",
+            "position": 0,
+            "visible": true,
+            "variation": true,
+            "options": ["Blue", "Green", "Red"]
+        }, {
+            "id": 0,
+            "name": "Logo",
+            "position": 1,
+            "visible": true,
+            "variation": true,
+            "options": ["Yes", "No"]
+        }, {
+            "id": 0,
+            "name": "xyz",
+            "position": 2,
+            "visible": true,
+            "variation": false,
+            "options": ["test"]
+        }],
+        "default_attributes": [],
+        "variations": [{
+            "id": 99,
+            "date_created": "2020-12-25T09:33:25",
+            "date_created_gmt": "2020-12-25T09:33:25",
+            "date_modified": "2020-12-25T09:33:57",
+            "date_modified_gmt": "2020-12-25T09:33:57",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis augue, vel porttitor diam enim non metus. Vestibulum aliquam augue neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras placerat ut turpis pellentesque vulputate. Nam sed consequat tortor. Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar dignissim. Nam non arcu purus. Vivamus et massa massa.</p>\n",
+            "permalink": "https://manage.lalbab.store/product/hoodie/?attribute_pa_color=blue&attribute_logo=Yes",
+            "sku": "woo-hoodie-blue-logo",
+            "price": "45",
+            "regular_price": "45",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "on_sale": false,
+            "status": "publish",
+            "purchasable": true,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": 0,
+            "download_expiry": 0,
+            "tax_status": "taxable",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "stock_status": "instock",
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "weight": "",
+            "dimensions": {
+                "length": "",
+                "width": "",
+                "height": ""
+            },
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "image": {
+                "id": 106,
+                "date_created": "2020-12-25T09:33:33",
+                "date_created_gmt": "2020-12-25T09:33:33",
+                "date_modified": "2020-12-25T09:33:33",
+                "date_modified_gmt": "2020-12-25T09:33:33",
+                "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-with-logo-2.jpg",
+                "name": "hoodie-with-logo-2.jpg",
+                "alt": ""
+            },
+            "attributes": [{
+                "id": 1,
+                "name": "Color",
+                "option": "Blue"
+            }, {
+                "id": 0,
+                "name": "Logo",
+                "option": "Yes"
+            }],
+            "menu_order": 0,
+            "meta_data": [{
+                "id": 1025,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations/99"
+                }],
+                "collection": [{
+                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations"
+                }],
+                "up": [{
+                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76"
+                }]
+            }
+        }, {
+            "id": 94,
+            "date_created": "2020-12-25T09:33:24",
+            "date_created_gmt": "2020-12-25T09:33:24",
+            "date_modified": "2020-12-25T09:33:51",
+            "date_modified_gmt": "2020-12-25T09:33:51",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis augue, vel porttitor diam enim non metus. Vestibulum aliquam augue neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras placerat ut turpis pellentesque vulputate. Nam sed consequat tortor. Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar dignissim. Nam non arcu purus. Vivamus et massa massa.</p>\n",
+            "permalink": "https://manage.lalbab.store/product/hoodie/?attribute_pa_color=blue&attribute_logo=No",
+            "sku": "woo-hoodie-blue",
+            "price": "45",
+            "regular_price": "45",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "on_sale": false,
+            "status": "publish",
+            "purchasable": true,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": 0,
+            "download_expiry": 0,
+            "tax_status": "taxable",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "stock_status": "instock",
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "weight": "",
+            "dimensions": {
+                "length": "",
+                "width": "",
+                "height": ""
+            },
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "image": {
+                "id": 104,
+                "date_created": "2020-12-25T09:33:31",
+                "date_created_gmt": "2020-12-25T09:33:31",
+                "date_modified": "2020-12-25T09:33:31",
+                "date_modified_gmt": "2020-12-25T09:33:31",
+                "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-blue-1.jpg",
+                "name": "hoodie-blue-1.jpg",
+                "alt": ""
+            },
+            "attributes": [{
+                "id": 1,
+                "name": "Color",
+                "option": "Blue"
+            }, {
+                "id": 0,
+                "name": "Logo",
+                "option": "No"
+            }],
+            "menu_order": 3,
+            "meta_data": [{
+                "id": 978,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations/94"
+                }],
+                "collection": [{
+                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations"
+                }],
+                "up": [{
+                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76"
+                }]
+            }
+        }, {
+            "id": 93,
+            "date_created": "2020-12-25T09:33:24",
+            "date_created_gmt": "2020-12-25T09:33:24",
+            "date_modified": "2020-12-25T09:33:51",
+            "date_modified_gmt": "2020-12-25T09:33:51",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis augue, vel porttitor diam enim non metus. Vestibulum aliquam augue neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras placerat ut turpis pellentesque vulputate. Nam sed consequat tortor. Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar dignissim. Nam non arcu purus. Vivamus et massa massa.</p>\n",
+            "permalink": "https://manage.lalbab.store/product/hoodie/?attribute_pa_color=green&attribute_logo=No",
+            "sku": "woo-hoodie-green",
+            "price": "45",
+            "regular_price": "45",
+            "sale_price": "",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "on_sale": false,
+            "status": "publish",
+            "purchasable": true,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": 0,
+            "download_expiry": 0,
+            "tax_status": "taxable",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "stock_status": "instock",
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "weight": "",
+            "dimensions": {
+                "length": "",
+                "width": "",
+                "height": ""
+            },
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "image": {
+                "id": 105,
+                "date_created": "2020-12-25T09:33:32",
+                "date_created_gmt": "2020-12-25T09:33:32",
+                "date_modified": "2020-12-25T09:33:32",
+                "date_modified_gmt": "2020-12-25T09:33:32",
+                "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-green-1.jpg",
+                "name": "hoodie-green-1.jpg",
+                "alt": ""
+            },
+            "attributes": [{
+                "id": 1,
+                "name": "Color",
+                "option": "Green"
+            }, {
+                "id": 0,
+                "name": "Logo",
+                "option": "No"
+            }],
+            "menu_order": 2,
+            "meta_data": [{
+                "id": 970,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations/93"
+                }],
+                "collection": [{
+                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations"
+                }],
+                "up": [{
+                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76"
+                }]
+            }
+        }, {
+            "id": 92,
+            "date_created": "2020-12-25T09:33:24",
+            "date_created_gmt": "2020-12-25T09:33:24",
+            "date_modified": "2020-12-25T09:33:51",
+            "date_modified_gmt": "2020-12-25T09:33:51",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis augue, vel porttitor diam enim non metus. Vestibulum aliquam augue neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras placerat ut turpis pellentesque vulputate. Nam sed consequat tortor. Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar dignissim. Nam non arcu purus. Vivamus et massa massa.</p>\n",
+            "permalink": "https://manage.lalbab.store/product/hoodie/?attribute_pa_color=red&attribute_logo=No",
+            "sku": "woo-hoodie-red",
+            "price": "42",
+            "regular_price": "45",
+            "sale_price": "42",
+            "date_on_sale_from": null,
+            "date_on_sale_from_gmt": null,
+            "date_on_sale_to": null,
+            "date_on_sale_to_gmt": null,
+            "on_sale": true,
+            "status": "publish",
+            "purchasable": true,
+            "virtual": false,
+            "downloadable": false,
+            "downloads": [],
+            "download_limit": 0,
+            "download_expiry": 0,
+            "tax_status": "taxable",
+            "tax_class": "",
+            "manage_stock": false,
+            "stock_quantity": null,
+            "stock_status": "instock",
+            "backorders": "no",
+            "backorders_allowed": false,
+            "backordered": false,
+            "weight": "",
+            "dimensions": {
+                "length": "",
+                "width": "",
+                "height": ""
+            },
+            "shipping_class": "",
+            "shipping_class_id": 0,
+            "image": {
+                "id": 103,
+                "date_created": "2020-12-25T09:33:30",
+                "date_created_gmt": "2020-12-25T09:33:30",
+                "date_modified": "2020-12-25T09:33:30",
+                "date_modified_gmt": "2020-12-25T09:33:30",
+                "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-2.jpg",
+                "name": "hoodie-2.jpg",
+                "alt": ""
+            },
+            "attributes": [{
+                "id": 1,
+                "name": "Color",
+                "option": "Red"
+            }, {
+                "id": 0,
+                "name": "Logo",
+                "option": "No"
+            }],
+            "menu_order": 1,
+            "meta_data": [{
+                "id": 961,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations/92"
+                }],
+                "collection": [{
+                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations"
+                }],
+                "up": [{
+                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76"
+                }]
+            }
+        }],
+        "grouped_products": [],
+        "menu_order": 0,
+        "meta_data": [{
+            "id": 825,
+            "key": "_wpcom_is_markdown",
+            "value": "1"
+        }],
+        "brizy_attachment_focal_point": "",
+        "_links": {
+            "self": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76"
+            }],
+            "collection": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
+            }]
+        },
+        "productpermalink": "https://www.lalbab.store/en/hoodies/hoodie.html",
+        "keypath": "en/hoodies/hoodie.html",
+        "page_name": "Hoodie"
+    },
+    
+    {
     "id": 122,
     "name": "asadasds",
     "slug": "",

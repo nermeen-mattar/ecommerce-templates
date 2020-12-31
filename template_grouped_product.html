@@ -11,8 +11,7 @@
                                     <div class="swiper-wrapper">
                                             {{#images}}
                                         <div class="swiper-slide">
-                                            <div class="fd_pro_img wc_gallery_image">
-                                                <!--fd_pro_img_thumnail-->
+                                            <div class="fd_pro_img_thumnail">
                                                 <img src={{src}} alt="image">
                                             </div>
                                         </div>
@@ -68,48 +67,44 @@
 
 
                     <div class="single_variation_wrap">
-
-                        <!-- array of products-->
-                        {{#grouped_products}}
-                        <div class="d-flex">
-                            <div class="fd_pro_quantity">
-                                <div class="quantity_wrapper">
-                                    <div class="input-group">
-                                        <span class="quantity_minus"> - </span>
-                                        <input type="text" class="quantity" value="2">
-                                        <span class="quantity_plus"> + </span>
+                        <table>
+                            <!-- array of products-->
+                            {{#grouped_products}}
+                            <tr>
+                                <td class="fd_pro_quantity p-2">
+                                    <div class="quantity_wrapper">
+                                        <div class="input-group">
+                                            <span class="quantity_minus"> - </span>
+                                            <input type="text" class="quantity" value="2">
+                                            <span class="quantity_plus"> + </span>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="mx-2">
-                                <div class="product_price_box">
-                                    <h3>{{name}}</h3>
-                                </div>
-                            </div>
-                            <div>
-                                <ul class="product_code">
-                                    <li>
-                                        <p>availability: 
-                                        <span>             
-                                            {{#stock_quantity}}
-                                            In Stock
-                                            {{/stock_quantity}}
-                                            {{^stock_quantity}}
-                                            Out of Stock
-                                            {{/stock_quantity}}
-                                            </span>
-                                        </p>
-                                    </li>
-                                </ul>
-                                <div class="product_prices flex-wrap">
-                                    <h2>{{price}} JOD</h2>
-                                    {{#regular_price}}
-                                    <h3>{{regular_price}} JOD</h3>
-                                    {{/regular_price}}
-                                </div>
-                            </div>
-                        </div>
-                        {{/grouped_products}}
+                                </td>
+
+                                <td class="p-2">
+                                    <div class="product_price_box">
+                                        <h3>{{name}}</h3>
+                                    </div>
+                                </td>
+                                <td class="p-2 product_code">
+                                    <div class="product_prices flex-wrap m-0">
+                                        <h2>{{price}} JOD</h2>
+                                        {{#regular_price}}
+                                        <h3>{{regular_price}} JOD</h3>
+                                        {{/regular_price}}
+                                    </div>
+                                    <span>
+                                        {{#stock_quantity}}
+                                        In Stock
+                                        {{/stock_quantity}}
+                                        {{^stock_quantity}}
+                                        Out of Stock
+                                        {{/stock_quantity}}
+                                    </span>
+                                </td>
+                            </tr>
+                            {{/grouped_products}}
+                        </table>
 
                         <div class="fd_pro_add_btn m-0">
                             <a id="add_to_cart" href="javascript:;" class="clv_btn">add to cart</a>
@@ -131,11 +126,10 @@
                         {{#description}}
                         <li><a data-toggle="tab" class="active" href="#description">Description</a></li>
                         {{/description}}
-                        {{#additional_info.length}}
+                        {{#attributes.length}}
                         <li><a data-toggle="tab" href="#info">Additional Information</a></li>
-                        {{/additional_info.length}}
-
-                        <!--<li><a data-toggle="tab" href="#review">Review</a></li>-->                    </ul>
+                        {{/attributes.length}}
+                    </ul>
                     <div class="tab-content">
                         <div id="description" class="tab-pane fade show active">
                             {{#description}}
@@ -144,12 +138,12 @@
                         </div>
                         <div id="info" class="tab-pane fade">
                             <ul class="additional_info">
-                                {{#additional_info}}
+                                {{#attributes}}
                                 <li>
                                     <span class="info_head">{{name}} -</span>
-                                    {{value}}
+                                    {{options}}
                                 </li>
-                                {{/additional_info}}
+                                {{/attributes}}
                             </ul>
                         </div>
                     </div>
