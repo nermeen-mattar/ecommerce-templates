@@ -1900,6 +1900,9 @@ ul{
 .clv_footer_wrapper .footer_block .footer_logo{
 	margin-bottom: 18px;
 }
+.clv_footer_wrapper .footer_block .footer_logo a img{
+	height: 34px;
+}
 .clv_footer_wrapper .footer_block p{
 	color: #ffffff;
 	margin-bottom: 30px;
@@ -5242,7 +5245,10 @@ ul{
 	color: #27ae93;
 }
 .index_v5.clv_main_wrapper .clv_header .clv_left_header{
-	padding: 15px 0px;
+	padding: 32px 0px;
+}
+.index_v5.clv_main_wrapper .clv_header .clv_left_header img{
+	height: 40px;
 }
 .index_v5.clv_main_wrapper .clv_header{
 	background-color: unset;
@@ -7680,6 +7686,7 @@ ul{
 	line-height: 50px;
 	font-size: 15px;
 	width: 100%;
+	min-width: 165px;
 }
 .nice-select:active, .nice-select.open, .nice-select:focus{
 	border-color: #ebebeb;
@@ -7733,7 +7740,7 @@ ul{
 }
 .product_items_section ul li .org_product_block .org_product_image > img{
 	height:100%;
-	max-width: 100%;
+	width: 100%;
 }
 .product_items_section ul li .org_product_block .button{
 	position: absolute;
@@ -8044,6 +8051,11 @@ ul{
 	border: 1px solid #ebebeb;
 	border-radius: 5px;
 }
+.quantity_wrapper > .input-group.disabled{
+	background: #dadada;
+	opacity: 0.6;
+}
+
 .quantity_wrapper > .input-group > span{
 	height: 50px;
 	width: 33%;
@@ -8053,6 +8065,13 @@ ul{
 	font-size: 26px; 
 	color: #fec007;
 	cursor: pointer;
+}
+.quantity_wrapper > .input-group.disabled > span{
+	color: #707070;
+	cursor: default;
+}
+.quantity_wrapper > .input-group.disabled > span.quantity{
+	font-size: 16px;
 }
 .quantity_wrapper > .input-group > input{
 	max-width: 33%;
@@ -11439,3 +11458,20 @@ ul{
 /********************************************************
 39. Responsive CSS End
 *******************************************************/  
+
+.disabled_clv_btn {
+	min-width: 170px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background: #dadada;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
