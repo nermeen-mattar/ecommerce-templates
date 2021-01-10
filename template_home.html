@@ -1,0 +1,214 @@
+	<!--Banner Slider-->
+	<div class="clv_banner_slider">
+	    <!-- Swiper -->
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	                <div class="clv_slide">
+	                    <div class="container">
+	                        <div class="clv_slide_inner">
+	                            <h3>premium quality products</h3>
+	                            <h1>Delivered to your<br />home</h1>
+	                            <a href="javascript:;" class="clv_btn">discover more</a>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="swiper-slide">
+	                <div class="clv_slide slide2">
+	                    <div class="container">
+	                        <div class="clv_slide_inner">
+	                            <h3>premium quality products</h3>
+	                            <h1>Delivered to your<br />Office</h1>
+	                            <a href="javascript:;" class="clv_btn">discover more</a>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	        <!-- Add Arrows -->
+	        <span class="banner_left org_arrow">
+	            <i class="fa fa-angle-left" aria-hidden="true"></i> <u>prev</u>
+	        </span>
+	        <span class="banner_right org_arrow right_arrow">
+	            <u>next</u><i class="fa fa-angle-right" aria-hidden="true"></i>
+	        </span>
+	    </div>
+	</div>
+	<!--About Us-->
+	<div class="org_about_wrapper clv_section">
+	    <div class="container">
+	        <div class="row justify-content-center text-center">
+	            <!-- <div class="col-lg-6 col-md-6">
+					<div class="org_about_image">
+						<img src="https://via.placeholder.com/362x876" alt="image" />
+					</div>
+				</div> -->
+	            <div class="col-lg-6 col-md-6">
+	                <div class="org_about_contents">
+	                    <h5>Trusted Quality</h5>
+	                    <h2>Wasil is your go-to one stop shop!</h2>
+	                    <img src="/resources/images/org_underline2.png" alt="image" />
+	                    <p>No need to worry about gathering your needs or delivery! </p>
+	                    <p>You customize your essential list and we bring them to you.</p>
+	                    <p> Recurring basis models. Wholesale competitive prices!
+	                    </p>
+	                    <a href="/{{language}}/about.html" class="clv_btn">discover more</a>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+    <!--Products-->
+    {{#products.length}}
+	<div class="org_product_wrapper clv_section">
+	    <div class="container">
+	        <div class="row justify-content-center">
+	            <div class="col-lg-6 col-md-6">
+	                <div class="clv_heading">
+	                    <h3>our products</h3>
+	                    <div class="clv_underline"><img src="/resources/images/org_underline2.png" alt="image" /></div>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="org_product_section">
+	            <div class="row">
+                    {{#products}}
+	                <div class="col-md-4">
+                        <div class="org_product_block">
+                            <div class="org_product_image">
+                                {{#images.0}}
+                                <img src="{{images.0.src}}" alt="image">
+                                {{/images.0}}
+                            </div>
+                            <h4>{{name}}</h4>
+                            <h3>{{price}} JOD</h3>
+                            <span class="button">add to cart</span>
+                        </div>
+                    </div>
+                    {{/products}}
+	            </div>
+	            <div class="load_more_btn"><a href="/{{language}}/products.html" class="clv_btn">view more</a></div>
+	        </div>
+	    </div>
+    </div>
+    {{/products.length}}
+
+	<!--Testimonial-->
+	<div class="org_testimonial_wrapper clv_section">
+	    <div class="container">
+	        <div class="row justify-content-center">
+	            <div class="col-lg-6 col-md-6">
+	                <div class="clv_heading">
+	                    <h3>Testimonials</h3>
+	                    <div class="clv_underline"><img src="/resources/images/org_underline2.png" alt="image" /></div>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="row justify-content-center">
+	            <div class="col-md-10">
+	                <div class="org_testimonial_slider">
+	                    <div class="swiper-container">
+	                        <div class="swiper-wrapper">
+	                            <div class="swiper-slide">
+	                                <div class="org_testimonial_slide">
+	                                    <div class="org_test_image">
+	                                        <img src="https://via.placeholder.com/180x220" alt="image" />
+	                                    </div>
+	                                    <div class="org_testimonial_message">
+	                                        <p>Nsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+	                                            dolore magna alierqua Ut enierim ad minim veniam, quis nostrud exercitation
+	                                            ullamco laboris nissdi ut aliquip exeriommodo consequate Duis aute irure
+	                                            dolor in reprehenderit in voluptate.</p>
+	                                        <h5>John Berg <span>- Farm Specialist</span></h5>
+	                                    </div>
+	                                    <ul class="test_social">
+	                                        <li><a href="javascript:;"><span><i class="fa fa-twitter"
+	                                                        aria-hidden="true"></i></span></a></li>
+	                                        <li><a href="javascript:;"><span><i class="fa fa-linkedin"
+	                                                        aria-hidden="true"></i></span></a></li>
+	                                        <li><a href="javascript:;"><span><i class="fa fa-youtube-play"
+	                                                        aria-hidden="true"></i></span></a></li>
+	                                    </ul>
+	                                </div>
+	                            </div>
+	                            <div class="swiper-slide">
+	                                <div class="org_testimonial_slide">
+	                                    <div class="org_test_image">
+	                                        <img src="https://via.placeholder.com/180x220" alt="image" />
+	                                    </div>
+	                                    <div class="org_testimonial_message">
+	                                        <p>Nsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+	                                            dolore magna alierqua Ut enierim ad minim veniam, quis nostrud exercitation
+	                                            ullamco laboris nissdi ut aliquip exeriommodo consequate Duis aute irure
+	                                            dolor in reprehenderit in voluptate.</p>
+	                                        <h5>Alison Emma <span>- Farm Specialist</span></h5>
+	                                    </div>
+	                                    <ul class="test_social">
+	                                        <li><a href="javascript:;"><span><i class="fa fa-twitter"
+	                                                        aria-hidden="true"></i></span></a></li>
+	                                        <li><a href="javascript:;"><span><i class="fa fa-linkedin"
+	                                                        aria-hidden="true"></i></span></a></li>
+	                                        <li><a href="javascript:;"><span><i class="fa fa-youtube-play"
+	                                                        aria-hidden="true"></i></span></a></li>
+	                                    </ul>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!-- Add Arrows -->
+	                        <div class="org_test_btn org_left">
+	                            <span class="arrow">
+
+	                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
+	                                    xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"
+	                                    width="15px" height="15px">
+	                                    <g>
+	                                        <path
+	                                            d="m88.6,121.3c0.8,0.8 1.8,1.2 2.9,1.2s2.1-0.4 2.9-1.2c1.6-1.6 1.6-4.2 0-5.8l-51-51 51-51c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-54,53.9c-1.6,1.6-1.6,4.2 0,5.8l54,53.9z" />
+	                                    </g>
+	                                </svg>
+	                            </span>
+	                            <span class="hover_arrow">
+	                                <?xml version="1.0" encoding="iso-8859-1"?>
+	                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+	                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                                    viewBox="0 0 31.494 31.494" style="enable-background:new 0 0 31.494 31.494;"
+	                                    xml:space="preserve" width="20px" height="20px">
+	                                    <path style="fill:#27ae93;" d="M10.273,5.009c0.444-0.444,1.143-0.444,1.587,0c0.429,0.429,0.429,1.143,0,1.571l-8.047,8.047h26.554
+										c0.619,0,1.127,0.492,1.127,1.111c0,0.619-0.508,1.127-1.127,1.127H3.813l8.047,8.032c0.429,0.444,0.429,1.159,0,1.587
+										c-0.444,0.444-1.143,0.444-1.587,0l-9.952-9.952c-0.429-0.429-0.429-1.143,0-1.571L10.273,5.009z" />
+	                                </svg>
+	                            </span>
+	                        </div>
+	                        <div class="org_test_btn org_right">
+	                            <span class="arrow">
+
+	                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
+	                                    xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"
+	                                    width="15px" height="15px">
+	                                    <g>
+	                                        <path
+	                                            d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z" />
+	                                    </g>
+	                                </svg>
+	                            </span>
+	                            <span class="hover_arrow">
+	                                <?xml version="1.0" encoding="iso-8859-1"?>
+	                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+	                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                                    viewBox="0 0 31.49 31.49" style="enable-background:new 0 0 31.49 31.49;"
+	                                    xml:space="preserve" width="20px" height="20px">
+	                                    <path style="fill:#27ae93;" d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111
+										C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587
+										c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z" />
+	                                </svg>
+	                            </span>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
