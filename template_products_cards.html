@@ -1,7 +1,7 @@
 {{#products}}
 <li>
     <a class="product_item_block" href="{{productpermalink}}">
-        <div class="org_product_block">
+        <div class="org_product_block" id="{{id}}">
             <div class="org_product_image">
                 {{#images.0}}
                 <img src="{{images.0.src}}" alt="image">
@@ -9,7 +9,8 @@
             </div>
             <h4>{{name}}</h4>
             <h3>{{price}} JOD</h3>
-            <span class="button">add to cart</span>
+            <span onclick="addToCart(event)" class="button add_to_cart">add to cart</span>
+            
         </div>
         <div class="content_block">
             <div class="product_price_box">

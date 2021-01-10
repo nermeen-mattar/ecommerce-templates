@@ -88,7 +88,7 @@ function applyCategoryFilter(product) {
 }
 
 function renderUpdatedProducts(products) {
-    $.get('../resources/templates/template_products_cards.html', (template) => {
+    $.get('/template_products_cards.html', (template) => {
         $('.product_items_section ul').html(Mustache.render(template, {products, language: 'en'}));
     });
 }

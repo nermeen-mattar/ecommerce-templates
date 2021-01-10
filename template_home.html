@@ -76,8 +76,8 @@
 	        <div class="org_product_section">
 	            <div class="row">
                     {{#products}}
-	                <div class="col-md-4">
-                        <div class="org_product_block">
+	                <a class="col-md-4" href="{{productpermalink}}">
+                        <div class="org_product_block" id="{{id}}">
                             <div class="org_product_image">
                                 {{#images.0}}
                                 <img src="{{images.0.src}}" alt="image">
@@ -85,9 +85,9 @@
                             </div>
                             <h4>{{name}}</h4>
                             <h3>{{price}} JOD</h3>
-                            <span class="button">add to cart</span>
+                            <span class="button add_to_cart">add to cart</span>
                         </div>
-                    </div>
+                    </a>
                     {{/products}}
 	            </div>
 	            <div class="load_more_btn"><a href="/{{language}}/products.html" class="clv_btn">view more</a></div>
