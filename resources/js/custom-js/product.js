@@ -1,6 +1,6 @@
 import allProducts from '../../data/products.js';
 
-let selectedProduct;
+export let selectedProduct;
 const attributesToVariations = {}, selectedAttributes = [];
 
 $(document).ready(function () {
@@ -28,6 +28,7 @@ function isQuantityMoreThanZero() {
     if (quantityInputs.length) {
         quantityInputs.each(function () {
             const value = Number(this.value);
+            this.setAttribute('value',this.value);
         if (value && value > 0)  {
             hasQuantity = true;
             }
@@ -73,7 +74,7 @@ function displaySelectedVariation() {
     if(selectedVariation) {
         $('.single_variation_wrap').addClass('d-none');
         $(`.single_variation_wrap#${selectedVariation.id}`).removeClass('d-none');
-        if(selectedVariation.image?.src) {
+        if(selectedVariation.image && selectedVariation.image.src) {
             const imageIndex = getImageIndex(selectedVariation.image.src);
             document.querySelector('.swiper-container').swiper.slideTo(imageIndex);
         }
@@ -84,3 +85,9 @@ function getImageIndex(imageSrc) {
     return selectedProduct.images.findIndex(image => image.src === imageSrc);
 }
 
+export function getProductById(productId) {
+    return productId && allProducts.filter(product => product.id == productId)[0];
+}
+export function getVariationById(variationId) {
+    return selectedProduct.variations.filter(variation => variation.id == variationId)[0];
+}

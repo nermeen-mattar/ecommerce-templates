@@ -5634,6 +5634,7 @@ ul{
 	text-transform: capitalize;
 	display: inline-block;
 	transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;
+	cursor: pointer;
 }
 .org_product_block a:hover{
 	background-color: #F57F20;
@@ -7738,7 +7739,7 @@ ul{
 	margin-bottom: 0;
 	z-index: 1;
 }
-.product_items_section ul li .org_product_block .org_product_image > img{
+.org_product_block .org_product_image > img{
 	height:100%;
 	width: 100%;
 }
@@ -11474,4 +11475,11 @@ ul{
     color: #ffffff;
     position: relative;
     z-index: 1;
+}
+
+.alert {
+	position: fixed;
+    bottom: 10%;
+	left: calc(50% - 40px);
+	z-index: 3;
 }
