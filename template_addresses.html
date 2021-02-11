@@ -1,0 +1,8 @@
+<label class="font-weight-bold" for="addresses">Address</label>
+<select name="addresses" data-show_option_none="yes" class="mx-3">
+    {{#addresses}}
+    <option value="{{address_id}}" class="attached enabled">
+        {{address_line1}}
+    </option>
+    {{/addresses}}
+</select>

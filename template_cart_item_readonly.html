@@ -1,0 +1,32 @@
+<ul class="pr-2">
+    {{#cart.products}}
+    <li class="flex-wrap pb-2" data-index="{{index}}">
+        <div class="product_img"><img src="{{image}}" alt="image"></div>
+        <div class="cart_block">
+            <!-- class="product_quantity" -->
+            <h5>{{name}}</h5>
+            <div class="fd_pro_quantity">
+                <!-- item_quantity -->
+                <div class="quantity_wrapper">
+                    <div class="input-group border-0">
+                        <span>{{quantity}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product_price">
+            <h4>{{calculatedPrice}} JOD</h4>
+        </div>
+    </li>
+    {{/cart.products}}
+
+    <li>
+        <div class="total_amount">
+            <h4>total</h4>
+        </div>
+        <div class="product_price">
+            <h4>{{cart.total}} JOD</h4>
+        </div>
+    </li>
+</ul>
