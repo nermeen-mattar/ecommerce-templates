@@ -1,0 +1,58 @@
+<h3>your cart summery</h3>
+<h5>you have {{cart.products.length}} products in your cart</h5>
+<ul class="pr-2">
+    {{#cart.products}}
+    <li class="flex-wrap" data-index="{{index}}">
+        <div class="product_img"><img src="{{image}}" alt="image"></div>
+        <div class="cart_block">
+            <!-- class="product_quantity" -->
+            <h5>{{name}}</h5>
+            <div class="fd_pro_quantity">
+                <!-- item_quantity -->
+                <div class="quantity_wrapper">
+                    <div class="input-group">
+                        <span class="quantity_minus"> - </span>
+                        <input type="text" class="quantity" value="{{quantity}}">
+                        <span class="quantity_plus"> + </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex align-items-center bold ">
+            <label class="font-weight-bold" for="recurring">Recurring</label>
+            <div class="px-3 recurring">
+                <select name="recurring" data-show_option_none="yes">
+                    <option value="once">Once</option>
+                    <option value="1week" class="attached enabled">
+                        Every week
+                    </option>
+                    <option value="2week" class="attached enabled">
+                        Every two weeks
+                    </option>
+                    <option value="3week" class="attached enabled">
+                        Every three weeks
+                    </option>
+                    <option value="month" class="attached enabled">
+                        Every month
+                    </option>
+                </select>
+            </div>
+        </div>
+        <div class="product_price">
+            <h4>{{calculatedPrice}} JOD</h4>
+        </div>
+        <a href="javascript:;" class="text-danger delete_from_cart" style="position: absolute; right:16px"><span><i
+                    class="fa fa-close" aria-hidden="true"></i></span></a>
+    </li>
+    {{/cart.products}}
+
+    <li>
+        <div class="total_amount">
+            <h4>total</h4>
+        </div>
+        <div class="product_price">
+            <h4>{{cart.total}} JOD</h4>
+        </div>
+    </li>
+</ul>
