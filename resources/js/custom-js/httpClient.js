@@ -13,7 +13,7 @@ if(token) {
     $('#user-link').attr('href', '/profile.html');
 } else {
     const currentPageName = currentPageURL.substr(currentPageURL.lastIndexOf("/") + 1);
-    $('#user-link').attr('href', `https://lalbab.auth.eu-west-1.amazoncognito.com/login?client_id=13s5iapgmonglo62isgonl17tt&response_type=token&scope=openid&redirect_uri=https://lalbab.store//`); 
+    $('#user-link').attr('href', `https://lalbab.auth.eu-west-1.amazoncognito.com/login?client_id=13s5iapgmonglo62isgonl17tt&response_type=token&scope=openid&redirect_uri=https://lalbab.store/`); 
     // ${currentPageName} needs to be supported for cognito                    
 }
 
@@ -47,7 +47,7 @@ function httpPost(resource, body) {
 function httpDelete(resource, body) {
     return $.ajax({
         url: `${baseUrl}/${resource}`,
-        method: 'post',
+        method: 'delete',
         crossDomain: true,
         headers: {
         'Content-Type': 'application/json',

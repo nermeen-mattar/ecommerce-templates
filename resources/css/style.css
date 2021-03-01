@@ -819,7 +819,7 @@ ul{
 4. about start
  *******************************************************/
 .index_v1 .clv_about_wrapper{
-	background-image: url('https://via.placeholder.com/1920x1080');
+	background-image: url('../images/wasel_banners_illustration-01.png');
 	background-size: contain;
 }
 .clv_about_wrapper .about_img img{
@@ -980,7 +980,7 @@ ul{
 6. about farm start
 *******************************************************/
 .index_v1 .about_farm_wrapper{
-	background-image: url('https://via.placeholder.com/1920x1080');
+	background-image: url('../images/wasel_banners_illustration-01.png');
 	background-size: contain;
 }
 .about_farm_wrapper .about_content{
@@ -1243,7 +1243,7 @@ ul{
 9. shop start
 *******************************************************/
 .index_v1 .clv_shop_wrapper{
-	background-image: url('https://via.placeholder.com/1920x1080');
+	background-image: url('../images/wasel_banners_illustration-01.png');
 	background-size: contain;
 }
 .clv_shop_wrapper{
@@ -1570,7 +1570,7 @@ ul{
 *******************************************************/
 .clv_gallery_wrapper{
 	position: relative;
-	background: url('https://via.placeholder.com/1920x1080') no-repeat center;
+	background: url('../images/wasel_banners_illustration-01.png') no-repeat center;
 	background-size: cover;
 	padding-top: 90px;
 	padding-bottom: 85px;
@@ -1651,7 +1651,7 @@ ul{
 12. team start
 *******************************************************/
 .index_v1 .clv_team_wrapper{
-	background-image: url('https://via.placeholder.com/1920x1080');
+	background-image: url('../images/wasel_banners_illustration-01.png');
 	background-size: contain;
 }
 .clv_team_wrapper{
@@ -1897,7 +1897,7 @@ ul{
 	padding-top: 200px;
 	padding-bottom: 96px;
 	background-color: #1c232c;
-	background-image: url('https://via.placeholder.com/1920x1080	');
+	background-image: url('../images/wasel_banners_illustration-01.png	');
 	background-size: contain;
 }
 .clv_footer_wrapper img.foot_girl {
@@ -3244,7 +3244,7 @@ ul{
 /*Header End*/
 /*Banner Start*/
 .index_v3 .clv_banner_slider .clv_slide{
-	background: url('https://via.placeholder.com/1920x1080') no-repeat center;
+	background: url('../images/wasel_banners_illustration-01.png') no-repeat center;
 	background-size: cover;
 	padding: 312px 0px; 
 }
@@ -3252,7 +3252,7 @@ ul{
 	background-color: rgba(27, 27, 27, 0.8);
 }
 .index_v3 .clv_banner_slider .clv_slide.slide2{
-	background: url('https://via.placeholder.com/1920x1080') no-repeat center;
+	background: url('../images/wasel_banners_illustration-02.png') no-repeat center;
 	background-size: cover;
 }
 .index_v3 .clv_banner_slider .clv_slide .clv_slide_inner h1{
@@ -4086,7 +4086,7 @@ ul{
 /*Garden Header End*/
 /*Garden Banner Start*/
 .index_v4 .clv_banner_slider .clv_slide{
-	background: url('https://via.placeholder.com/1920x1080') no-repeat center;
+	background: url('../images/wasel_banners_illustration-01.png') no-repeat center;
     background-size: cover;
 	padding-bottom: 380px;
 }
@@ -4094,7 +4094,7 @@ ul{
 	background-color: rgba(0,0,0,0.7);
 }
 .index_v4 .clv_banner_slider .clv_slide.slide2{
-	background: url('https://via.placeholder.com/1920x1080') no-repeat center;
+	background: url('../images/wasel_banners_illustration-02.png') no-repeat center;
     background-size: cover;
 }
 .index_v4 .clv_btn:hover{
@@ -5323,11 +5323,15 @@ ul{
 /*Organic Header End*/
 /*Organic Banner Slider Start*/
 .index_v5 .clv_banner_slider .clv_slide{
-	background: url('https://via.placeholder.com/1920x1080') no-repeat center;
+	background: url('../images/wasel_banners_illustration-01.png') no-repeat center;
 	background-size: cover;
 }
 .index_v5 .clv_banner_slider .clv_slide.slide2{
-	background: url('https://via.placeholder.com/1920x1080') no-repeat center;
+	background: url('../images/wasel_banners_illustration-02.png') no-repeat center;
+	background-size: cover;
+}
+.index_v5 .clv_banner_slider .clv_slide.slide3{
+	background: url('../images/wasel_banners_illustration-03.png') no-repeat center;
 	background-size: cover;
 }
 .index_v5 .clv_banner_slider .clv_slide:before{
@@ -6079,12 +6083,12 @@ ul{
 /*Coffee Header End*/
 /*Coffee Banner Start*/
 .index_v6 .clv_banner_slider .clv_slide{
-	background: url('https://via.placeholder.com/1920x1080') no-repeat center;
+	background: url('../images/wasel_banners_illustration-01.png') no-repeat center;
 	background-size: cover;
 	padding: 236px 0px 96px;
 }
 .index_v6 .clv_banner_slider .clv_slide.slide2{
-	background: url('https://via.placeholder.com/1920x1080') no-repeat center;
+	background: url('../images/wasel_banners_illustration-02.png') no-repeat center;
 	background-size: cover;
 }
 .index_v6 .clv_banner_slider .clv_slide:before{
@@ -6143,7 +6147,7 @@ ul{
 /*Coffee Banner End*/
 /*Coffee About Start*/
 .index_v6 .coffee_about_wrapper {
-	background-image: url('https://via.placeholder.com/1920x1080');
+	background-image: url('../images/wasel_banners_illustration-01.png');
 	background-size: contain;
 }
 .coffee_about_image img{
@@ -6206,7 +6210,7 @@ ul{
 /*Coffee Counter End*/
 /*Coffee Service Start*/
 .index_v6 .coffee_service_wrapper {
-	background-image: url('https://via.placeholder.com/1920x1080');
+	background-image: url('../images/wasel_banners_illustration-01.png');
 	background-size: contain;
 }
 .coffee_service_content{
@@ -6375,7 +6379,7 @@ ul{
 /*Coffee Team End*/
 /*Coffee Testimonial Start*/
 .index_v6 .coffee_testimonial_wrapper{
-	background-image: url('https://via.placeholder.com/1920x1080');
+	background-image: url('../images/wasel_banners_illustration-01.png');
 	background-size: contain;
 }
 .coffee_testimonial_wrapper{
@@ -6521,7 +6525,7 @@ ul{
 /*Coffee Shop End*/
 /*Coffee Pricing Start*/
 .index_v6 .coffee_pricing_wrapper{
-	background-image: url('https://via.placeholder.com/1920x1080');
+	background-image: url('../images/wasel_banners_illustration-01.png');
 	background-size: contain;
 }
 .coffee_pricing_wrapper{
@@ -6717,7 +6721,7 @@ ul{
 .index_v6 .clv_footer_wrapper{
 	background: none;
 	padding-top: 100px;
-	background-image: url('https://via.placeholder.com/1920x1080');
+	background-image: url('../images/wasel_banners_illustration-01.png');
 	background-size: contain;
 }
 .support_main_wrapper{
