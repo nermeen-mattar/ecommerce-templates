@@ -1,49 +1,86 @@
-import { setCart } from "./cart.js";
 import {
+    setCart
+} from "./cart.js";
+import {
+    httpDelete,
     httpGet,
     httpPost,
     token
 } from "./httpClient.js";
+import { isPageName } from "./utilities.js";
 
-const cart = JSON.parse(localStorage.getItem('cart')) || {
+
+
+
+let cart = JSON.parse(localStorage.getItem('cart')) || {
     products: []
 };
 
+let addresses = [];
+
+
+window.addEventListener('checkout', submitOrder);
+
+const isCheckout = isPageName('checkout');
 
 function submitOrder() {
-    httpPost('order', {
+    if (orderId) {
+        httpDelete(`order/${orderId}`).then(res => {}).catch(err => {
+       // display error
+            // alert(JSON.stringify(err));
+        });
+    }
+    removeInvalidProducts();
+    httpPost('order', { 
         products: cart.products,
         address_id: $('[name="addresses"]').val()
     }).then(res => {
-        setCart({products: []});
-    }).catch(err => {
-        // display error
-        // alert(JSON.stringify(err));
+        setCart({
+            products: []
+        });
     });
 }
-window.addEventListener('checkout', submitOrder);
+
+function removeInvalidProducts () {
+    cart.products.forEach((product, index) => {
+        if(product.msg) {
+            delete cart.products[index]; 
+        }
+    })
+}
 
 $(document).ready(function () {
-    if (window.location.href.includes('checkout')) {
-        if (!token) $('#user-link')[0].click();
-        httpGet('address').done((response) => {
-            renderUpdatedProducts(response);
-            if (cart.products.length) {
-                calculatePrice();
-                httpPost('order/validate', cart).then(res => {
-                    cart.total = res.cart_total_price;
-                    res.products.map((product, index) => {
-                        cart.products[index].price = product.price;
-                        cart.products[index].calculatedPrice = product.calculatedPrice;
-                    });
-                    renderUpdatedProducts(response);
-                })
-            }
+    if (isCheckout) {
+        if (!token) {
+            document.cookie = `path=${window.location.href}`;
+            $('#user-link')[0].click();
+        }
+        httpGet('address').done((addressesResponse) => {
+            addresses = addressesResponse;
+            validateCart();
         });
     }
 });
 
-function renderUpdatedProducts(addresses) {
+function validateCart() {
+    if (cart.products.length) {
+        calculatePrice();
+        httpPost('order/validate', cart).then(res => {
+            cart.total = res.cart_total_price;
+            res.products.map((product, index) => {
+                if(product.msg) {
+                    cart.products[index].price = product.price;
+                    cart.products[index].calculatedPrice = product.calculatedPrice;
+                } else {
+                    cart.products[index].msg = product.msg; /* may change the way to not include it in cart variable */
+                }
+            });
+            renderUpdatedProducts();
+        })
+    }
+}
+
+function renderUpdatedProducts() {
     $.get('/template_cart_item.html', (template) => {
         $('.cart_summery_block.editable_items').html(Mustache.render(template, {
             cart,
@@ -57,7 +94,7 @@ function renderUpdatedProducts(addresses) {
         }));
     });
 
-    $.get('/template_cart_item_readonly.html', (template) => {
+    $.get('/template_cart_item.html', (template) => {
         $('.cart_summery_block.final_items').html(Mustache.render(template, {
             cart,
             language: 'en'
@@ -104,4 +141,13 @@ function subscribeToQuantityChange() {
         localStorage.setItem('cart', JSON.stringify(cart));
         renderUpdatedProducts();
     });
+    // $('.quantity_plus, .quantity_minus').click(function() {
+    //     const productIndex = $('.quantity_plus, .quantity_minus').index(this);
+    //     
+    //     setTimeout(()=> {
+    //         cart.products[productIndex].quantity = $('input.quantity').eq(productIndex).val();  
+    //         localStorage.setItem('cart', JSON.stringify(cart));
+    //         renderUpdatedProducts();
+    //     }, 10);
+    // });
 }

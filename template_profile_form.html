@@ -1,0 +1,70 @@
+<div class="row">
+	<form id="user_form" action="" id="form" class="col-12 row">
+		<div class="col-lg-6 col-md-6">
+			<div class="form_block">
+				<h6>Name</h6>
+				<input name="name" type="text" class="form_field" placeholder="Your name" value="{{name}}">
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6">
+			<div class="form_block">
+				<h6>Email</h6>
+				<input name="email" type="text" class="form_field" placeholder="Your email" value="{{email}}">
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6">
+			<div class="form_block">
+				<h6>Phone Number</h6>
+				<input name="phone_number" type="text" class="form_field" placeholder="Your number"
+					value="{{phone_number}}">
+			</div>
+		</div>
+
+		<div class="col-lg-6 col-md-6">
+			<label class="font-weight-bold" for="type">Type</label>
+			<select id="user-type" name="type" data-show_option_none="yes" class="mx-3" value="{{type}}"
+				data-attribute_name="type">
+				<option value="">
+					Choose
+				</option>
+				<option value="Business">
+					Business
+				</option>
+				<option value="Household">
+					Household
+				</option>
+			</select>
+		</div>
+
+		<div class="col-lg-6 col-md-6 Business-field">
+			<div class="form_block">
+				<h6>Account Manager</h6>
+				<input name="account_manager" type="text" class="form_field" placeholder="Account Manager"
+					value="{{account_manager}}">
+			</div>
+		</div>
+
+		<div class="col-lg-6 col-md-6 Household-field">
+			<div class="form_block">
+				<h6>Birth Date</h6>
+				<!-- <input type="date" id="birthday" name="dateOfBirth"> -->
+				<input name="date_of_birth" value="{{date_of_birth}}" class="form-control" type="date">
+
+			</div>
+		</div>
+	</form>
+
+	<div class="col-lg-12 col-md-12">
+		<div class="form_block">
+			<h6>addresses</h6>
+		</div>
+		<div class="container">
+			<form id="address_form" action="" id="form" class="">
+				<!-- {{template__address_formgroup}} -->
+			</form>
+		</div>
+	</div>
+	<div class="col-lg-12 col-md-12 justify-content-center d-flex">
+		<div class="save_btn"><a href="javascript:;" class="clv_btn">save</a></div>
+	</div>
+</div>

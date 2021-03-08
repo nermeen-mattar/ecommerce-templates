@@ -818,10 +818,7 @@ ul{
  /********************************************************
 4. about start
  *******************************************************/
-.index_v1 .clv_about_wrapper{
-	background-image: url('../images/wasel_banners_illustration-01.png');
-	background-size: contain;
-}
+
 .clv_about_wrapper .about_img img{
 	border-radius: 10px;
 }
@@ -1242,10 +1239,6 @@ ul{
 /********************************************************
 9. shop start
 *******************************************************/
-.index_v1 .clv_shop_wrapper{
-	background-image: url('../images/wasel_banners_illustration-01.png');
-	background-size: contain;
-}
 .clv_shop_wrapper{
 	padding-top: 90px;
 	padding-bottom: 70px;
@@ -1650,10 +1643,6 @@ ul{
 /********************************************************
 12. team start
 *******************************************************/
-.index_v1 .clv_team_wrapper{
-	background-image: url('../images/wasel_banners_illustration-01.png');
-	background-size: contain;
-}
 .clv_team_wrapper{
 	padding-top: 88px;
 }
@@ -3243,18 +3232,6 @@ ul{
 }
 /*Header End*/
 /*Banner Start*/
-.index_v3 .clv_banner_slider .clv_slide{
-	background: url('../images/wasel_banners_illustration-01.png') no-repeat center;
-	background-size: cover;
-	padding: 312px 0px; 
-}
-.index_v3 .clv_banner_slider .clv_slide:before{
-	background-color: rgba(27, 27, 27, 0.8);
-}
-.index_v3 .clv_banner_slider .clv_slide.slide2{
-	background: url('../images/wasel_banners_illustration-02.png') no-repeat center;
-	background-size: cover;
-}
 .index_v3 .clv_banner_slider .clv_slide .clv_slide_inner h1{
 	font-size: 72px;
 	max-width: 550px;
@@ -4085,18 +4062,6 @@ ul{
 }
 /*Garden Header End*/
 /*Garden Banner Start*/
-.index_v4 .clv_banner_slider .clv_slide{
-	background: url('../images/wasel_banners_illustration-01.png') no-repeat center;
-    background-size: cover;
-	padding-bottom: 380px;
-}
-.index_v4 .clv_banner_slider .clv_slide:before{
-	background-color: rgba(0,0,0,0.7);
-}
-.index_v4 .clv_banner_slider .clv_slide.slide2{
-	background: url('../images/wasel_banners_illustration-02.png') no-repeat center;
-    background-size: cover;
-}
 .index_v4 .clv_btn:hover{
 	color: #2a7d2e;
 }
@@ -5327,10 +5292,6 @@ ul{
 	background-size: cover;
 }
 .index_v5 .clv_banner_slider .clv_slide.slide2{
-	background: url('../images/wasel_banners_illustration-02.png') no-repeat center;
-	background-size: cover;
-}
-.index_v5 .clv_banner_slider .clv_slide.slide3{
 	background: url('../images/wasel_banners_illustration-03.png') no-repeat center;
 	background-size: cover;
 }
@@ -6082,15 +6043,6 @@ ul{
 }
 /*Coffee Header End*/
 /*Coffee Banner Start*/
-.index_v6 .clv_banner_slider .clv_slide{
-	background: url('../images/wasel_banners_illustration-01.png') no-repeat center;
-	background-size: cover;
-	padding: 236px 0px 96px;
-}
-.index_v6 .clv_banner_slider .clv_slide.slide2{
-	background: url('../images/wasel_banners_illustration-02.png') no-repeat center;
-	background-size: cover;
-}
 .index_v6 .clv_banner_slider .clv_slide:before{
 	background-color: rgba(60, 63, 72, 0.88);
 }
@@ -6868,7 +6820,6 @@ ul{
 /*Breadcrumb Start*/
 .breadcrumb_wrapper{
 	position: relative;
-	background: url('https://via.placeholder.com/1920x160') no-repeat center;
 	background-size: cover;
 	padding: 63px 0px 57px;
 	z-index: 1;
@@ -8533,16 +8484,16 @@ ul{
 .user_profile_section .checkout_heading > a > span{
 	margin-right: 5px;
 }
-.profile_form {
+#profile_form {
     padding: 0px 40px;
 }
-.profile_form .form_block h6{
+#profile_form .form_block h6{
 	font-size: 20px;
 	text-transform: capitalize;
 	color: #222222;
 	margin-bottom: 15px;
 }
-.profile_form .form_block{
+#profile_form .form_block{
 	margin-bottom: 25px;
 }
 .error_image{
@@ -11014,7 +10965,7 @@ ul{
 	.single_content_wrapper img{
 		margin-bottom: 10px;
 	}
-	.profile_form{
+	#profile_form{
 		padding: 0px 20px;
 	}
 	.product_items_section.product_list_view > ul > li > .product_item_block{
@@ -11511,6 +11462,10 @@ ul{
 	padding: 32px 20px 35px;
 }
 
+.ads_section img{
+	max-width: 100%;
+}
+
 #loading {
 	display: inline-block;
 	width: 18px;
@@ -11528,4 +11483,132 @@ ul{
   }
   @-webkit-keyframes spin {
 	to { -webkit-transform: rotate(360deg); }
+  }
+
+  
+.nice-select {
+	margin:0!important;
+}
+
+
+
+
+  
+  .history-page {
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+  }
+  
+  .history-page__title {
+	font-size: large;
+  }
+  
+  hr {
+	color: #b4b3b3;
+  }
+  
+  .search {
+	margin: auto;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	width: 75%;
+	border: 1px solid #000;
+	border-radius: 20px;
+	padding: 1px;
+	margin-bottom: 10px;
+  }
+  
+  .search__icon-background {
+	display: flex;
+	justify-content: center;
+	border: none;
+	margin: 0 5px;
+  }
+  
+  .search__icon {
+	color: #000;
+	font-size: 25px;
+  }
+  
+  .search__input-box {
+	font-size: 100%;
+	border: none;
+	width: 90%;
+  }
+  
+  input[type='search']::-webkit-search-decoration,
+  input[type='search']::-webkit-search-cancel-button,
+  input[type='search']::-webkit-search-results-button,
+  input[type='search']::-webkit-search-results-decoration {
+	-webkit-appearance: none;
+  }
+  
+  .search__input-box:focus {
+	outline: none;
+  }
+  
+  .purchase {
+	display: flex;
+  }
+  
+  .purchase__icon-background {
+	align-self: center;
+	margin: 10px;
+	border-radius: 35px;
+	display: flex;
+	background-color: #c0df85;
+  }
+  
+  .purchase__icon {
+	padding: 10px;
+	font-size: 50px;
+	color: #fff;
+  }
+  
+  .purchase__info {
+	margin: auto 0;
+  }
+  
+  .purchase__title,
+  .purchase__date {
+	margin: 0;
+  }
+  
+  .purchase__date {
+	padding: 3px 0 10px 0;
+	font-size: small;
+	color: #808080;
+  }
+  
+  .purchase__price {
+	align-self: center;
+	margin-left: auto;
+  }
+  
+  .purchase__details-btn {
+	background-color: #fff;
+	padding: 3px 10px;
+	border: solid 1px #000;
+	transition: ease-in-out 0.2s;
+  }
+  
+  .purchase__details-btn:hover {
+	background-color: #c0df85;
+	color: #fff;
+	cursor: pointer;
+	border: solid 1px #c0df85;
+  }
+  
+/* @media (min-width: 750px) {
+	.history-page {
+	  width: 750px;
+	}
+  } */
+  
+
+ 
+  .error + .cart_product {
+	opacity: 0.5;
   }

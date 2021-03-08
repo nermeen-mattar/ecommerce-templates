@@ -1,5 +1,6 @@
 
 import { getProductById, selectedProduct, getVariationById } from "./product.js";
+import { displaySuccess } from "./success_message.js";
 
 let cart;
 $(document).ready(function() {
@@ -43,15 +44,9 @@ function addToCart(e = {}) {
     }
     if(cart.products && cart.products.length) {
         setCart(cart);
-        displayAddToCartSuccess();
+        displaySuccess();
     }
     
-}
-
-function displayAddToCartSuccess() {
-    $('.alert').show().fadeTo(2000, 500).slideUp(500, function(){
-        $(".alert-success").slideUp(500);
-    });
 }
 
 function setProductsCountInCartIcon() {

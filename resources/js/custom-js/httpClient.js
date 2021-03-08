@@ -6,7 +6,8 @@ if(startIndex !== -1) {
     const endIndex = currentPageURL.indexOf('access_token');
     token = currentPageURL.substring(startIndex + tokenName.length + 1, endIndex - 1);
     localStorage.setItem('token', token);
-
+        const path = document.cookie.split("=");
+    if(path && path[1]) window.location.href = path[1];
 }
 
 if(token) {
@@ -44,6 +45,19 @@ function httpPost(resource, body) {
     })
 }
 
+function httpPut(resource, body) {
+    return $.ajax({
+        url: `${baseUrl}/${resource}`,
+        method: 'put',
+        crossDomain: true,
+        headers: {
+        'Content-Type': 'application/json',
+        'Authorization': token
+        },
+        data: JSON.stringify(body)
+    })
+}
+
 function httpDelete(resource, body) {
     return $.ajax({
         url: `${baseUrl}/${resource}`,
@@ -60,5 +74,6 @@ function httpDelete(resource, body) {
 export {
     httpGet,
     httpPost,
-    httpDelete
+    httpDelete,
+    httpPut
 }
