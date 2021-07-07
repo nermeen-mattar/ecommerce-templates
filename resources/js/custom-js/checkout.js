@@ -22,6 +22,8 @@ let addresses = [];
 window.addEventListener('checkout', submitOrder);
 
 const isCheckout = isPageName('checkout');
+const urlParams = new URLSearchParams(window.location.search);
+const orderId = urlParams.get('order-id');
 
 function submitOrder() {
     if (orderId) {
@@ -50,14 +52,25 @@ function removeInvalidProducts () {
 }
 
 $(document).ready(function () {
-    if (isCheckout) {
+    if (isCheckout || orderId) {
         if (!token) {
             document.cookie = `path=${window.location.href}`;
             $('#user-link')[0].click();
         }
         httpGet('address').done((addressesResponse) => {
             addresses = addressesResponse;
-            validateCart();
+            if (orderId) {
+                httpGet(`order/${orderId}`).then(orderData => {
+                    cart = orderData;
+                    // validateCart();
+                    renderUpdatedProducts();
+
+                }).catch(err => {
+                    // "parsererror"
+                });
+            } else {
+                validateCart();
+            }
         });
     }
 });
@@ -68,15 +81,18 @@ function validateCart() {
         httpPost('order/validate', cart).then(res => {
             cart.total = res.cart_total_price;
             res.products.map((product, index) => {
+                debugger;
                 if(product.msg) {
+                    cart.products[index].msg = product.msg; /* may change the way to not include it in cart variable */
+                } else {
                     cart.products[index].price = product.price;
                     cart.products[index].calculatedPrice = product.calculatedPrice;
-                } else {
-                    cart.products[index].msg = product.msg; /* may change the way to not include it in cart variable */
                 }
             });
             renderUpdatedProducts();
         })
+    } else {
+        renderUpdatedProducts();
     }
 }
 
@@ -94,7 +110,7 @@ function renderUpdatedProducts() {
         }));
     });
 
-    $.get('/template_cart_item.html', (template) => {
+    $.get('/template_cart_item_readonly.html', (template) => {
         $('.cart_summery_block.final_items').html(Mustache.render(template, {
             cart,
             language: 'en'

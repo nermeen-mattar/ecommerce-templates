@@ -2,12 +2,17 @@
 <h5>you have {{cart.products.length}} products in your cart</h5>
 <ul class="pr-2">
     {{#cart.products}}
-    <li class="flex-wrap" data-index="{{index}}">
+    {{#msg}}
+    <p class="error" style="color:red">{{msg}}</p>
+    {{/msg}}
+    <li class="flex-wrap cart_product" data-index="{{index}}">
         <div class="product_img"><img src="{{image}}" alt="image"></div>
         <div class="cart_block">
             <!-- class="product_quantity" -->
             <h5>{{name}}</h5>
             <div class="fd_pro_quantity">
+                {{^msg}}
+
                 <!-- item_quantity -->
                 <div class="quantity_wrapper">
                     <div class="input-group">
@@ -16,10 +21,13 @@
                         <span class="quantity_plus"> + </span>
                     </div>
                 </div>
+                {{/msg}}
             </div>
         </div>
 
         <div class="d-flex align-items-center bold ">
+            {{^msg}}
+
             <label class="font-weight-bold" for="recurring">Recurring</label>
             <div class="px-3 recurring">
                 <select name="recurring" data-show_option_none="yes">
@@ -38,10 +46,16 @@
                     </option>
                 </select>
             </div>
+            {{/msg}}
         </div>
+
         <div class="product_price">
+            {{^msg}}
             <h4>{{calculatedPrice}} JOD</h4>
+            {{/msg}}
+
         </div>
+
         <a href="javascript:;" class="text-danger delete_from_cart" style="position: absolute; right:16px"><span><i
                     class="fa fa-close" aria-hidden="true"></i></span></a>
     </li>

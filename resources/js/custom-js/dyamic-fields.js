@@ -43,6 +43,12 @@
     var addresssList;
     e.preventDefault();
     addresssList = $('#address_form');
+        // clone = examsList.children('.form-group:first').clone(true);
+    // clone.removeAttr('id');
+    // $(clone).removeClass('d-none');
+    // clone.find('input').val('').attr('id', function() {
+    //   return $(this).attr('id') + '_' + (examsList.children('.form-group').length + 1);
+    // });
     return addresssList.children('.add_address').before(addressGroup); // was append
   });
 }).call(this);

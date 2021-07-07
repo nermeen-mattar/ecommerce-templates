@@ -1,5 +1,6 @@
 <ul class="pr-2">
     {{#cart.products}}
+    {{^msg}}
     <li class="flex-wrap pb-2" data-index="{{index}}">
         <div class="product_img"><img src="{{image}}" alt="image"></div>
         <div class="cart_block">
@@ -19,6 +20,7 @@
             <h4>{{calculatedPrice}} JOD</h4>
         </div>
     </li>
+    {{/msg}}
     {{/cart.products}}
 
     <li>

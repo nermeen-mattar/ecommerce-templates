@@ -1,28 +1,500 @@
-export default [
-    {
-        "id": 76,
-        "name": "Hoodie",
-        "slug": "hoodie",
-        "permalink": "https://manage.lalbab.store/product/hoodie/",
-        "date_created": "2020-12-25T09:33:21",
-        "date_created_gmt": "2020-12-25T09:33:21",
-        "date_modified": "2020-12-26T21:50:37",
-        "date_modified_gmt": "2020-12-26T21:50:37",
-        "type": "variable",
+export default [{
+    "id": 184,
+    "name": "WordPress Pennant",
+    "slug": "wordpress-pennant",
+    "permalink": "https://manage.lalbab.store/product/wordpress-pennant/",
+    "date_created": "2021-01-01T17:48:53",
+    "date_created_gmt": "2021-01-01T17:48:53",
+    "date_modified": "2021-01-01T17:58:04",
+    "date_modified_gmt": "2021-01-01T17:58:04",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n",
+    "short_description": "<p>This is an external product.</p>\n",
+    "sku": "wp-pennant",
+    "price": "11.05",
+    "regular_price": "11.05",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>11.05</bdi></span>",
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 50,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "related_ids": [],
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [{
+        "id": 77,
+        "name": "Sanitization supplies",
+        "slug": "sanitization-supplies"
+    }],
+    "tags": [],
+    "images": [{
+        "id": 121,
+        "date_created": "2020-12-25T09:33:56",
+        "date_created_gmt": "2020-12-25T09:33:56",
+        "date_modified": "2020-12-25T09:33:56",
+        "date_modified_gmt": "2020-12-25T09:33:56",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/pennant-1.jpg",
+        "name": "pennant-1.jpg",
+        "alt": ""
+    }],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "meta_data": [{
+        "id": 2553,
+        "key": "_wpcom_is_markdown",
+        "value": "1"
+    }, {
+        "id": 2557,
+        "key": "_product_url",
+        "value": "https://mercantile.wordpress.org/product/wordpress-pennant/"
+    }, {
+        "id": 2558,
+        "key": "_button_text",
+        "value": "Buy on the WordPress swag store!"
+    }, {
+        "id": 2574,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2575,
+        "key": "rs_page_bg_color",
+        "value": ""
+    }],
+    "brizy_attachment_focal_point": "",
+    "_links": {
+        "self": [{
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/184"
+        }],
+        "collection": [{
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
+        }]
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/sanitization-supplies/wordpress-pennant_184.html",
+    "keypath": "en/products/sanitization-supplies/wordpress-pennant_184.html",
+    "language": "en",
+    "page_name": "WordPress Pennant"
+}, {
+    "id": 183,
+    "name": "Logo Collection",
+    "slug": "logo-collection",
+    "permalink": "https://manage.lalbab.store/product/logo-collection/",
+    "date_created": "2021-01-01T17:48:52",
+    "date_created_gmt": "2021-01-01T17:48:52",
+    "date_modified": "2021-01-01T17:49:00",
+    "date_modified_gmt": "2021-01-01T17:49:00",
+    "type": "grouped",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n",
+    "short_description": "<p>This is a grouped product.</p>\n",
+    "sku": "logo-collection",
+    "price": "18",
+    "regular_price": "",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>18.00</bdi></span> &ndash; <span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>45.00</bdi></span>",
+    "on_sale": true,
+    "purchasable": false,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "related_ids": [],
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [{
+        "id": 67,
+        "name": "Cleaning supplies",
+        "slug": "cleaning-supplies"
+    }],
+    "tags": [],
+    "images": [{
+        "id": 120,
+        "date_created": "2020-12-25T09:33:54",
+        "date_created_gmt": "2020-12-25T09:33:54",
+        "date_modified": "2020-12-25T09:33:54",
+        "date_modified_gmt": "2020-12-25T09:33:54",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/logo-1.jpg",
+        "name": "logo-1.jpg",
+        "alt": ""
+    }, {
+        "id": 119,
+        "date_created": "2020-12-25T09:33:53",
+        "date_created_gmt": "2020-12-25T09:33:53",
+        "date_modified": "2020-12-25T09:33:53",
+        "date_modified_gmt": "2020-12-25T09:33:53",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/beanie-with-logo-1.jpg",
+        "name": "beanie-with-logo-1.jpg",
+        "alt": ""
+    }, {
+        "id": 118,
+        "date_created": "2020-12-25T09:33:52",
+        "date_created_gmt": "2020-12-25T09:33:52",
+        "date_modified": "2020-12-25T09:33:52",
+        "date_modified_gmt": "2020-12-25T09:33:52",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/t-shirt-with-logo-1.jpg",
+        "name": "t-shirt-with-logo-1.jpg",
+        "alt": ""
+    }, {
+        "id": 106,
+        "date_created": "2020-12-25T09:33:33",
+        "date_created_gmt": "2020-12-25T09:33:33",
+        "date_modified": "2020-12-25T09:33:33",
+        "date_modified_gmt": "2020-12-25T09:33:33",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-with-logo-2.jpg",
+        "name": "hoodie-with-logo-2.jpg",
+        "alt": ""
+    }],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [{
+        "id": 163,
+        "name": "Hoodie with Logo",
+        "slug": "hoodie-with-logo",
+        "permalink": "https://manage.lalbab.store/product/hoodie-with-logo/",
+        "date_created": "2021-01-01T17:48:48",
+        "date_created_gmt": "2021-01-01T17:48:48",
+        "date_modified": "2021-01-01T18:10:02",
+        "date_modified_gmt": "2021-01-01T18:10:02",
+        "type": "simple",
         "status": "publish",
         "featured": false,
         "catalog_visibility": "visible",
         "description": "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n",
-        "short_description": "<p>This is a variable product.</p>\n",
-        "sku": "woo-hoodie",
-        "price": "42",
-        "regular_price": "",
+        "short_description": "<p>This is a simple product.</p>\n",
+        "sku": "woo-hoodie-with-logo",
+        "price": "45",
+        "regular_price": "45",
         "sale_price": "",
         "date_on_sale_from": null,
         "date_on_sale_from_gmt": null,
         "date_on_sale_to": null,
         "date_on_sale_to_gmt": null,
-        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>42.00</bdi></span> &ndash; <span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>45.00</bdi></span>",
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>45.00</bdi></span>",
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "related_ids": [],
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [{
+            "id": 67,
+            "name": "Cleaning supplies",
+            "slug": "cleaning-supplies"
+        }],
+        "tags": [],
+        "images": [{
+            "id": 106,
+            "date_created": "2020-12-25T09:33:33",
+            "date_created_gmt": "2020-12-25T09:33:33",
+            "date_modified": "2020-12-25T09:33:33",
+            "date_modified_gmt": "2020-12-25T09:33:33",
+            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-with-logo-2.jpg",
+            "name": "hoodie-with-logo-2.jpg",
+            "alt": ""
+        }],
+        "attributes": [{
+            "id": 1,
+            "name": "Color",
+            "position": 0,
+            "visible": true,
+            "variation": false,
+            "options": ["Blue"]
+        }],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "meta_data": [{
+            "id": 2410,
+            "key": "_wpcom_is_markdown",
+            "value": "1"
+        }, {
+            "id": 2647,
+            "key": "slide_template",
+            "value": ""
+        }, {
+            "id": 2648,
+            "key": "rs_page_bg_color",
+            "value": ""
+        }, {
+            "id": 2649,
+            "key": "brizy_attachment_focal_point",
+            "value": {
+                "x": 50,
+                "y": 50
+            }
+        }],
+        "brizy_attachment_focal_point": {
+            "x": 50,
+            "y": 50
+        },
+        "_links": {
+            "self": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/163"
+            }],
+            "collection": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
+            }]
+        },
+        "productpermalink": "https://www.lalbab.store/en/products/cleaning-supplies/hoodie-with-logo_163.html",
+        "keypath": "en/products/cleaning-supplies/hoodie-with-logo_163.html",
+        "language": "en",
+        "page_name": "Hoodie with Logo"
+    }, {
+        "id": 164,
+        "name": "T-Shirt",
+        "slug": "t-shirt",
+        "permalink": "https://manage.lalbab.store/product/t-shirt/",
+        "date_created": "2021-01-01T17:48:49",
+        "date_created_gmt": "2021-01-01T17:48:49",
+        "date_modified": "2021-01-01T18:09:55",
+        "date_modified_gmt": "2021-01-01T18:09:55",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n",
+        "short_description": "<p>This is a simple product.</p>\n",
+        "sku": "woo-tshirt",
+        "price": "18",
+        "regular_price": "18",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>18.00</bdi></span>",
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "related_ids": [],
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [{
+            "id": 79,
+            "name": "Food &amp; beverage",
+            "slug": "food-beverage"
+        }],
+        "tags": [],
+        "images": [{
+            "id": 107,
+            "date_created": "2020-12-25T09:33:34",
+            "date_created_gmt": "2020-12-25T09:33:34",
+            "date_modified": "2020-12-25T09:33:34",
+            "date_modified_gmt": "2020-12-25T09:33:34",
+            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/tshirt-2.jpg",
+            "name": "tshirt-2.jpg",
+            "alt": ""
+        }],
+        "attributes": [{
+            "id": 1,
+            "name": "Color",
+            "position": 0,
+            "visible": true,
+            "variation": false,
+            "options": ["Gray"]
+        }],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "meta_data": [{
+            "id": 2416,
+            "key": "_wpcom_is_markdown",
+            "value": "1"
+        }, {
+            "id": 2643,
+            "key": "slide_template",
+            "value": ""
+        }, {
+            "id": 2644,
+            "key": "rs_page_bg_color",
+            "value": ""
+        }, {
+            "id": 2645,
+            "key": "brizy_attachment_focal_point",
+            "value": {
+                "x": 50,
+                "y": 50
+            }
+        }],
+        "brizy_attachment_focal_point": {
+            "x": 50,
+            "y": 50
+        },
+        "_links": {
+            "self": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/164"
+            }],
+            "collection": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
+            }]
+        },
+        "productpermalink": "https://www.lalbab.store/en/products/food-beverage/t-shirt_164.html",
+        "keypath": "en/products/food-beverage/t-shirt_164.html",
+        "language": "en",
+        "page_name": "T-Shirt"
+    }, {
+        "id": 165,
+        "name": "Beanie",
+        "slug": "beanie",
+        "permalink": "https://manage.lalbab.store/product/beanie/",
+        "date_created": "2021-01-01T17:48:49",
+        "date_created_gmt": "2021-01-01T17:48:49",
+        "date_modified": "2021-01-01T18:09:48",
+        "date_modified_gmt": "2021-01-01T18:09:48",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n",
+        "short_description": "<p>This is a simple product.</p>\n",
+        "sku": "woo-beanie",
+        "price": "18",
+        "regular_price": "20",
+        "sale_price": "18",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "price_html": "<del><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>20.00</bdi></span></del> <ins><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>18.00</bdi></span></ins>",
         "on_sale": true,
         "purchasable": true,
         "total_sales": 0,
@@ -55,52 +527,25 @@ export default [
         "reviews_allowed": true,
         "average_rating": "0.00",
         "rating_count": 0,
-        "related_ids": [77, 84],
+        "related_ids": [],
         "upsell_ids": [],
         "cross_sell_ids": [],
         "parent_id": 0,
         "purchase_note": "",
         "categories": [{
-            "id": 37,
-            "name": "Hoodies",
-            "slug": "hoodies"
+            "id": 79,
+            "name": "Food &amp; beverage",
+            "slug": "food-beverage"
         }],
         "tags": [],
         "images": [{
-            "id": 103,
-            "date_created": "2020-12-25T09:33:30",
-            "date_created_gmt": "2020-12-25T09:33:30",
-            "date_modified": "2020-12-25T09:33:30",
-            "date_modified_gmt": "2020-12-25T09:33:30",
-            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-2.jpg",
-            "name": "hoodie-2.jpg",
-            "alt": ""
-        }, {
-            "id": 104,
-            "date_created": "2020-12-25T09:33:31",
-            "date_created_gmt": "2020-12-25T09:33:31",
-            "date_modified": "2020-12-25T09:33:31",
-            "date_modified_gmt": "2020-12-25T09:33:31",
-            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-blue-1.jpg",
-            "name": "hoodie-blue-1.jpg",
-            "alt": ""
-        }, {
-            "id": 105,
-            "date_created": "2020-12-25T09:33:32",
-            "date_created_gmt": "2020-12-25T09:33:32",
-            "date_modified": "2020-12-25T09:33:32",
-            "date_modified_gmt": "2020-12-25T09:33:32",
-            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-green-1.jpg",
-            "name": "hoodie-green-1.jpg",
-            "alt": ""
-        }, {
-            "id": 106,
-            "date_created": "2020-12-25T09:33:33",
-            "date_created_gmt": "2020-12-25T09:33:33",
-            "date_modified": "2020-12-25T09:33:33",
-            "date_modified_gmt": "2020-12-25T09:33:33",
-            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-with-logo-2.jpg",
-            "name": "hoodie-with-logo-2.jpg",
+            "id": 108,
+            "date_created": "2020-12-25T09:33:36",
+            "date_created_gmt": "2020-12-25T09:33:36",
+            "date_modified": "2020-12-25T09:33:36",
+            "date_modified_gmt": "2020-12-25T09:33:36",
+            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/beanie-2.jpg",
+            "name": "beanie-2.jpg",
             "alt": ""
         }],
         "attributes": [{
@@ -108,666 +553,78 @@ export default [
             "name": "Color",
             "position": 0,
             "visible": true,
-            "variation": true,
-            "options": ["Blue", "Green", "Red"]
-        }, {
-            "id": 0,
-            "name": "Logo",
-            "position": 1,
-            "visible": true,
-            "variation": true,
-            "options": ["Yes", "No"]
-        }, {
-            "id": 0,
-            "name": "xyz",
-            "position": 2,
-            "visible": true,
             "variation": false,
-            "options": ["test"]
+            "options": ["Red"]
         }],
         "default_attributes": [],
-        "variations": [{
-            "id": 99,
-            "date_created": "2020-12-25T09:33:25",
-            "date_created_gmt": "2020-12-25T09:33:25",
-            "date_modified": "2020-12-25T09:33:57",
-            "date_modified_gmt": "2020-12-25T09:33:57",
-            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis augue, vel porttitor diam enim non metus. Vestibulum aliquam augue neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras placerat ut turpis pellentesque vulputate. Nam sed consequat tortor. Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar dignissim. Nam non arcu purus. Vivamus et massa massa.</p>\n",
-            "permalink": "https://manage.lalbab.store/product/hoodie/?attribute_pa_color=blue&attribute_logo=Yes",
-            "sku": "woo-hoodie-blue-logo",
-            "price": "45",
-            "regular_price": "45",
-            "sale_price": "",
-            "date_on_sale_from": null,
-            "date_on_sale_from_gmt": null,
-            "date_on_sale_to": null,
-            "date_on_sale_to_gmt": null,
-            "on_sale": false,
-            "status": "publish",
-            "purchasable": true,
-            "virtual": false,
-            "downloadable": false,
-            "downloads": [],
-            "download_limit": 0,
-            "download_expiry": 0,
-            "tax_status": "taxable",
-            "tax_class": "",
-            "manage_stock": false,
-            "stock_quantity": null,
-            "stock_status": "instock",
-            "backorders": "no",
-            "backorders_allowed": false,
-            "backordered": false,
-            "weight": "",
-            "dimensions": {
-                "length": "",
-                "width": "",
-                "height": ""
-            },
-            "shipping_class": "",
-            "shipping_class_id": 0,
-            "image": {
-                "id": 106,
-                "date_created": "2020-12-25T09:33:33",
-                "date_created_gmt": "2020-12-25T09:33:33",
-                "date_modified": "2020-12-25T09:33:33",
-                "date_modified_gmt": "2020-12-25T09:33:33",
-                "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-with-logo-2.jpg",
-                "name": "hoodie-with-logo-2.jpg",
-                "alt": ""
-            },
-            "attributes": [{
-                "id": 1,
-                "name": "Color",
-                "option": "Blue"
-            }, {
-                "id": 0,
-                "name": "Logo",
-                "option": "Yes"
-            }],
-            "menu_order": 0,
-            "meta_data": [{
-                "id": 1025,
-                "key": "_wpcom_is_markdown",
-                "value": ""
-            }],
-            "_links": {
-                "self": [{
-                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations/99"
-                }],
-                "collection": [{
-                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations"
-                }],
-                "up": [{
-                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76"
-                }]
-            }
-        }, {
-            "id": 94,
-            "date_created": "2020-12-25T09:33:24",
-            "date_created_gmt": "2020-12-25T09:33:24",
-            "date_modified": "2020-12-25T09:33:51",
-            "date_modified_gmt": "2020-12-25T09:33:51",
-            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis augue, vel porttitor diam enim non metus. Vestibulum aliquam augue neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras placerat ut turpis pellentesque vulputate. Nam sed consequat tortor. Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar dignissim. Nam non arcu purus. Vivamus et massa massa.</p>\n",
-            "permalink": "https://manage.lalbab.store/product/hoodie/?attribute_pa_color=blue&attribute_logo=No",
-            "sku": "woo-hoodie-blue",
-            "price": "45",
-            "regular_price": "45",
-            "sale_price": "",
-            "date_on_sale_from": null,
-            "date_on_sale_from_gmt": null,
-            "date_on_sale_to": null,
-            "date_on_sale_to_gmt": null,
-            "on_sale": false,
-            "status": "publish",
-            "purchasable": true,
-            "virtual": false,
-            "downloadable": false,
-            "downloads": [],
-            "download_limit": 0,
-            "download_expiry": 0,
-            "tax_status": "taxable",
-            "tax_class": "",
-            "manage_stock": false,
-            "stock_quantity": null,
-            "stock_status": "instock",
-            "backorders": "no",
-            "backorders_allowed": false,
-            "backordered": false,
-            "weight": "",
-            "dimensions": {
-                "length": "",
-                "width": "",
-                "height": ""
-            },
-            "shipping_class": "",
-            "shipping_class_id": 0,
-            "image": {
-                "id": 104,
-                "date_created": "2020-12-25T09:33:31",
-                "date_created_gmt": "2020-12-25T09:33:31",
-                "date_modified": "2020-12-25T09:33:31",
-                "date_modified_gmt": "2020-12-25T09:33:31",
-                "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-blue-1.jpg",
-                "name": "hoodie-blue-1.jpg",
-                "alt": ""
-            },
-            "attributes": [{
-                "id": 1,
-                "name": "Color",
-                "option": "Blue"
-            }, {
-                "id": 0,
-                "name": "Logo",
-                "option": "No"
-            }],
-            "menu_order": 3,
-            "meta_data": [{
-                "id": 978,
-                "key": "_wpcom_is_markdown",
-                "value": ""
-            }],
-            "_links": {
-                "self": [{
-                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations/94"
-                }],
-                "collection": [{
-                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations"
-                }],
-                "up": [{
-                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76"
-                }]
-            }
-        }, {
-            "id": 93,
-            "date_created": "2020-12-25T09:33:24",
-            "date_created_gmt": "2020-12-25T09:33:24",
-            "date_modified": "2020-12-25T09:33:51",
-            "date_modified_gmt": "2020-12-25T09:33:51",
-            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis augue, vel porttitor diam enim non metus. Vestibulum aliquam augue neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras placerat ut turpis pellentesque vulputate. Nam sed consequat tortor. Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar dignissim. Nam non arcu purus. Vivamus et massa massa.</p>\n",
-            "permalink": "https://manage.lalbab.store/product/hoodie/?attribute_pa_color=green&attribute_logo=No",
-            "sku": "woo-hoodie-green",
-            "price": "45",
-            "regular_price": "45",
-            "sale_price": "",
-            "date_on_sale_from": null,
-            "date_on_sale_from_gmt": null,
-            "date_on_sale_to": null,
-            "date_on_sale_to_gmt": null,
-            "on_sale": false,
-            "status": "publish",
-            "purchasable": true,
-            "virtual": false,
-            "downloadable": false,
-            "downloads": [],
-            "download_limit": 0,
-            "download_expiry": 0,
-            "tax_status": "taxable",
-            "tax_class": "",
-            "manage_stock": false,
-            "stock_quantity": null,
-            "stock_status": "instock",
-            "backorders": "no",
-            "backorders_allowed": false,
-            "backordered": false,
-            "weight": "",
-            "dimensions": {
-                "length": "",
-                "width": "",
-                "height": ""
-            },
-            "shipping_class": "",
-            "shipping_class_id": 0,
-            "image": {
-                "id": 105,
-                "date_created": "2020-12-25T09:33:32",
-                "date_created_gmt": "2020-12-25T09:33:32",
-                "date_modified": "2020-12-25T09:33:32",
-                "date_modified_gmt": "2020-12-25T09:33:32",
-                "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-green-1.jpg",
-                "name": "hoodie-green-1.jpg",
-                "alt": ""
-            },
-            "attributes": [{
-                "id": 1,
-                "name": "Color",
-                "option": "Green"
-            }, {
-                "id": 0,
-                "name": "Logo",
-                "option": "No"
-            }],
-            "menu_order": 2,
-            "meta_data": [{
-                "id": 970,
-                "key": "_wpcom_is_markdown",
-                "value": ""
-            }],
-            "_links": {
-                "self": [{
-                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations/93"
-                }],
-                "collection": [{
-                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations"
-                }],
-                "up": [{
-                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76"
-                }]
-            }
-        }, {
-            "id": 92,
-            "date_created": "2020-12-25T09:33:24",
-            "date_created_gmt": "2020-12-25T09:33:24",
-            "date_modified": "2020-12-25T09:33:51",
-            "date_modified_gmt": "2020-12-25T09:33:51",
-            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis augue, vel porttitor diam enim non metus. Vestibulum aliquam augue neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras placerat ut turpis pellentesque vulputate. Nam sed consequat tortor. Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar dignissim. Nam non arcu purus. Vivamus et massa massa.</p>\n",
-            "permalink": "https://manage.lalbab.store/product/hoodie/?attribute_pa_color=red&attribute_logo=No",
-            "sku": "woo-hoodie-red",
-            "price": "42",
-            "regular_price": "45",
-            "sale_price": "42",
-            "date_on_sale_from": null,
-            "date_on_sale_from_gmt": null,
-            "date_on_sale_to": null,
-            "date_on_sale_to_gmt": null,
-            "on_sale": true,
-            "status": "publish",
-            "purchasable": true,
-            "virtual": false,
-            "downloadable": false,
-            "downloads": [],
-            "download_limit": 0,
-            "download_expiry": 0,
-            "tax_status": "taxable",
-            "tax_class": "",
-            "manage_stock": false,
-            "stock_quantity": null,
-            "stock_status": "instock",
-            "backorders": "no",
-            "backorders_allowed": false,
-            "backordered": false,
-            "weight": "",
-            "dimensions": {
-                "length": "",
-                "width": "",
-                "height": ""
-            },
-            "shipping_class": "",
-            "shipping_class_id": 0,
-            "image": {
-                "id": 103,
-                "date_created": "2020-12-25T09:33:30",
-                "date_created_gmt": "2020-12-25T09:33:30",
-                "date_modified": "2020-12-25T09:33:30",
-                "date_modified_gmt": "2020-12-25T09:33:30",
-                "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-2.jpg",
-                "name": "hoodie-2.jpg",
-                "alt": ""
-            },
-            "attributes": [{
-                "id": 1,
-                "name": "Color",
-                "option": "Red"
-            }, {
-                "id": 0,
-                "name": "Logo",
-                "option": "No"
-            }],
-            "menu_order": 1,
-            "meta_data": [{
-                "id": 961,
-                "key": "_wpcom_is_markdown",
-                "value": ""
-            }],
-            "_links": {
-                "self": [{
-                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations/92"
-                }],
-                "collection": [{
-                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76/variations"
-                }],
-                "up": [{
-                    "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76"
-                }]
-            }
-        }],
+        "variations": [],
         "grouped_products": [],
         "menu_order": 0,
         "meta_data": [{
-            "id": 825,
+            "id": 2422,
             "key": "_wpcom_is_markdown",
             "value": "1"
+        }, {
+            "id": 2639,
+            "key": "slide_template",
+            "value": ""
+        }, {
+            "id": 2640,
+            "key": "rs_page_bg_color",
+            "value": ""
+        }, {
+            "id": 2641,
+            "key": "brizy_attachment_focal_point",
+            "value": {
+                "x": 50,
+                "y": 50
+            }
         }],
-        "brizy_attachment_focal_point": "",
+        "brizy_attachment_focal_point": {
+            "x": 50,
+            "y": 50
+        },
         "_links": {
             "self": [{
-                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76"
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/165"
             }],
             "collection": [{
                 "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
             }]
         },
-        "productpermalink": "https://www.lalbab.store/en/hoodies/hoodie.html",
-        "keypath": "en/hoodies/hoodie.html",
-        "page_name": "Hoodie"
-    },
-    
-    {
-    "id": 122,
-    "name": "asadasds",
-    "slug": "",
-    "permalink": "https://manage.lalbab.store/ar/?post_type=product&p=122",
-    "date_created": null,
-    "date_created_gmt": null,
-    "date_modified": "2020-12-25T19:53:05",
-    "date_modified_gmt": "2020-12-25T19:53:05",
-    "type": "simple",
-    "status": "draft",
-    "featured": false,
-    "catalog_visibility": "visible",
-    "description": "<p>as</p>\n",
-    "short_description": "",
-    "sku": "",
-    "price": "10",
-    "regular_price": "20",
-    "sale_price": "",
-    "date_on_sale_from": null,
-    "date_on_sale_from_gmt": null,
-    "date_on_sale_to": null,
-    "date_on_sale_to_gmt": null,
-    "price_html": "",
-    "on_sale": false,
-    "purchasable": false,
-    "total_sales": 0,
-    "virtual": false,
-    "downloadable": false,
-    "downloads": [],
-    "download_limit": -1,
-    "download_expiry": -1,
-    "external_url": "",
-    "button_text": "",
-    "tax_status": "taxable",
-    "tax_class": "",
-    "manage_stock": false,
-    "stock_quantity": 20,
-    "stock_status": "instock",
-    "backorders": "no",
-    "backorders_allowed": false,
-    "backordered": false,
-    "sold_individually": false,
-    "weight": "",
-    "dimensions": {
-        "length": "",
-        "width": "",
-        "height": ""
-    },
-    "shipping_required": true,
-    "shipping_taxable": true,
-    "shipping_class": "",
-    "shipping_class_id": 0,
-    "reviews_allowed": true,
-    "average_rating": "0.00",
-    "rating_count": 0,
-    "related_ids": [],
-    "upsell_ids": [],
-    "cross_sell_ids": [],
-    "parent_id": 0,
-    "purchase_note": "",
-    "categories": [],
-    "tags": [],
-    "images": [{
-        "id": 117,
-        "date_created": "2020-12-25T09:33:49",
-        "date_created_gmt": "2020-12-25T09:33:49",
-        "date_modified": "2020-12-25T09:33:49",
-        "date_modified_gmt": "2020-12-25T09:33:49",
-        "src": "https://www.gtai.de/resource/image/66268/16x9/1024/576/567e955915a417d3b80f811db467b520/vV/food-and-beverage-industry.jpg",
-        "name": "single-1.jpg",
-        "alt": ""
+        "productpermalink": "https://www.lalbab.store/en/products/food-beverage/beanie_165.html",
+        "keypath": "en/products/food-beverage/beanie_165.html",
+        "language": "en",
+        "page_name": "Beanie"
     }],
-    "attributes": [],
-    "default_attributes": [],
-    "variations": [],
-    "grouped_products": [],
-    "menu_order": 0,
-    "meta_data": [],
-    "brizy_attachment_focal_point": "",
-    "_links": {
-        "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/122"
-        }],
-        "collection": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
-        }]
-    }
-}, {
-    "id": 98,
-    "name": "WordPress Pennant",
-    "slug": "wordpress-pennant",
-    "permalink": "https://manage.lalbab.store/product/wordpress-pennant/",
-    "date_created": "2020-12-25T09:33:25",
-    "date_created_gmt": "2020-12-25T09:33:25",
-    "date_modified": "2020-12-25T09:33:56",
-    "date_modified_gmt": "2020-12-25T09:33:56",
-    "type": "external",
-    "status": "publish",
-    "featured": false,
-    "catalog_visibility": "visible",
-    "description": "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n",
-    "short_description": "<p>This is an external product.</p>\n",
-    "sku": "wp-pennant",
-    "price": "11.05",
-    "regular_price": "13",
-    "sale_price": "",
-    "date_on_sale_from": null,
-    "date_on_sale_from_gmt": null,
-    "date_on_sale_to": null,
-    "date_on_sale_to_gmt": null,
-    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>11.05</bdi></span>",
-    "on_sale": false,
-    "purchasable": false,
-    "total_sales": 0,
-    "virtual": false,
-    "downloadable": false,
-    "downloads": [],
-    "download_limit": 0,
-    "download_expiry": 0,
-    "external_url": "https://mercantile.wordpress.org/product/wordpress-pennant/",
-    "button_text": "Buy on the WordPress swag store!",
-    "tax_status": "taxable",
-    "tax_class": "",
-    "manage_stock": false,
-    "stock_quantity": 20,
-    "stock_status": "instock",
-    "backorders": "no",
-    "backorders_allowed": false,
-    "backordered": false,
-    "sold_individually": false,
-    "weight": "",
-    "dimensions": {
-        "length": "",
-        "width": "",
-        "height": ""
-    },
-    "shipping_required": true,
-    "shipping_taxable": true,
-    "shipping_class": "",
-    "shipping_class_id": 0,
-    "reviews_allowed": true,
-    "average_rating": "0.00",
-    "rating_count": 0,
-    "related_ids": [],
-    "upsell_ids": [],
-    "cross_sell_ids": [],
-    "parent_id": 0,
-    "purchase_note": "",
-    "categories": [{
-        "id": 43,
-        "name": "Decor",
-        "slug": "decor"
-    }],
-    "tags": [],
-    "images": [{
-        "id": 121,
-        "date_created": "2020-12-25T09:33:56",
-        "date_created_gmt": "2020-12-25T09:33:56",
-        "date_modified": "2020-12-25T09:33:56",
-        "date_modified_gmt": "2020-12-25T09:33:56",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
-        "name": "pennant-1.jpg",
-        "alt": ""
-    }],
-    "attributes": [],
-    "default_attributes": [],
-    "variations": [],
-    "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 1018,
+        "id": 2546,
         "key": "_wpcom_is_markdown",
         "value": "1"
     }],
     "brizy_attachment_focal_point": "",
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/98"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/183"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
-}, {
-    "id": 97,
-    "name": "Logo Collection",
-    "slug": "logo-collection",
-    "permalink": "https://manage.lalbab.store/product/logo-collection/",
-    "date_created": "2020-12-25T09:33:25",
-    "date_created_gmt": "2020-12-25T09:33:25",
-    "date_modified": "2020-12-25T09:33:55",
-    "date_modified_gmt": "2020-12-25T09:33:55",
-    "type": "grouped",
-    "status": "publish",
-    "featured": false,
-    "catalog_visibility": "visible",
-    "description": "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n",
-    "short_description": "<p>This is a grouped product.</p>\n",
-    "sku": "logo-collection",
-    "price": "18",
-    "regular_price": "",
-    "sale_price": "",
-    "date_on_sale_from": null,
-    "date_on_sale_from_gmt": null,
-    "date_on_sale_to": null,
-    "date_on_sale_to_gmt": null,
-    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>18.00</bdi></span> &ndash; <span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>45.00</bdi></span>",
-    "on_sale": true,
-    "purchasable": false,
-    "total_sales": 0,
-    "virtual": false,
-    "downloadable": false,
-    "downloads": [],
-    "download_limit": 0,
-    "download_expiry": 0,
-    "external_url": "",
-    "button_text": "",
-    "tax_status": "taxable",
-    "tax_class": "",
-    "manage_stock": false,
-    "stock_quantity": 20,
-    "stock_status": "instock",
-    "backorders": "no",
-    "backorders_allowed": false,
-    "backordered": false,
-    "sold_individually": false,
-    "weight": "",
-    "dimensions": {
-        "length": "",
-        "width": "",
-        "height": ""
     },
-    "shipping_required": true,
-    "shipping_taxable": true,
-    "shipping_class": "",
-    "shipping_class_id": 0,
-    "reviews_allowed": true,
-    "average_rating": "0.00",
-    "rating_count": 0,
-    "related_ids": [],
-    "upsell_ids": [],
-    "cross_sell_ids": [],
-    "parent_id": 0,
-    "purchase_note": "",
-    "categories": [{
-        "id": 33,
-        "name": "Clothing",
-        "slug": "clothing"
-    }],
-    "tags": [],
-    "images": [{
-        "id": 120,
-        "date_created": "2020-12-25T09:33:54",
-        "date_created_gmt": "2020-12-25T09:33:54",
-        "date_modified": "2020-12-25T09:33:54",
-        "date_modified_gmt": "2020-12-25T09:33:54",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&usqp=CAU",
-        "name": "logo-1.jpg",
-        "alt": ""
-    }, {
-        "id": 119,
-        "date_created": "2020-12-25T09:33:53",
-        "date_created_gmt": "2020-12-25T09:33:53",
-        "date_modified": "2020-12-25T09:33:53",
-        "date_modified_gmt": "2020-12-25T09:33:53",
-        "src": "https://cdn.peuterey.filoblu.com/media/catalog/product/P/e/Peuterey_Unisex_Accessories_Beaniewithlogo_GRAPHITEBLUE_PKK170399012061215_3_unq34358.jpg",
-        "name": "beanie-with-logo-1.jpg",
-        "alt": ""
-    }, {
-        "id": 118,
-        "date_created": "2020-12-25T09:33:52",
-        "date_created_gmt": "2020-12-25T09:33:52",
-        "date_modified": "2020-12-25T09:33:52",
-        "date_modified_gmt": "2020-12-25T09:33:52",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
-        "name": "t-shirt-with-logo-1.jpg",
-        "alt": ""
-    }, {
-        "id": 106,
-        "date_created": "2020-12-25T09:33:33",
-        "date_created_gmt": "2020-12-25T09:33:33",
-        "date_modified": "2020-12-25T09:33:33",
-        "date_modified_gmt": "2020-12-25T09:33:33",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
-        "name": "hoodie-with-logo-2.jpg",
-        "alt": ""
-    }],
-    "attributes": [],
-    "default_attributes": [],
-    "variations": [],
-    "grouped_products": [77, 78, 79],
-    "menu_order": 0,
-    "meta_data": [{
-        "id": 1008,
-        "key": "_wpcom_is_markdown",
-        "value": "1"
-    }],
-    "brizy_attachment_focal_point": "",
-    "_links": {
-        "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/97"
-        }],
-        "collection": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
-        }]
-    }
+    "productpermalink": "https://www.lalbab.store/en/products/cleaning-supplies/logo-collection_183.html",
+    "keypath": "en/products/cleaning-supplies/logo-collection_183.html",
+    "language": "en",
+    "page_name": "Logo Collection"
 }, {
-    "id": 96,
+    "id": 182,
     "name": "Beanie with Logo",
     "slug": "beanie-with-logo",
     "permalink": "https://manage.lalbab.store/product/beanie-with-logo/",
-    "date_created": "2020-12-25T09:33:24",
-    "date_created_gmt": "2020-12-25T09:33:24",
-    "date_modified": "2020-12-25T09:33:54",
-    "date_modified_gmt": "2020-12-25T09:33:54",
+    "date_created": "2021-01-01T17:48:52",
+    "date_created_gmt": "2021-01-01T17:48:52",
+    "date_modified": "2021-01-01T18:08:20",
+    "date_modified_gmt": "2021-01-01T18:08:20",
     "type": "simple",
     "status": "publish",
     "featured": false,
@@ -795,8 +652,8 @@ export default [
     "button_text": "",
     "tax_status": "taxable",
     "tax_class": "",
-    "manage_stock": false,
-    "stock_quantity": 0,
+    "manage_stock": true,
+    "stock_quantity": 19,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -815,15 +672,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [81, 80, 82, 79],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 39,
-        "name": "Accessories",
-        "slug": "accessories"
+        "id": 79,
+        "name": "Food &amp; beverage",
+        "slug": "food-beverage"
     }],
     "tags": [],
     "images": [{
@@ -832,7 +689,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:53",
         "date_modified": "2020-12-25T09:33:53",
         "date_modified_gmt": "2020-12-25T09:33:53",
-        "src": "https://cdn.peuterey.filoblu.com/media/catalog/product/P/e/Peuterey_Unisex_Accessories_Beaniewithlogo_GRAPHITEBLUE_PKK170399012061215_3_unq34358.jpg",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/beanie-with-logo-1.jpg",
         "name": "beanie-with-logo-1.jpg",
         "alt": ""
     }],
@@ -849,28 +706,50 @@ export default [
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 998,
+        "id": 2539,
         "key": "_wpcom_is_markdown",
         "value": "1"
+    }, {
+        "id": 2581,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2582,
+        "key": "rs_page_bg_color",
+        "value": ""
+    }, {
+        "id": 2583,
+        "key": "brizy_attachment_focal_point",
+        "value": {
+            "x": 50,
+            "y": 50
+        }
     }],
-    "brizy_attachment_focal_point": "",
+    "brizy_attachment_focal_point": {
+        "x": 50,
+        "y": 50
+    },
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/96"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/182"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/food-beverage/beanie-with-logo_182.html",
+    "keypath": "en/products/food-beverage/beanie-with-logo_182.html",
+    "language": "en",
+    "page_name": "Beanie with Logo"
 }, {
-    "id": 95,
+    "id": 181,
     "name": "T-Shirt with Logo",
     "slug": "t-shirt-with-logo",
     "permalink": "https://manage.lalbab.store/product/t-shirt-with-logo/",
-    "date_created": "2020-12-25T09:33:24",
-    "date_created_gmt": "2020-12-25T09:33:24",
-    "date_modified": "2020-12-25T09:33:52",
-    "date_modified_gmt": "2020-12-25T09:33:52",
+    "date_created": "2021-01-01T17:48:52",
+    "date_created_gmt": "2021-01-01T17:48:52",
+    "date_modified": "2021-01-01T18:08:27",
+    "date_modified_gmt": "2021-01-01T18:08:27",
     "type": "simple",
     "status": "publish",
     "featured": false,
@@ -879,7 +758,7 @@ export default [
     "short_description": "<p>This is a simple product.</p>\n",
     "sku": "Woo-tshirt-logo",
     "price": "18",
-    "regular_price": "20",
+    "regular_price": "18",
     "sale_price": "",
     "date_on_sale_from": null,
     "date_on_sale_from_gmt": null,
@@ -898,8 +777,8 @@ export default [
     "button_text": "",
     "tax_status": "taxable",
     "tax_class": "",
-    "manage_stock": false,
-    "stock_quantity": 0,
+    "manage_stock": true,
+    "stock_quantity": 30,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -918,15 +797,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [75, 85, 78, 86],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 35,
-        "name": "Sanitization supplies",
-        "slug": "Sanitization supplies"
+        "id": 75,
+        "name": "Stationary",
+        "slug": "stationary"
     }],
     "tags": [],
     "images": [{
@@ -935,7 +814,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:52",
         "date_modified": "2020-12-25T09:33:52",
         "date_modified_gmt": "2020-12-25T09:33:52",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/t-shirt-with-logo-1.jpg",
         "name": "t-shirt-with-logo-1.jpg",
         "alt": ""
     }],
@@ -952,28 +831,50 @@ export default [
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 989,
+        "id": 2533,
         "key": "_wpcom_is_markdown",
         "value": "1"
+    }, {
+        "id": 2585,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2586,
+        "key": "rs_page_bg_color",
+        "value": ""
+    }, {
+        "id": 2587,
+        "key": "brizy_attachment_focal_point",
+        "value": {
+            "x": 50,
+            "y": 50
+        }
     }],
-    "brizy_attachment_focal_point": "",
+    "brizy_attachment_focal_point": {
+        "x": 50,
+        "y": 50
+    },
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/95"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/181"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/stationary/t-shirt-with-logo_181.html",
+    "keypath": "en/products/stationary/t-shirt-with-logo_181.html",
+    "language": "en",
+    "page_name": "T-Shirt with Logo"
 }, {
-    "id": 88,
+    "id": 174,
     "name": "Single",
     "slug": "single",
     "permalink": "https://manage.lalbab.store/product/single/",
-    "date_created": "2020-12-25T09:33:23",
-    "date_created_gmt": "2020-12-25T09:33:23",
-    "date_modified": "2020-12-25T09:33:50",
-    "date_modified_gmt": "2020-12-25T09:33:50",
+    "date_created": "2021-01-01T17:48:51",
+    "date_created_gmt": "2021-01-01T17:48:51",
+    "date_modified": "2021-01-01T18:01:17",
+    "date_modified_gmt": "2021-01-01T18:01:17",
     "type": "simple",
     "status": "publish",
     "featured": false,
@@ -995,7 +896,7 @@ export default [
     "virtual": true,
     "downloadable": true,
     "downloads": [{
-        "id": "f827023b-b3d7-4eae-b15d-350434845d02",
+        "id": "61c53951-09a0-44df-95d1-52659046fe88",
         "name": "Single",
         "file": "https://demo.woothemes.com/woocommerce/wp-content/uploads/sites/56/2017/08/single.jpg"
     }],
@@ -1005,8 +906,8 @@ export default [
     "button_text": "",
     "tax_status": "taxable",
     "tax_class": "",
-    "manage_stock": false,
-    "stock_quantity": 0,
+    "manage_stock": true,
+    "stock_quantity": 100,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -1025,15 +926,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [87],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 41,
+        "id": 75,
         "name": "Stationary",
-        "slug": "Stationary"
+        "slug": "stationary"
     }],
     "tags": [],
     "images": [{
@@ -1042,7 +943,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:49",
         "date_modified": "2020-12-25T09:33:49",
         "date_modified_gmt": "2020-12-25T09:33:49",
-        "src": "https://www.gtai.de/resource/image/66268/16x9/1024/576/567e955915a417d3b80f811db467b520/vV/food-and-beverage-industry.jpg",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/single-1.jpg",
         "name": "single-1.jpg",
         "alt": ""
     }],
@@ -1052,28 +953,50 @@ export default [
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 930,
+        "id": 2477,
         "key": "_wpcom_is_markdown",
         "value": "1"
+    }, {
+        "id": 2599,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2600,
+        "key": "rs_page_bg_color",
+        "value": ""
+    }, {
+        "id": 2601,
+        "key": "brizy_attachment_focal_point",
+        "value": {
+            "x": 50,
+            "y": 50
+        }
     }],
-    "brizy_attachment_focal_point": "",
+    "brizy_attachment_focal_point": {
+        "x": 50,
+        "y": 50
+    },
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/88"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/174"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/stationary/single_174.html",
+    "keypath": "en/products/stationary/single_174.html",
+    "language": "en",
+    "page_name": "Single"
 }, {
-    "id": 87,
+    "id": 173,
     "name": "Album",
     "slug": "album",
     "permalink": "https://manage.lalbab.store/product/album/",
-    "date_created": "2020-12-25T09:33:23",
-    "date_created_gmt": "2020-12-25T09:33:23",
-    "date_modified": "2020-12-25T09:33:49",
-    "date_modified_gmt": "2020-12-25T09:33:49",
+    "date_created": "2021-01-01T17:48:50",
+    "date_created_gmt": "2021-01-01T17:48:50",
+    "date_modified": "2021-01-01T17:48:58",
+    "date_modified_gmt": "2021-01-01T17:48:58",
     "type": "simple",
     "status": "publish",
     "featured": false,
@@ -1082,7 +1005,7 @@ export default [
     "short_description": "<p>This is a simple, virtual product.</p>\n",
     "sku": "woo-album",
     "price": "15",
-    "regular_price": "20",
+    "regular_price": "15",
     "sale_price": "",
     "date_on_sale_from": null,
     "date_on_sale_from_gmt": null,
@@ -1095,11 +1018,11 @@ export default [
     "virtual": true,
     "downloadable": true,
     "downloads": [{
-        "id": "b1eb9250-2b64-48bf-8434-48b50c682f3c",
+        "id": "ecb230ea-7679-4ef0-89ba-971c92ecbd9b",
         "name": "Single 1",
         "file": "https://demo.woothemes.com/woocommerce/wp-content/uploads/sites/56/2017/08/single.jpg"
     }, {
-        "id": "ad40d206-565b-43a9-9973-4a76d5de7531",
+        "id": "129ddf1e-e574-40da-b458-77478a563b14",
         "name": "Single 2",
         "file": "https://demo.woothemes.com/woocommerce/wp-content/uploads/sites/56/2017/08/album.jpg"
     }],
@@ -1110,7 +1033,7 @@ export default [
     "tax_status": "taxable",
     "tax_class": "",
     "manage_stock": false,
-    "stock_quantity": 1,
+    "stock_quantity": null,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -1129,15 +1052,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [88],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 41,
+        "id": 75,
         "name": "Stationary",
-        "slug": "Stationary"
+        "slug": "stationary"
     }],
     "tags": [],
     "images": [{
@@ -1146,7 +1069,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:48",
         "date_modified": "2020-12-25T09:33:48",
         "date_modified_gmt": "2020-12-25T09:33:48",
-        "src": "https://www.colourbox.com/preview/4569002-stationary.jpg",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/album-1.jpg",
         "name": "album-1.jpg",
         "alt": ""
     }],
@@ -1156,28 +1079,32 @@ export default [
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 921,
+        "id": 2471,
         "key": "_wpcom_is_markdown",
         "value": "1"
     }],
     "brizy_attachment_focal_point": "",
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/87"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/173"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/stationary/album_173.html",
+    "keypath": "en/products/stationary/album_173.html",
+    "language": "en",
+    "page_name": "Album"
 }, {
-    "id": 86,
+    "id": 172,
     "name": "Polo",
     "slug": "polo",
     "permalink": "https://manage.lalbab.store/product/polo/",
-    "date_created": "2020-12-25T09:33:23",
-    "date_created_gmt": "2020-12-25T09:33:23",
-    "date_modified": "2020-12-25T09:33:45",
-    "date_modified_gmt": "2020-12-25T09:33:45",
+    "date_created": "2021-01-01T17:48:50",
+    "date_created_gmt": "2021-01-01T17:48:50",
+    "date_modified": "2021-01-01T18:08:49",
+    "date_modified_gmt": "2021-01-01T18:08:49",
     "type": "simple",
     "status": "publish",
     "featured": false,
@@ -1186,7 +1113,7 @@ export default [
     "short_description": "<p>This is a simple product.</p>\n",
     "sku": "woo-polo",
     "price": "20",
-    "regular_price": "30",
+    "regular_price": "20",
     "sale_price": "",
     "date_on_sale_from": null,
     "date_on_sale_from_gmt": null,
@@ -1206,7 +1133,7 @@ export default [
     "tax_status": "taxable",
     "tax_class": "",
     "manage_stock": false,
-    "stock_quantity": 1,
+    "stock_quantity": null,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -1225,15 +1152,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [85, 95, 75, 78],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 35,
-        "name": "Sanitization supplies",
-        "slug": "Sanitization supplies"
+        "id": 79,
+        "name": "Food &amp; beverage",
+        "slug": "food-beverage"
     }],
     "tags": [],
     "images": [{
@@ -1242,7 +1169,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:45",
         "date_modified": "2020-12-25T09:33:45",
         "date_modified_gmt": "2020-12-25T09:33:45",
-        "src": "https://www.colourbox.com/preview/4569002-stationary.jpg",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/polo-2.jpg",
         "name": "polo-2.jpg",
         "alt": ""
     }],
@@ -1259,28 +1186,50 @@ export default [
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 912,
+        "id": 2465,
         "key": "_wpcom_is_markdown",
         "value": "1"
+    }, {
+        "id": 2623,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2624,
+        "key": "rs_page_bg_color",
+        "value": ""
+    }, {
+        "id": 2625,
+        "key": "brizy_attachment_focal_point",
+        "value": {
+            "x": 50,
+            "y": 50
+        }
     }],
-    "brizy_attachment_focal_point": "",
+    "brizy_attachment_focal_point": {
+        "x": 50,
+        "y": 50
+    },
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/86"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/172"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/food-beverage/polo_172.html",
+    "keypath": "en/products/food-beverage/polo_172.html",
+    "language": "en",
+    "page_name": "Polo"
 }, {
-    "id": 85,
+    "id": 171,
     "name": "Long Sleeve Tee",
     "slug": "long-sleeve-tee",
     "permalink": "https://manage.lalbab.store/product/long-sleeve-tee/",
-    "date_created": "2020-12-25T09:33:22",
-    "date_created_gmt": "2020-12-25T09:33:22",
-    "date_modified": "2020-12-25T09:33:44",
-    "date_modified_gmt": "2020-12-25T09:33:44",
+    "date_created": "2021-01-01T17:48:50",
+    "date_created_gmt": "2021-01-01T17:48:50",
+    "date_modified": "2021-01-01T18:08:58",
+    "date_modified_gmt": "2021-01-01T18:08:58",
     "type": "simple",
     "status": "publish",
     "featured": false,
@@ -1289,7 +1238,7 @@ export default [
     "short_description": "<p>This is a simple product.</p>\n",
     "sku": "woo-long-sleeve-tee",
     "price": "25",
-    "regular_price": "50",
+    "regular_price": "25",
     "sale_price": "",
     "date_on_sale_from": null,
     "date_on_sale_from_gmt": null,
@@ -1309,7 +1258,7 @@ export default [
     "tax_status": "taxable",
     "tax_class": "",
     "manage_stock": false,
-    "stock_quantity": 1,
+    "stock_quantity": null,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -1328,15 +1277,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [95, 86, 78, 75],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 35,
+        "id": 77,
         "name": "Sanitization supplies",
-        "slug": "Sanitization supplies"
+        "slug": "sanitization-supplies"
     }],
     "tags": [],
     "images": [{
@@ -1345,7 +1294,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:43",
         "date_modified": "2020-12-25T09:33:43",
         "date_modified_gmt": "2020-12-25T09:33:43",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/long-sleeve-tee-2.jpg",
         "name": "long-sleeve-tee-2.jpg",
         "alt": ""
     }],
@@ -1362,28 +1311,50 @@ export default [
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 903,
+        "id": 2459,
         "key": "_wpcom_is_markdown",
         "value": "1"
+    }, {
+        "id": 2627,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2628,
+        "key": "rs_page_bg_color",
+        "value": ""
+    }, {
+        "id": 2629,
+        "key": "brizy_attachment_focal_point",
+        "value": {
+            "x": 50,
+            "y": 50
+        }
     }],
-    "brizy_attachment_focal_point": "",
+    "brizy_attachment_focal_point": {
+        "x": 50,
+        "y": 50
+    },
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/85"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/171"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/sanitization-supplies/long-sleeve-tee_171.html",
+    "keypath": "en/products/sanitization-supplies/long-sleeve-tee_171.html",
+    "language": "en",
+    "page_name": "Long Sleeve Tee"
 }, {
-    "id": 84,
+    "id": 170,
     "name": "Hoodie with Zipper",
     "slug": "hoodie-with-zipper",
     "permalink": "https://manage.lalbab.store/product/hoodie-with-zipper/",
-    "date_created": "2020-12-25T09:33:22",
-    "date_created_gmt": "2020-12-25T09:33:22",
-    "date_modified": "2020-12-25T09:33:43",
-    "date_modified_gmt": "2020-12-25T09:33:43",
+    "date_created": "2021-01-01T17:48:50",
+    "date_created_gmt": "2021-01-01T17:48:50",
+    "date_modified": "2021-01-01T18:08:37",
+    "date_modified_gmt": "2021-01-01T18:08:37",
     "type": "simple",
     "status": "publish",
     "featured": true,
@@ -1392,7 +1363,7 @@ export default [
     "short_description": "<p>This is a simple product.</p>\n",
     "sku": "woo-hoodie-with-zipper",
     "price": "45",
-    "regular_price": "",
+    "regular_price": "45",
     "sale_price": "",
     "date_on_sale_from": null,
     "date_on_sale_from_gmt": null,
@@ -1412,7 +1383,7 @@ export default [
     "tax_status": "taxable",
     "tax_class": "",
     "manage_stock": false,
-    "stock_quantity": 20,
+    "stock_quantity": null,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -1431,15 +1402,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [77, 76],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 37,
+        "id": 67,
         "name": "Cleaning supplies",
-        "slug": "Cleaning supplies"
+        "slug": "cleaning-supplies"
     }],
     "tags": [],
     "images": [{
@@ -1448,7 +1419,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:42",
         "date_modified": "2020-12-25T09:33:42",
         "date_modified_gmt": "2020-12-25T09:33:42",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-with-zipper-2.jpg",
         "name": "hoodie-with-zipper-2.jpg",
         "alt": ""
     }],
@@ -1458,28 +1429,50 @@ export default [
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 895,
+        "id": 2454,
         "key": "_wpcom_is_markdown",
         "value": "1"
+    }, {
+        "id": 2619,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2620,
+        "key": "rs_page_bg_color",
+        "value": ""
+    }, {
+        "id": 2621,
+        "key": "brizy_attachment_focal_point",
+        "value": {
+            "x": 50,
+            "y": 50
+        }
     }],
-    "brizy_attachment_focal_point": "",
+    "brizy_attachment_focal_point": {
+        "x": 50,
+        "y": 50
+    },
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/84"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/170"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/cleaning-supplies/hoodie-with-zipper_170.html",
+    "keypath": "en/products/cleaning-supplies/hoodie-with-zipper_170.html",
+    "language": "en",
+    "page_name": "Hoodie with Zipper"
 }, {
-    "id": 83,
+    "id": 169,
     "name": "Hoodie with Pocket",
     "slug": "hoodie-with-pocket",
     "permalink": "https://manage.lalbab.store/product/hoodie-with-pocket/",
-    "date_created": "2020-12-25T09:33:22",
-    "date_created_gmt": "2020-12-25T09:33:22",
-    "date_modified": "2020-12-25T09:33:41",
-    "date_modified_gmt": "2020-12-25T09:33:41",
+    "date_created": "2021-01-01T17:48:50",
+    "date_created_gmt": "2021-01-01T17:48:50",
+    "date_modified": "2021-01-01T18:11:13",
+    "date_modified_gmt": "2021-01-01T18:11:13",
     "type": "simple",
     "status": "publish",
     "featured": true,
@@ -1507,9 +1500,9 @@ export default [
     "button_text": "",
     "tax_status": "taxable",
     "tax_class": "",
-    "manage_stock": false,
-    "stock_quantity": 20,
-    "stock_status": "instock",
+    "manage_stock": true,
+    "stock_quantity": 0,
+    "stock_status": "outofstock",
     "backorders": "no",
     "backorders_allowed": false,
     "backordered": false,
@@ -1527,15 +1520,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [84, 76, 77],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 37,
-        "name": "Cleaning supplies",
-        "slug": "Cleaning supplies"
+        "id": 15,
+        "name": "Uncategorized",
+        "slug": "uncategorized"
     }],
     "tags": [],
     "images": [{
@@ -1544,7 +1537,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:41",
         "date_modified": "2020-12-25T09:33:41",
         "date_modified_gmt": "2020-12-25T09:33:41",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-with-pocket-2.jpg",
         "name": "hoodie-with-pocket-2.jpg",
         "alt": ""
     }],
@@ -1561,28 +1554,50 @@ export default [
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 885,
+        "id": 2447,
         "key": "_wpcom_is_markdown",
         "value": "1"
+    }, {
+        "id": 2603,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2604,
+        "key": "rs_page_bg_color",
+        "value": ""
+    }, {
+        "id": 2605,
+        "key": "brizy_attachment_focal_point",
+        "value": {
+            "x": 50,
+            "y": 50
+        }
     }],
-    "brizy_attachment_focal_point": "",
+    "brizy_attachment_focal_point": {
+        "x": 50,
+        "y": 50
+    },
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/83"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/169"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/uncategorized/hoodie-with-pocket_169.html",
+    "keypath": "en/products/uncategorized/hoodie-with-pocket_169.html",
+    "language": "en",
+    "page_name": "Hoodie with Pocket"
 }, {
-    "id": 82,
+    "id": 168,
     "name": "Sunglasses",
     "slug": "sunglasses",
     "permalink": "https://manage.lalbab.store/product/sunglasses/",
-    "date_created": "2020-12-25T09:33:22",
-    "date_created_gmt": "2020-12-25T09:33:22",
-    "date_modified": "2020-12-25T09:33:40",
-    "date_modified_gmt": "2020-12-25T09:33:40",
+    "date_created": "2021-01-01T17:48:49",
+    "date_created_gmt": "2021-01-01T17:48:49",
+    "date_modified": "2021-01-01T18:09:16",
+    "date_modified_gmt": "2021-01-01T18:09:16",
     "type": "simple",
     "status": "publish",
     "featured": true,
@@ -1591,7 +1606,7 @@ export default [
     "short_description": "<p>This is a simple product.</p>\n",
     "sku": "woo-sunglasses",
     "price": "90",
-    "regular_price": "100",
+    "regular_price": "90",
     "sale_price": "",
     "date_on_sale_from": null,
     "date_on_sale_from_gmt": null,
@@ -1611,7 +1626,7 @@ export default [
     "tax_status": "taxable",
     "tax_class": "",
     "manage_stock": false,
-    "stock_quantity": 20,
+    "stock_quantity": null,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -1630,15 +1645,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [81, 79, 96, 80],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 39,
-        "name": "Accessories",
-        "slug": "accessories"
+        "id": 77,
+        "name": "Sanitization supplies",
+        "slug": "sanitization-supplies"
     }],
     "tags": [],
     "images": [{
@@ -1647,7 +1662,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:39",
         "date_modified": "2020-12-25T09:33:39",
         "date_modified_gmt": "2020-12-25T09:33:39",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/sunglasses-2.jpg",
         "name": "sunglasses-2.jpg",
         "alt": ""
     }],
@@ -1657,28 +1672,50 @@ export default [
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 877,
+        "id": 2442,
         "key": "_wpcom_is_markdown",
         "value": "1"
+    }, {
+        "id": 2631,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2632,
+        "key": "rs_page_bg_color",
+        "value": ""
+    }, {
+        "id": 2633,
+        "key": "brizy_attachment_focal_point",
+        "value": {
+            "x": 50,
+            "y": 50
+        }
     }],
-    "brizy_attachment_focal_point": "",
+    "brizy_attachment_focal_point": {
+        "x": 50,
+        "y": 50
+    },
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/82"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/168"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/sanitization-supplies/sunglasses_168.html",
+    "keypath": "en/products/sanitization-supplies/sunglasses_168.html",
+    "language": "en",
+    "page_name": "Sunglasses"
 }, {
-    "id": 81,
+    "id": 167,
     "name": "Cap",
     "slug": "cap",
     "permalink": "https://manage.lalbab.store/product/cap/",
-    "date_created": "2020-12-25T09:33:22",
-    "date_created_gmt": "2020-12-25T09:33:22",
-    "date_modified": "2020-12-25T09:33:39",
-    "date_modified_gmt": "2020-12-25T09:33:39",
+    "date_created": "2021-01-01T17:48:49",
+    "date_created_gmt": "2021-01-01T17:48:49",
+    "date_modified": "2021-01-01T18:09:28",
+    "date_modified_gmt": "2021-01-01T18:09:28",
     "type": "simple",
     "status": "publish",
     "featured": true,
@@ -1706,8 +1743,8 @@ export default [
     "button_text": "",
     "tax_status": "taxable",
     "tax_class": "",
-    "manage_stock": false,
-    "stock_quantity": 20,
+    "manage_stock": true,
+    "stock_quantity": 10,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -1726,15 +1763,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [79, 80, 96, 82],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 39,
-        "name": "Accessories",
-        "slug": "accessories"
+        "id": 77,
+        "name": "Sanitization supplies",
+        "slug": "sanitization-supplies"
     }],
     "tags": [],
     "images": [{
@@ -1743,7 +1780,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:38",
         "date_modified": "2020-12-25T09:33:38",
         "date_modified_gmt": "2020-12-25T09:33:38",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/cap-2.jpg",
         "name": "cap-2.jpg",
         "alt": ""
     }],
@@ -1760,28 +1797,50 @@ export default [
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 867,
+        "id": 2435,
         "key": "_wpcom_is_markdown",
         "value": "1"
+    }, {
+        "id": 2607,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2608,
+        "key": "rs_page_bg_color",
+        "value": ""
+    }, {
+        "id": 2609,
+        "key": "brizy_attachment_focal_point",
+        "value": {
+            "x": 50,
+            "y": 50
+        }
     }],
-    "brizy_attachment_focal_point": "",
+    "brizy_attachment_focal_point": {
+        "x": 50,
+        "y": 50
+    },
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/81"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/167"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/sanitization-supplies/cap_167.html",
+    "keypath": "en/products/sanitization-supplies/cap_167.html",
+    "language": "en",
+    "page_name": "Cap"
 }, {
-    "id": 80,
+    "id": 166,
     "name": "Belt",
     "slug": "belt",
     "permalink": "https://manage.lalbab.store/product/belt/",
-    "date_created": "2020-12-25T09:33:22",
-    "date_created_gmt": "2020-12-25T09:33:22",
-    "date_modified": "2020-12-25T09:33:37",
-    "date_modified_gmt": "2020-12-25T09:33:37",
+    "date_created": "2021-01-01T17:48:49",
+    "date_created_gmt": "2021-01-01T17:48:49",
+    "date_modified": "2021-01-01T18:09:38",
+    "date_modified_gmt": "2021-01-01T18:09:38",
     "type": "simple",
     "status": "publish",
     "featured": false,
@@ -1810,7 +1869,7 @@ export default [
     "tax_status": "taxable",
     "tax_class": "",
     "manage_stock": false,
-    "stock_quantity": 20,
+    "stock_quantity": null,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -1829,15 +1888,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [82, 81, 96, 79],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 39,
-        "name": "Accessories",
-        "slug": "accessories"
+        "id": 77,
+        "name": "Sanitization supplies",
+        "slug": "sanitization-supplies"
     }],
     "tags": [],
     "images": [{
@@ -1846,7 +1905,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:37",
         "date_modified": "2020-12-25T09:33:37",
         "date_modified_gmt": "2020-12-25T09:33:37",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/belt-2.jpg",
         "name": "belt-2.jpg",
         "alt": ""
     }],
@@ -1856,28 +1915,50 @@ export default [
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 858,
+        "id": 2429,
         "key": "_wpcom_is_markdown",
         "value": "1"
+    }, {
+        "id": 2635,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2636,
+        "key": "rs_page_bg_color",
+        "value": ""
+    }, {
+        "id": 2637,
+        "key": "brizy_attachment_focal_point",
+        "value": {
+            "x": 50,
+            "y": 50
+        }
     }],
-    "brizy_attachment_focal_point": "",
+    "brizy_attachment_focal_point": {
+        "x": 50,
+        "y": 50
+    },
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/80"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/166"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/sanitization-supplies/belt_166.html",
+    "keypath": "en/products/sanitization-supplies/belt_166.html",
+    "language": "en",
+    "page_name": "Belt"
 }, {
-    "id": 79,
+    "id": 165,
     "name": "Beanie",
     "slug": "beanie",
     "permalink": "https://manage.lalbab.store/product/beanie/",
-    "date_created": "2020-12-25T09:33:21",
-    "date_created_gmt": "2020-12-25T09:33:21",
-    "date_modified": "2020-12-25T09:33:36",
-    "date_modified_gmt": "2020-12-25T09:33:36",
+    "date_created": "2021-01-01T17:48:49",
+    "date_created_gmt": "2021-01-01T17:48:49",
+    "date_modified": "2021-01-01T18:09:48",
+    "date_modified_gmt": "2021-01-01T18:09:48",
     "type": "simple",
     "status": "publish",
     "featured": false,
@@ -1906,7 +1987,7 @@ export default [
     "tax_status": "taxable",
     "tax_class": "",
     "manage_stock": false,
-    "stock_quantity": 20,
+    "stock_quantity": null,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -1925,15 +2006,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [96, 82, 80, 81],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 39,
-        "name": "Accessories",
-        "slug": "accessories"
+        "id": 79,
+        "name": "Food &amp; beverage",
+        "slug": "food-beverage"
     }],
     "tags": [],
     "images": [{
@@ -1942,7 +2023,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:36",
         "date_modified": "2020-12-25T09:33:36",
         "date_modified_gmt": "2020-12-25T09:33:36",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/beanie-2.jpg",
         "name": "beanie-2.jpg",
         "alt": ""
     }],
@@ -1959,28 +2040,50 @@ export default [
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 848,
+        "id": 2422,
         "key": "_wpcom_is_markdown",
         "value": "1"
+    }, {
+        "id": 2639,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2640,
+        "key": "rs_page_bg_color",
+        "value": ""
+    }, {
+        "id": 2641,
+        "key": "brizy_attachment_focal_point",
+        "value": {
+            "x": 50,
+            "y": 50
+        }
     }],
-    "brizy_attachment_focal_point": "",
+    "brizy_attachment_focal_point": {
+        "x": 50,
+        "y": 50
+    },
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/79"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/165"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/food-beverage/beanie_165.html",
+    "keypath": "en/products/food-beverage/beanie_165.html",
+    "language": "en",
+    "page_name": "Beanie"
 }, {
-    "id": 78,
+    "id": 164,
     "name": "T-Shirt",
     "slug": "t-shirt",
     "permalink": "https://manage.lalbab.store/product/t-shirt/",
-    "date_created": "2020-12-25T09:33:21",
-    "date_created_gmt": "2020-12-25T09:33:21",
-    "date_modified": "2020-12-25T09:33:35",
-    "date_modified_gmt": "2020-12-25T09:33:35",
+    "date_created": "2021-01-01T17:48:49",
+    "date_created_gmt": "2021-01-01T17:48:49",
+    "date_modified": "2021-01-01T18:09:55",
+    "date_modified_gmt": "2021-01-01T18:09:55",
     "type": "simple",
     "status": "publish",
     "featured": false,
@@ -1989,7 +2092,7 @@ export default [
     "short_description": "<p>This is a simple product.</p>\n",
     "sku": "woo-tshirt",
     "price": "18",
-    "regular_price": "30",
+    "regular_price": "18",
     "sale_price": "",
     "date_on_sale_from": null,
     "date_on_sale_from_gmt": null,
@@ -2009,7 +2112,7 @@ export default [
     "tax_status": "taxable",
     "tax_class": "",
     "manage_stock": false,
-    "stock_quantity": 20,
+    "stock_quantity": null,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -2028,15 +2131,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [95, 85, 86, 75],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 35,
-        "name": "Sanitization supplies",
-        "slug": "Sanitization supplies"
+        "id": 79,
+        "name": "Food &amp; beverage",
+        "slug": "food-beverage"
     }],
     "tags": [],
     "images": [{
@@ -2045,7 +2148,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:34",
         "date_modified": "2020-12-25T09:33:34",
         "date_modified_gmt": "2020-12-25T09:33:34",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/tshirt-2.jpg",
         "name": "tshirt-2.jpg",
         "alt": ""
     }],
@@ -2062,28 +2165,50 @@ export default [
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 839,
+        "id": 2416,
         "key": "_wpcom_is_markdown",
         "value": "1"
+    }, {
+        "id": 2643,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2644,
+        "key": "rs_page_bg_color",
+        "value": ""
+    }, {
+        "id": 2645,
+        "key": "brizy_attachment_focal_point",
+        "value": {
+            "x": 50,
+            "y": 50
+        }
     }],
-    "brizy_attachment_focal_point": "",
+    "brizy_attachment_focal_point": {
+        "x": 50,
+        "y": 50
+    },
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/78"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/164"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/food-beverage/t-shirt_164.html",
+    "keypath": "en/products/food-beverage/t-shirt_164.html",
+    "language": "en",
+    "page_name": "T-Shirt"
 }, {
-    "id": 77,
+    "id": 163,
     "name": "Hoodie with Logo",
     "slug": "hoodie-with-logo",
     "permalink": "https://manage.lalbab.store/product/hoodie-with-logo/",
-    "date_created": "2020-12-25T09:33:21",
-    "date_created_gmt": "2020-12-25T09:33:21",
-    "date_modified": "2020-12-25T09:33:34",
-    "date_modified_gmt": "2020-12-25T09:33:34",
+    "date_created": "2021-01-01T17:48:48",
+    "date_created_gmt": "2021-01-01T17:48:48",
+    "date_modified": "2021-01-01T18:10:02",
+    "date_modified_gmt": "2021-01-01T18:10:02",
     "type": "simple",
     "status": "publish",
     "featured": false,
@@ -2092,7 +2217,7 @@ export default [
     "short_description": "<p>This is a simple product.</p>\n",
     "sku": "woo-hoodie-with-logo",
     "price": "45",
-    "regular_price": "",
+    "regular_price": "45",
     "sale_price": "",
     "date_on_sale_from": null,
     "date_on_sale_from_gmt": null,
@@ -2112,7 +2237,7 @@ export default [
     "tax_status": "taxable",
     "tax_class": "",
     "manage_stock": false,
-    "stock_quantity": 20,
+    "stock_quantity": null,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -2131,15 +2256,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [76, 84],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 37,
+        "id": 67,
         "name": "Cleaning supplies",
-        "slug": "Cleaning supplies"
+        "slug": "cleaning-supplies"
     }],
     "tags": [],
     "images": [{
@@ -2148,7 +2273,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:33",
         "date_modified": "2020-12-25T09:33:33",
         "date_modified_gmt": "2020-12-25T09:33:33",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-with-logo-2.jpg",
         "name": "hoodie-with-logo-2.jpg",
         "alt": ""
     }],
@@ -2165,28 +2290,50 @@ export default [
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 830,
+        "id": 2410,
         "key": "_wpcom_is_markdown",
         "value": "1"
+    }, {
+        "id": 2647,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2648,
+        "key": "rs_page_bg_color",
+        "value": ""
+    }, {
+        "id": 2649,
+        "key": "brizy_attachment_focal_point",
+        "value": {
+            "x": 50,
+            "y": 50
+        }
     }],
-    "brizy_attachment_focal_point": "",
+    "brizy_attachment_focal_point": {
+        "x": 50,
+        "y": 50
+    },
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/77"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/163"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/cleaning-supplies/hoodie-with-logo_163.html",
+    "keypath": "en/products/cleaning-supplies/hoodie-with-logo_163.html",
+    "language": "en",
+    "page_name": "Hoodie with Logo"
 }, {
-    "id": 76,
+    "id": 162,
     "name": "Hoodie",
     "slug": "hoodie",
     "permalink": "https://manage.lalbab.store/product/hoodie/",
-    "date_created": "2020-12-25T09:33:21",
-    "date_created_gmt": "2020-12-25T09:33:21",
-    "date_modified": "2020-12-25T09:33:57",
-    "date_modified_gmt": "2020-12-25T09:33:57",
+    "date_created": "2021-01-01T17:48:48",
+    "date_created_gmt": "2021-01-01T17:48:48",
+    "date_modified": "2021-01-01T18:23:26",
+    "date_modified_gmt": "2021-01-01T18:23:26",
     "type": "variable",
     "status": "publish",
     "featured": false,
@@ -2194,14 +2341,14 @@ export default [
     "description": "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>\n",
     "short_description": "<p>This is a variable product.</p>\n",
     "sku": "woo-hoodie",
-    "price": "42",
+    "price": "39",
     "regular_price": "",
     "sale_price": "",
     "date_on_sale_from": null,
     "date_on_sale_from_gmt": null,
     "date_on_sale_to": null,
     "date_on_sale_to_gmt": null,
-    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>42.00</bdi></span> &ndash; <span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>45.00</bdi></span>",
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>39.00</bdi></span> &ndash; <span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>50.00</bdi></span>",
     "on_sale": true,
     "purchasable": true,
     "total_sales": 0,
@@ -2215,7 +2362,7 @@ export default [
     "tax_status": "taxable",
     "tax_class": "",
     "manage_stock": false,
-    "stock_quantity": 20,
+    "stock_quantity": null,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -2234,15 +2381,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [84, 77],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 37,
-        "name": "Cleaning supplies",
-        "slug": "Cleaning supplies"
+        "id": 75,
+        "name": "Stationary",
+        "slug": "stationary"
     }],
     "tags": [],
     "images": [{
@@ -2251,7 +2398,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:30",
         "date_modified": "2020-12-25T09:33:30",
         "date_modified_gmt": "2020-12-25T09:33:30",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-2.jpg",
         "name": "hoodie-2.jpg",
         "alt": ""
     }, {
@@ -2260,7 +2407,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:31",
         "date_modified": "2020-12-25T09:33:31",
         "date_modified_gmt": "2020-12-25T09:33:31",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-blue-1.jpg",
         "name": "hoodie-blue-1.jpg",
         "alt": ""
     }, {
@@ -2269,7 +2416,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:32",
         "date_modified": "2020-12-25T09:33:32",
         "date_modified_gmt": "2020-12-25T09:33:32",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-green-1.jpg",
         "name": "hoodie-green-1.jpg",
         "alt": ""
     }, {
@@ -2278,7 +2425,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:33",
         "date_modified": "2020-12-25T09:33:33",
         "date_modified_gmt": "2020-12-25T09:33:33",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-with-logo-2.jpg",
         "name": "hoodie-with-logo-2.jpg",
         "alt": ""
     }],
@@ -2298,32 +2445,348 @@ export default [
         "options": ["Yes", "No"]
     }],
     "default_attributes": [],
-    "variations": [99, 92, 93, 94],
+    "variations": [{
+        "id": 185,
+        "date_created": "2021-01-01T17:48:53",
+        "date_created_gmt": "2021-01-01T17:48:53",
+        "date_modified": "2021-01-01T18:23:26",
+        "date_modified_gmt": "2021-01-01T18:23:26",
+        "description": "<p>Green hoodie with smile</p>\n",
+        "permalink": "https://manage.lalbab.store/product/hoodie/?attribute_pa_color=blue&attribute_logo=Yes",
+        "sku": "woo-hoodie-blue-logo",
+        "price": "39",
+        "regular_price": "39",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 106,
+            "date_created": "2020-12-25T09:33:33",
+            "date_created_gmt": "2020-12-25T09:33:33",
+            "date_modified": "2020-12-25T09:33:33",
+            "date_modified_gmt": "2020-12-25T09:33:33",
+            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-with-logo-2.jpg",
+            "name": "hoodie-with-logo-2.jpg",
+            "alt": ""
+        },
+        "attributes": [{
+            "id": 1,
+            "name": "Color",
+            "option": "Blue"
+        }, {
+            "id": 0,
+            "name": "Logo",
+            "option": "Yes"
+        }],
+        "menu_order": 0,
+        "meta_data": [{
+            "id": 2560,
+            "key": "_wpcom_is_markdown",
+            "value": ""
+        }],
+        "_links": {
+            "self": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/162/variations/185"
+            }],
+            "collection": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/162/variations"
+            }],
+            "up": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/162"
+            }]
+        }
+    }, {
+        "id": 180,
+        "date_created": "2021-01-01T17:48:52",
+        "date_created_gmt": "2021-01-01T17:48:52",
+        "date_modified": "2021-01-01T18:23:08",
+        "date_modified_gmt": "2021-01-01T18:23:08",
+        "description": "<p>Blue hoodie without smile</p>\n",
+        "permalink": "https://manage.lalbab.store/product/hoodie/?attribute_pa_color=blue&attribute_logo=No",
+        "sku": "woo-hoodie-blue",
+        "price": "50",
+        "regular_price": "50",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 104,
+            "date_created": "2020-12-25T09:33:31",
+            "date_created_gmt": "2020-12-25T09:33:31",
+            "date_modified": "2020-12-25T09:33:31",
+            "date_modified_gmt": "2020-12-25T09:33:31",
+            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-blue-1.jpg",
+            "name": "hoodie-blue-1.jpg",
+            "alt": ""
+        },
+        "attributes": [{
+            "id": 1,
+            "name": "Color",
+            "option": "Blue"
+        }, {
+            "id": 0,
+            "name": "Logo",
+            "option": "No"
+        }],
+        "menu_order": 4,
+        "meta_data": [{
+            "id": 2525,
+            "key": "_wpcom_is_markdown",
+            "value": ""
+        }],
+        "_links": {
+            "self": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/162/variations/180"
+            }],
+            "collection": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/162/variations"
+            }],
+            "up": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/162"
+            }]
+        }
+    }, {
+        "id": 179,
+        "date_created": "2021-01-01T17:48:52",
+        "date_created_gmt": "2021-01-01T17:48:52",
+        "date_modified": "2021-01-01T18:23:08",
+        "date_modified_gmt": "2021-01-01T18:23:08",
+        "description": "<p>Red hoodie without smile</p>\n",
+        "permalink": "https://manage.lalbab.store/product/hoodie/?attribute_pa_color=green&attribute_logo=No",
+        "sku": "woo-hoodie-green",
+        "price": "40",
+        "regular_price": "40",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 105,
+            "date_created": "2020-12-25T09:33:32",
+            "date_created_gmt": "2020-12-25T09:33:32",
+            "date_modified": "2020-12-25T09:33:32",
+            "date_modified_gmt": "2020-12-25T09:33:32",
+            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-green-1.jpg",
+            "name": "hoodie-green-1.jpg",
+            "alt": ""
+        },
+        "attributes": [{
+            "id": 1,
+            "name": "Color",
+            "option": "Green"
+        }, {
+            "id": 0,
+            "name": "Logo",
+            "option": "No"
+        }],
+        "menu_order": 3,
+        "meta_data": [{
+            "id": 2517,
+            "key": "_wpcom_is_markdown",
+            "value": ""
+        }],
+        "_links": {
+            "self": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/162/variations/179"
+            }],
+            "collection": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/162/variations"
+            }],
+            "up": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/162"
+            }]
+        }
+    }, {
+        "id": 178,
+        "date_created": "2021-01-01T17:48:51",
+        "date_created_gmt": "2021-01-01T17:48:51",
+        "date_modified": "2021-01-01T18:23:08",
+        "date_modified_gmt": "2021-01-01T18:23:08",
+        "description": "<p>Red hoodie without smile</p>\n",
+        "permalink": "https://manage.lalbab.store/product/hoodie/?attribute_pa_color=red&attribute_logo=No",
+        "sku": "woo-hoodie-red",
+        "price": "42",
+        "regular_price": "60",
+        "sale_price": "42",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": true,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 103,
+            "date_created": "2020-12-25T09:33:30",
+            "date_created_gmt": "2020-12-25T09:33:30",
+            "date_modified": "2020-12-25T09:33:30",
+            "date_modified_gmt": "2020-12-25T09:33:30",
+            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/hoodie-2.jpg",
+            "name": "hoodie-2.jpg",
+            "alt": ""
+        },
+        "attributes": [{
+            "id": 1,
+            "name": "Color",
+            "option": "Red"
+        }, {
+            "id": 0,
+            "name": "Logo",
+            "option": "No"
+        }],
+        "menu_order": 2,
+        "meta_data": [{
+            "id": 2508,
+            "key": "_wpcom_is_markdown",
+            "value": ""
+        }],
+        "_links": {
+            "self": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/162/variations/178"
+            }],
+            "collection": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/162/variations"
+            }],
+            "up": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/162"
+            }]
+        }
+    }],
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 825,
+        "id": 2405,
         "key": "_wpcom_is_markdown",
         "value": "1"
+    }, {
+        "id": 2651,
+        "key": "slide_template",
+        "value": ""
+    }, {
+        "id": 2652,
+        "key": "rs_page_bg_color",
+        "value": ""
     }],
     "brizy_attachment_focal_point": "",
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/76"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/162"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
+    },
+    "productpermalink": "https://www.lalbab.store/en/products/stationary/hoodie_162.html",
+    "keypath": "en/products/stationary/hoodie_162.html",
+    "language": "en",
+    "page_name": "Hoodie"
 }, {
-    "id": 75,
+    "id": 161,
     "name": "V-Neck T-Shirt",
     "slug": "v-neck-t-shirt",
     "permalink": "https://manage.lalbab.store/product/v-neck-t-shirt/",
-    "date_created": "2020-12-25T09:33:20",
-    "date_created_gmt": "2020-12-25T09:33:20",
-    "date_modified": "2020-12-25T09:33:57",
-    "date_modified_gmt": "2020-12-25T09:33:57",
+    "date_created": "2021-01-01T17:48:47",
+    "date_created_gmt": "2021-01-01T17:48:47",
+    "date_modified": "2021-01-01T18:04:30",
+    "date_modified_gmt": "2021-01-01T18:04:30",
     "type": "variable",
     "status": "publish",
     "featured": true,
@@ -2352,7 +2815,7 @@ export default [
     "tax_status": "taxable",
     "tax_class": "",
     "manage_stock": false,
-    "stock_quantity": 20,
+    "stock_quantity": null,
     "stock_status": "instock",
     "backorders": "no",
     "backorders_allowed": false,
@@ -2371,15 +2834,15 @@ export default [
     "reviews_allowed": true,
     "average_rating": "0.00",
     "rating_count": 0,
-    "related_ids": [86, 85, 78, 95],
+    "related_ids": [],
     "upsell_ids": [],
     "cross_sell_ids": [],
     "parent_id": 0,
     "purchase_note": "",
     "categories": [{
-        "id": 35,
-        "name": "Sanitization supplies",
-        "slug": "Sanitization supplies"
+        "id": 67,
+        "name": "Cleaning supplies",
+        "slug": "cleaning-supplies"
     }],
     "tags": [],
     "images": [{
@@ -2388,7 +2851,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:26",
         "date_modified": "2020-12-25T09:33:26",
         "date_modified_gmt": "2020-12-25T09:33:26",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/vneck-tee-2.jpg",
         "name": "vneck-tee-2.jpg",
         "alt": ""
     }, {
@@ -2397,7 +2860,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:27",
         "date_modified": "2020-12-25T09:33:27",
         "date_modified_gmt": "2020-12-25T09:33:27",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/vnech-tee-green-1.jpg",
         "name": "vnech-tee-green-1.jpg",
         "alt": ""
     }, {
@@ -2406,7 +2869,7 @@ export default [
         "date_created_gmt": "2020-12-25T09:33:28",
         "date_modified": "2020-12-25T09:33:28",
         "date_modified_gmt": "2020-12-25T09:33:28",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
+        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/vnech-tee-blue-1.jpg",
         "name": "vnech-tee-blue-1.jpg",
         "alt": ""
     }],
@@ -2426,546 +2889,259 @@ export default [
         "options": ["Large", "Medium", "Small"]
     }],
     "default_attributes": [],
-    "variations": [89, 90, 91],
+    "variations": [{
+        "id": 177,
+        "date_created": "2021-01-01T17:48:51",
+        "date_created_gmt": "2021-01-01T17:48:51",
+        "date_modified": "2021-01-01T17:48:59",
+        "date_modified_gmt": "2021-01-01T17:48:59",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis augue, vel porttitor diam enim non metus. Vestibulum aliquam augue neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras placerat ut turpis pellentesque vulputate. Nam sed consequat tortor. Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar dignissim. Nam non arcu purus. Vivamus et massa massa.</p>\n",
+        "permalink": "https://manage.lalbab.store/product/v-neck-t-shirt/?attribute_pa_color=blue",
+        "sku": "woo-vneck-tee-blue",
+        "price": "15",
+        "regular_price": "15",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 102,
+            "date_created": "2020-12-25T09:33:28",
+            "date_created_gmt": "2020-12-25T09:33:28",
+            "date_modified": "2020-12-25T09:33:28",
+            "date_modified_gmt": "2020-12-25T09:33:28",
+            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/vnech-tee-blue-1.jpg",
+            "name": "vnech-tee-blue-1.jpg",
+            "alt": ""
+        },
+        "attributes": [{
+            "id": 1,
+            "name": "Color",
+            "option": "Blue"
+        }],
+        "menu_order": 0,
+        "meta_data": [{
+            "id": 2500,
+            "key": "_wpcom_is_markdown",
+            "value": ""
+        }],
+        "_links": {
+            "self": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/161/variations/177"
+            }],
+            "collection": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/161/variations"
+            }],
+            "up": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/161"
+            }]
+        }
+    }, {
+        "id": 176,
+        "date_created": "2021-01-01T17:48:51",
+        "date_created_gmt": "2021-01-01T17:48:51",
+        "date_modified": "2021-01-01T17:48:59",
+        "date_modified_gmt": "2021-01-01T17:48:59",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis augue, vel porttitor diam enim non metus. Vestibulum aliquam augue neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras placerat ut turpis pellentesque vulputate. Nam sed consequat tortor. Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar dignissim. Nam non arcu purus. Vivamus et massa massa.</p>\n",
+        "permalink": "https://manage.lalbab.store/product/v-neck-t-shirt/?attribute_pa_color=green",
+        "sku": "woo-vneck-tee-green",
+        "price": "20",
+        "regular_price": "20",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 101,
+            "date_created": "2020-12-25T09:33:27",
+            "date_created_gmt": "2020-12-25T09:33:27",
+            "date_modified": "2020-12-25T09:33:27",
+            "date_modified_gmt": "2020-12-25T09:33:27",
+            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/vnech-tee-green-1.jpg",
+            "name": "vnech-tee-green-1.jpg",
+            "alt": ""
+        },
+        "attributes": [{
+            "id": 1,
+            "name": "Color",
+            "option": "Green"
+        }],
+        "menu_order": 0,
+        "meta_data": [{
+            "id": 2492,
+            "key": "_wpcom_is_markdown",
+            "value": ""
+        }],
+        "_links": {
+            "self": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/161/variations/176"
+            }],
+            "collection": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/161/variations"
+            }],
+            "up": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/161"
+            }]
+        }
+    }, {
+        "id": 175,
+        "date_created": "2021-01-01T17:48:51",
+        "date_created_gmt": "2021-01-01T17:48:51",
+        "date_modified": "2021-01-01T17:48:59",
+        "date_modified_gmt": "2021-01-01T17:48:59",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis orci ac odio dictum tincidunt. Donec ut metus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed luctus, dui eu sagittis sodales, nulla nibh sagittis augue, vel porttitor diam enim non metus. Vestibulum aliquam augue neque. Phasellus tincidunt odio eget ullamcorper efficitur. Cras placerat ut turpis pellentesque vulputate. Nam sed consequat tortor. Curabitur finibus sapien dolor. Ut eleifend tellus nec erat pulvinar dignissim. Nam non arcu purus. Vivamus et massa massa.</p>\n",
+        "permalink": "https://manage.lalbab.store/product/v-neck-t-shirt/?attribute_pa_color=red",
+        "sku": "woo-vneck-tee-red",
+        "price": "20",
+        "regular_price": "20",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 100,
+            "date_created": "2020-12-25T09:33:26",
+            "date_created_gmt": "2020-12-25T09:33:26",
+            "date_modified": "2020-12-25T09:33:26",
+            "date_modified_gmt": "2020-12-25T09:33:26",
+            "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/vneck-tee-2.jpg",
+            "name": "vneck-tee-2.jpg",
+            "alt": ""
+        },
+        "attributes": [{
+            "id": 1,
+            "name": "Color",
+            "option": "Red"
+        }],
+        "menu_order": 0,
+        "meta_data": [{
+            "id": 2484,
+            "key": "_wpcom_is_markdown",
+            "value": ""
+        }],
+        "_links": {
+            "self": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/161/variations/175"
+            }],
+            "collection": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/161/variations"
+            }],
+            "up": [{
+                "href": "https://manage.lalbab.store/wp-json/wc/v3/products/161"
+            }]
+        }
+    }],
     "grouped_products": [],
     "menu_order": 0,
     "meta_data": [{
-        "id": 808,
+        "id": 2400,
         "key": "_wpcom_is_markdown",
         "value": "1"
-    }],
-    "brizy_attachment_focal_point": "",
-    "_links": {
-        "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/75"
-        }],
-        "collection": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
-        }]
-    }
-}, {
-    "id": 55,
-    "name": "test variable",
-    "slug": "test-variable",
-    "permalink": "https://manage.lalbab.store/product/test-variable/",
-    "date_created": "2020-12-14T11:12:37",
-    "date_created_gmt": "2020-12-14T11:12:37",
-    "date_modified": "2020-12-16T21:52:39",
-    "date_modified_gmt": "2020-12-16T21:52:39",
-    "type": "variable",
-    "status": "publish",
-    "featured": false,
-    "catalog_visibility": "visible",
-    "description": "<p>Dtest variable description</p>\n<p>test variable description</p>\n<p>test variable description</p>\n<p>test variable description</p>\n",
-    "short_description": "<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utte labore et dolore magna aliqua Ut enim ad minim veniam quis strud exercitation ullamco laboris nisi ut aliquip ex ea commodo wis aute irure dolor in reprehenderit in voluptate</p>\n",
-    "sku": "2",
-    "price": "2",
-    "regular_price": "",
-    "sale_price": "",
-    "date_on_sale_from": null,
-    "date_on_sale_from_gmt": null,
-    "date_on_sale_to": null,
-    "date_on_sale_to_gmt": null,
-    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>2.00</bdi></span> &ndash; <span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>18.00</bdi></span>",
-    "on_sale": true,
-    "purchasable": true,
-    "total_sales": 0,
-    "virtual": false,
-    "downloadable": false,
-    "downloads": [],
-    "download_limit": -1,
-    "download_expiry": -1,
-    "external_url": "",
-    "button_text": "",
-    "tax_status": "taxable",
-    "tax_class": "",
-    "manage_stock": true,
-    "stock_quantity": 19,
-    "stock_status": "instock",
-    "backorders": "no",
-    "backorders_allowed": false,
-    "backordered": false,
-    "sold_individually": false,
-    "weight": "50",
-    "dimensions": {
-        "length": "20",
-        "width": "20",
-        "height": "20"
-    },
-    "shipping_required": true,
-    "shipping_taxable": true,
-    "shipping_class": "",
-    "shipping_class_id": 0,
-    "reviews_allowed": true,
-    "average_rating": "5.00",
-    "rating_count": 1,
-    "related_ids": [],
-    "upsell_ids": [],
-    "cross_sell_ids": [48],
-    "parent_id": 0,
-    "purchase_note": "",
-    "categories": [{
-        "id": 29,
-        "name": "Food & beverage",
-        "slug": "products-category"
-    }],
-    "tags": [{
-        "id": 31,
-        "name": "test",
-        "slug": "test"
     }, {
-        "id": 32,
-        "name": "water",
-        "slug": "water"
-    }],
-    "images": [{
-        "id": 64,
-        "date_created": "2020-12-16T18:51:16",
-        "date_created_gmt": "2020-12-16T18:51:16",
-        "date_modified": "2020-12-16T18:51:16",
-        "date_modified_gmt": "2020-12-16T18:51:16",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
-        "name": "40102373_10214622145821826_4353243306352705536_n",
-        "alt": ""
-    }, {
-        "id": 52,
-        "date_created": "2020-12-14T11:02:42",
-        "date_created_gmt": "2020-12-14T11:02:42",
-        "date_modified": "2020-12-14T11:02:42",
-        "date_modified_gmt": "2020-12-14T11:02:42",
-        "src": "https://manage.lalbab.store/wp-content/uploads/2020/12/download-2-1.jpeg",
-        "name": "download (2)",
-        "alt": ""
-    }, {
-        "id": 64,
-        "date_created": "2020-12-16T18:51:16",
-        "date_created_gmt": "2020-12-16T18:51:16",
-        "date_modified": "2020-12-16T18:51:16",
-        "date_modified_gmt": "2020-12-16T18:51:16",
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpol8zfbZcHAUD6UV9fVGmIEgEgQrAk86b4g&amp;usqp=CAU",
-        "name": "40102373_10214622145821826_4353243306352705536_n",
-        "alt": ""
-    }],
-    "attributes": [{
-        "id": 0,
-        "name": "color",
-        "position": 0,
-        "visible": true,
-        "variation": true,
-        "options": ["red", "green", "blue"]
-    }, {
-        "id": 0,
-        "name": "Count",
-        "position": 1,
-        "visible": true,
-        "variation": false,
-        "options": ["1", "2", "3", "4", "5", "6"]
-    }, {
-        "id": 0,
-        "name": "Shape",
-        "position": 2,
-        "visible": true,
-        "variation": false,
-        "options": ["Circle", "Rect"]
-    }, {
-        "id": 0,
-        "name": "Dimensions",
-        "position": 3,
-        "visible": true,
-        "variation": false,
-        "options": ["20x40", "40", "20"]
-    }],
-    "default_attributes": [],
-    "variations": [63, 62],
-    "grouped_products": [],
-    "menu_order": 0,
-    "meta_data": [{
-        "id": 223,
+        "id": 2615,
         "key": "slide_template",
         "value": ""
     }, {
-        "id": 224,
+        "id": 2616,
         "key": "rs_page_bg_color",
         "value": ""
+    }, {
+        "id": 2617,
+        "key": "brizy_attachment_focal_point",
+        "value": {
+            "x": 50,
+            "y": 50
+        }
     }],
-    "brizy_attachment_focal_point": "",
-    "_links": {
-        "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/55"
-        }],
-        "collection": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
-        }]
-    }
-}, {
-    "id": 54,
-    "name": "Group of products",
-    "slug": "group-of-products",
-    "permalink": "https://manage.lalbab.store/product/group-of-products/",
-    "date_created": "2020-12-14T11:06:04",
-    "date_created_gmt": "2020-12-14T11:06:04",
-    "date_modified": "2020-12-17T02:02:06",
-    "date_modified_gmt": "2020-12-17T02:02:06",
-    "type": "grouped",
-    "status": "publish",
-    "featured": false,
-    "catalog_visibility": "visible",
-    "description": "<p>Group of products description</p>\n",
-    "short_description": "",
-    "sku": "",
-    "price": "2",
-    "regular_price": "",
-    "sale_price": "",
-    "date_on_sale_from": null,
-    "date_on_sale_from_gmt": null,
-    "date_on_sale_to": null,
-    "date_on_sale_to_gmt": null,
-    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>2.00</bdi></span> &ndash; <span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>7.00</bdi></span>",
-    "on_sale": true,
-    "purchasable": false,
-    "total_sales": 0,
-    "virtual": false,
-    "downloadable": false,
-    "downloads": [],
-    "download_limit": -1,
-    "download_expiry": -1,
-    "external_url": "",
-    "button_text": "",
-    "tax_status": "taxable",
-    "tax_class": "",
-    "manage_stock": false,
-    "stock_quantity": 20,
-    "stock_status": "instock",
-    "backorders": "no",
-    "backorders_allowed": false,
-    "backordered": false,
-    "sold_individually": false,
-    "weight": "",
-    "dimensions": {
-        "length": "",
-        "width": "",
-        "height": ""
+    "brizy_attachment_focal_point": {
+        "x": 50,
+        "y": 50
     },
-    "shipping_required": true,
-    "shipping_taxable": true,
-    "shipping_class": "",
-    "shipping_class_id": 0,
-    "reviews_allowed": true,
-    "average_rating": "0.00",
-    "rating_count": 0,
-    "related_ids": [48],
-    "upsell_ids": [62],
-    "cross_sell_ids": [],
-    "parent_id": 0,
-    "purchase_note": "",
-    "categories": [{
-        "id": 15,
-        "name": "Uncategorized",
-        "slug": "uncategorized"
-    }],
-    "tags": [],
-    "images": [],
-    "attributes": [],
-    "default_attributes": [],
-    "variations": [],
-    "grouped_products": [48, 55],
-    "menu_order": 0,
-    "meta_data": [{
-        "id": 202,
-        "key": "slide_template",
-        "value": ""
-    }, {
-        "id": 203,
-        "key": "rs_page_bg_color",
-        "value": ""
-    }],
-    "brizy_attachment_focal_point": "",
     "_links": {
         "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/54"
+            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/161"
         }],
         "collection": [{
             "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
         }]
-    }
-}, {
-    "id": 48,
-    "name": "Water box",
-    "slug": "water-box",
-    "permalink": "https://manage.lalbab.store/product/water-box/",
-    "date_created": "2020-12-14T11:02:56",
-    "date_created_gmt": "2020-12-14T11:02:56",
-    "date_modified": "2020-12-16T21:37:09",
-    "date_modified_gmt": "2020-12-16T21:37:09",
-    "type": "simple",
-    "status": "publish",
-    "featured": false,
-    "catalog_visibility": "visible",
-    "description": "<p>This is the description for Water box</p>\n",
-    "short_description": "<p>Short description</p>\n",
-    "sku": "344",
-    "price": "7",
-    "regular_price": "9",
-    "sale_price": "7",
-    "date_on_sale_from": null,
-    "date_on_sale_from_gmt": null,
-    "date_on_sale_to": null,
-    "date_on_sale_to_gmt": null,
-    "price_html": "<del><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>9.00</bdi></span></del> <ins><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>7.00</bdi></span></ins>",
-    "on_sale": true,
-    "purchasable": true,
-    "total_sales": 0,
-    "virtual": false,
-    "downloadable": false,
-    "downloads": [],
-    "download_limit": -1,
-    "download_expiry": -1,
-    "external_url": "",
-    "button_text": "",
-    "tax_status": "taxable",
-    "tax_class": "",
-    "manage_stock": false,
-    "stock_quantity": 20,
-    "stock_status": "instock",
-    "backorders": "no",
-    "backorders_allowed": false,
-    "backordered": false,
-    "sold_individually": false,
-    "weight": "1",
-    "dimensions": {
-        "length": "10",
-        "width": "10",
-        "height": "10"
     },
-    "shipping_required": true,
-    "shipping_taxable": true,
-    "shipping_class": "",
-    "shipping_class_id": 0,
-    "reviews_allowed": true,
-    "average_rating": "4.00",
-    "rating_count": 1,
-    "related_ids": [54],
-    "upsell_ids": [],
-    "cross_sell_ids": [],
-    "parent_id": 0,
-    "purchase_note": "",
-    "categories": [{
-        "id": 15,
-        "name": "Uncategorized",
-        "slug": "uncategorized"
-    }],
-    "tags": [],
-    "images": [],
-    "attributes": [],
-    "default_attributes": [],
-    "variations": [],
-    "grouped_products": [],
-    "menu_order": 0,
-    "meta_data": [{
-        "id": 148,
-        "key": "_oembed_e335f6af3345d7edc16c15ecee2f613a",
-        "value": "{{unknown}}"
-    }, {
-        "id": 172,
-        "key": "slide_template",
-        "value": ""
-    }, {
-        "id": 173,
-        "key": "rs_page_bg_color",
-        "value": ""
-    }],
-    "brizy_attachment_focal_point": "",
-    "_links": {
-        "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/48"
-        }],
-        "collection": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
-        }]
-    }
-}, {
-    "id": 44,
-    "name": "تجربي",
-    "slug": "",
-    "permalink": "https://manage.lalbab.store/ar/?post_type=product&p=44",
-    "date_created": null,
-    "date_created_gmt": null,
-    "date_modified": "2020-12-11T19:28:13",
-    "date_modified_gmt": "2020-12-11T19:28:13",
-    "type": "simple",
-    "status": "draft",
-    "featured": false,
-    "catalog_visibility": "visible",
-    "description": "<p>تجربي شرح</p>\n",
-    "short_description": "",
-    "sku": "",
-    "price": "",
-    "regular_price": "",
-    "sale_price": "",
-    "date_on_sale_from": null,
-    "date_on_sale_from_gmt": null,
-    "date_on_sale_to": null,
-    "date_on_sale_to_gmt": null,
-    "price_html": "",
-    "on_sale": false,
-    "purchasable": false,
-    "total_sales": 0,
-    "virtual": false,
-    "downloadable": false,
-    "downloads": [],
-    "download_limit": -1,
-    "download_expiry": -1,
-    "external_url": "",
-    "button_text": "",
-    "tax_status": "taxable",
-    "tax_class": "",
-    "manage_stock": false,
-    "stock_quantity": 20,
-    "stock_status": "instock",
-    "backorders": "no",
-    "backorders_allowed": false,
-    "backordered": false,
-    "sold_individually": false,
-    "weight": "",
-    "dimensions": {
-        "length": "",
-        "width": "",
-        "height": ""
-    },
-    "shipping_required": true,
-    "shipping_taxable": true,
-    "shipping_class": "",
-    "shipping_class_id": 0,
-    "reviews_allowed": true,
-    "average_rating": "0.00",
-    "rating_count": 0,
-    "related_ids": [],
-    "upsell_ids": [],
-    "cross_sell_ids": [],
-    "parent_id": 0,
-    "purchase_note": "",
-    "categories": [{
-        "id": 27,
-        "name": "Uncategorized",
-        "slug": "uncategorized-ar"
-    }],
-    "tags": [],
-    "images": [],
-    "attributes": [],
-    "default_attributes": [],
-    "variations": [],
-    "grouped_products": [],
-    "menu_order": 0,
-    "meta_data": [{
-        "id": 140,
-        "key": "slide_template",
-        "value": ""
-    }, {
-        "id": 141,
-        "key": "rs_page_bg_color",
-        "value": ""
-    }],
-    "brizy_attachment_focal_point": "",
-    "_links": {
-        "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/44"
-        }],
-        "collection": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
-        }]
-    }
-}, {
-    "id": 43,
-    "name": "test",
-    "slug": "",
-    "permalink": "https://manage.lalbab.store/?post_type=product&p=43",
-    "date_created": null,
-    "date_created_gmt": null,
-    "date_modified": "2020-12-11T19:23:13",
-    "date_modified_gmt": "2020-12-11T19:23:13",
-    "type": "simple",
-    "status": "draft",
-    "featured": false,
-    "catalog_visibility": "visible",
-    "description": "<p>test product</p>\n",
-    "short_description": "",
-    "sku": "",
-    "price": "",
-    "regular_price": "",
-    "sale_price": "",
-    "date_on_sale_from": null,
-    "date_on_sale_from_gmt": null,
-    "date_on_sale_to": null,
-    "date_on_sale_to_gmt": null,
-    "price_html": "",
-    "on_sale": false,
-    "purchasable": false,
-    "total_sales": 0,
-    "virtual": false,
-    "downloadable": false,
-    "downloads": [],
-    "download_limit": -1,
-    "download_expiry": -1,
-    "external_url": "",
-    "button_text": "",
-    "tax_status": "taxable",
-    "tax_class": "",
-    "manage_stock": false,
-    "stock_quantity": 20,
-    "stock_status": "instock",
-    "backorders": "no",
-    "backorders_allowed": false,
-    "backordered": false,
-    "sold_individually": false,
-    "weight": "",
-    "dimensions": {
-        "length": "",
-        "width": "",
-        "height": ""
-    },
-    "shipping_required": true,
-    "shipping_taxable": true,
-    "shipping_class": "",
-    "shipping_class_id": 0,
-    "reviews_allowed": true,
-    "average_rating": "0.00",
-    "rating_count": 0,
-    "related_ids": [],
-    "upsell_ids": [],
-    "cross_sell_ids": [],
-    "parent_id": 0,
-    "purchase_note": "",
-    "categories": [],
-    "tags": [],
-    "images": [],
-    "attributes": [{
-        "id": 0,
-        "name": "color",
-        "position": 0,
-        "visible": true,
-        "variation": false,
-        "options": ["red"]
-    }],
-    "default_attributes": [],
-    "variations": [],
-    "grouped_products": [],
-    "menu_order": 0,
-    "meta_data": [{
-        "id": 176,
-        "key": "slide_template",
-        "value": ""
-    }, {
-        "id": 177,
-        "key": "rs_page_bg_color",
-        "value": ""
-    }],
-    "brizy_attachment_focal_point": "",
-    "_links": {
-        "self": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products/43"
-        }],
-        "collection": [{
-            "href": "https://manage.lalbab.store/wp-json/wc/v3/products"
-        }]
-    }
+    "productpermalink": "https://www.lalbab.store/en/products/cleaning-supplies/v-neck-t-shirt_161.html",
+    "keypath": "en/products/cleaning-supplies/v-neck-t-shirt_161.html",
+    "language": "en",
+    "page_name": "V-Neck T-Shirt"
 }]

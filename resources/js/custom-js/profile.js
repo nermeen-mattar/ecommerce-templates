@@ -1,18 +1,29 @@
-import { getFormValues, setFormValues, isPageName } from "./utilities.js";
+import {
+    getFormValues,
+    setFormValues,
+    isPageName
+} from "./utilities.js";
 import {
     httpDelete,
     httpGet,
     httpPost,
-    httpPut
+    httpPut,
+    token
 } from "./httpClient.js";
-import { displaySuccess } from "./success_message.js";
+import {
+    displaySuccess
+} from "./success_message.js";
 
 let addresses = [];
 let deletedAddresses = [];
 let userData;
 
 $(document).ready(function () {
-    if(isPageName('profile')) {
+    if (isPageName('profile')) {
+        if (!token) {
+            document.cookie = `path=${window.location.href}`;
+            $('#user-link')[0].click();
+        }
         getUserData().then(userResponse => {
             setUserData(userResponse);
         });
@@ -67,17 +78,16 @@ function subscribeToSave() {
                 return updateOrCreateAddress(addressValue);
             }
         });
-    });
-    setTimeout(()=> {
-        httpGet('address').then((response) => {
-            setAddresses(response);
-            subscribeToUserActions();
-            displaySuccess();
-            console.log('timeout done');
-    
-        });
-    }, 2000)
+        setTimeout(() => {
+            httpGet('address').then((response) => {
+                setAddresses(response);
+                subscribeToUserActions();
+                displaySuccess();
+                console.log('timeout done');
 
+            });
+        }, 2000)
+    });
 }
 
 function handleDeletedAddresses() {
@@ -121,7 +131,7 @@ function getUserData() {
 function renderUserData() {
     // $.get('/template_profile_form.html', (template) => {
     // });
-    setFormValues('#user_form', '');
+    setFormValues('#user_form');
     const profileForm = $('#profile_form'); // template_profile_form.html
     profileForm.html(Mustache.render(profileForm.html(), userData));
     displayBusinessOrHouseholdFields(userData.type);

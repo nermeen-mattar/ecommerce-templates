@@ -607,14 +607,13 @@ Assigned to: Theme Forest
 			});
 		},
 		Quantity: function(){
-			var quantity=0;
-			$('.quantity_plus').on('click', function(e){
+			$('body').on('click', '.quantity_plus', function(e){
 				e.preventDefault();
 				var quantity = parseInt($(this).siblings('.quantity').val());
 				$(this).siblings('.quantity').val(quantity + 1);            
 
 			});
-			$('.quantity_minus').on('click', function(e){
+			$('body').on('click', '.quantity_minus', function(e){
 				e.preventDefault();
 				var quantity = parseInt($(this).siblings('.quantity').val());
 				if(quantity>0){
@@ -1001,32 +1000,32 @@ $(document).ready(function(){
 		});
 		return check;
 	}
-	$(".submitForm").on("click", function() {
-		var _this = $(this);
-		var targetForm = _this.closest('form');
-		var errroTarget = targetForm.find('.response');
-		var check = checkRequire(targetForm , errroTarget);
-		if(check == 0){
-			var formDetail = new FormData(targetForm[0]);
-			formDetail.append('form_type' , _this.attr('form-type'));
-			$.ajax({
-				method : 'post',
-				url : 'ajax.php',
-				data:formDetail,
-				cache:false,
-				contentType: false,
-				processData: false
-			}).done(function(resp){
-				if(resp == 1){
-					targetForm.find('input').val('');
-					targetForm.find('textarea').val('');
-					errroTarget.html('<p style="color:green;">Mail has been sent successfully.</p>');
-				}else{
-					errroTarget.html('<p style="color:red;">Something went wrong please try again latter.</p>');
-				}
-			});
-		}
-	});
+	// $(".submitForm").on("click", function() {
+	// 	var _this = $(this);
+	// 	var targetForm = _this.closest('form');
+	// 	var errroTarget = targetForm.find('.response');
+	// 	var check = checkRequire(targetForm , errroTarget);
+	// 	if(check == 0){
+	// 		var formDetail = new FormData(targetForm[0]);
+	// 		formDetail.append('form_type' , _this.attr('form-type'));
+	// 		$.ajax({
+	// 			method : 'post',
+	// 			url : 'ajax.php',
+	// 			data:formDetail,
+	// 			cache:false,
+	// 			contentType: false,
+	// 			processData: false
+	// 		}).done(function(resp){
+	// 			if(resp == 1){
+	// 				targetForm.find('input').val('');
+	// 				targetForm.find('textarea').val('');
+	// 				errroTarget.html('<p style="color:green;">Mail has been sent successfully.</p>');
+	// 			}else{
+	// 				errroTarget.html('<p style="color:red;">Something went wrong please try again latter.</p>');
+	// 			}
+	// 		});
+	// 	}
+	// });
 
 });
 $(window).on('load', function(){
